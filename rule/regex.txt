@@ -1,4 +1,4 @@
-# Update time: 2025-09-04 12:28:42
+# Update time: 2025-09-04 20:32:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,13 +54,6 @@
 ||pagead*.googlesyndication-cn.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||pagead*.googleadservices-cn.com^
-||yandex.avito.www.
-||booklng.com-*
-||yandex.avito.sber*
-||booking.com-id*
-||avito.avito.www.avito.
-||avito.avito.avito.
-||yandex.pay.avito.
 @@||v*.douyinvod.com^
 ||ads*-normal-lf.zijieapi.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -117,6 +110,13 @@
 ||ads*-normal.zijieapi.com^
 @@||d*.static.yximgs.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
+||yandex.avito.www.
+||booklng.com-*
+||yandex.avito.sber*
+||booking.com-id*
+||avito.avito.www.avito.
+||avito.avito.avito.
+||yandex.pay.avito.
 ||zcchyr*.xyz^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
@@ -144,19 +144,30 @@
 ||zbc6hy*.live^
 @@||cdn-msp*.18comic*.*^
 ||report.*.qq.com^
+||adsfileretry.
+||adx.
+||adx-
 ||adsfs.
+||adv-
 ||img.piaosugo.com*.jpg
 ||adsmis.
+||bigdata.
+||smartads.
+||pagead2.
+||toujing*.top^
+||advert.
+||advert-
+||advertising.
 ||vali-g1.cp31.ott.cibntv.net*.mp4
 ||adxapi.
 ||adservice.
 ||adsence.
-||smartads.
+||unityads.
 advertisers.js|
+||pagead.
 ||imageadv.
 ||m-vali.cp31.ott.cibntv.net*.mp4
-||pagead2.
-||toujing*.top^
+||advertise.
 getAds|
 ||search*.toutiaoapi.com^
 ||p*-ff.adkwai.com^
@@ -292,6 +303,7 @@ Banner-Ad
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
 ||cj1*.online^
+||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||analytics-*-nfl.yinzcam.com^
 ||xlog*-*.tiktokv.com^
 ||ads*.dfiles.ru^
@@ -333,8 +345,10 @@ Banner-Ad
 ||client.rum.*.amazonaws.com^
 ||display-ad-*.kgslb.com^
 ||acr-*-prd.samsungcloud.tv^
+||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
 ||beacons*.gvt3.com^
+||rtlog*.tiktokv.com^
 ||ads.*.kugou.com^
 ||api-*.bidmachine.io^
 ||logservice-*.platform.dbankcloud.cn^
@@ -377,6 +391,7 @@ Banner-Ad
 ||collector-*.px-cloud.net^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
+||counter*-yadro*-ru.unblocked.lol^
 ||mads*z.com^
 ||event.*.shoplive.cloud^
 ||auth-*.hismarttv.com^
@@ -400,7 +415,6 @@ Banner-Ad
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||bondzgi*.
-||prebid-*.rubiconproject.com^
 ||rum*.cdnvideo.ru^
 ||mssdk*.zijieapi.com^
 ||v.tzbox*.xyz^
@@ -529,20 +543,21 @@ Banner-Ad
 ||v*.sitecounter.site^
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
 ||ads.livetv*.me^
 ||advert*.livesportmedia.eu^
-||fapnado.*.php|
 ||fxhpaoxqyajvmdg.
-||itechpost.com*adbk
-||rgfftupf.
-@@||cdn*.porn300.com^
+||prebid-*.rubiconproject.com^
 ||pangolin-sdk^
 ||xiaoqiang^
 ||dybz^
-||adexpo.tencentmusic.com adclick.tencentmusic.com^
-||mgsdk-sign^
+||tnc3-bjlgy.snssdk.^
 ||奥门广场.com^
 ||diyibanzhu^
 ||liveweb*.msstatic.com^
@@ -559,7 +574,6 @@ Banner-Ad
 ||api-p*.mobsurl.com^
 ||dybz^$important
 ||log*-applog-lq.fqnovel.com^
-||tnc3-bjlgy.snssdk.^
 ||iad.*.163.com^
 ||lf*-sf-be-pack-sign.pglstatp-toutiao.com^
 ||p*.bdxiguaimg.com^
@@ -629,8 +643,10 @@ Banner-Ad
 @@||v*-dc-ad.ixigua.com^
 ||fbia.*.cn^
 @@||hls*-cf.xnxx-cdn.com^
+||adexpo.tencentmusic.com adclick.tencentmusic.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao*.com^
 ||az*-upload.ksapisrv.com^
+||mgsdk-sign^
 ||dns.weixin.qq.com*^
 @@||p**-ppx.byteimg.com^
 @@||www.data.mistat.*xiaomi.com^
@@ -731,7 +747,6 @@ analytics-*.aasaam.com
 ||goodadvert.
 ||yazhouyu.
 ||flurry.agentportal.*.yahoodns.net^
-||rtlog*.tiktokv.com^
 ||clickstream-*.homedepot.com^
 ||stat*.1internet.tv^
 ||dj1*.online^
@@ -746,7 +761,6 @@ analytics-*.aasaam.com
 ||cs*.mp3bars.com^
 ||bar*.shinobi.jp^
 ||tracking-v*.a.run.app^
-||bigdata.
 ||tracking*.euroads.fi^
 ||stats*.credit-cooperatif.coop^
 ||ulog*.*^
@@ -767,7 +781,6 @@ analytics-*.aasaam.com
 ||rusrestbest.
                 }
 ||widgets.*.webengage.com^
-||advertising.
 ||v.newsportal*.ru^
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
@@ -781,7 +794,6 @@ analytics-*.aasaam.com
 ||adapi.
         return arguments;
 ||stlog*-local.kakao.com^
-||adsfileretry.
 ||popupclick.
 ||ad*.gyaloglo.hu^
 ||gg.
@@ -801,7 +813,6 @@ h1 {
 ||ad*.mellesleg.hu^
 ||mcs.*.tiktok.com^
 ||log-*.previewnetworks.com^
-||counter*-yadro*-ru.unblocked.lol^
 ||backstory.ebay.
 ||icast.
 ||ws-p2p*pull*com^
@@ -821,11 +832,8 @@ body {
 ||host*.rigbyandpeller.com^
 ||servo-report.keepstreams.*^
 ||tw*.netcore.co.in^
-||adx.
-||adx-
 ||clog*.yuanfudao.com^
 ||mapi-log.qoo*.jp^
-||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
 ||w*.*skwai.com^
@@ -869,7 +877,6 @@ body {
 			Buy this domain. | More domains at Seo.Domains
 ||1024wanzhai.
 ||ading.
-||mon*-*.tiktokv.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||ej1*.online^
 ||stat.*.v-56.com^
@@ -877,7 +884,6 @@ body {
 ||adcounter*.uptolike.ru^
 piao.js|
 ||metric*.rediff.com^
-||unityads.
 ||xy-*pcdn.msstatic.com^
 ||ap*.jj20.com^
 ||rehs.*.hu^
@@ -886,7 +892,6 @@ piao.js|
 ||adimg*.search.naver.net^
 ||log*.aliyuncs.com^
 ||icq-window.
-||advertise.
 ||sam*.baby-kingdom.com^
 ||t*.zcvh.net^
 MRelateFeedAd
@@ -905,8 +910,6 @@ MRelateFeedAd
         }
 ||ggg.
 ||static*.365inews.com^
-||advert.
-||advert-
 ||tw-726620180914.*.run.app^
 ||adcolony.
 ||tnc-va*.capcutapi.com^
@@ -915,7 +918,6 @@ MRelateFeedAd
 ||cnt.proporn.
     }
 ||host*.rvshare.com^
-||pagead.
 ||log*-*.tiktokv.com^
 ||vst.videolink.
 ||promo-*.vercel.app^
@@ -929,7 +931,6 @@ MRelateFeedAd
 ||m7k4.com*.php?
 ||adv.
 ||ad*.thisisgame.com^
-||adv-
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
 ||q*-publick.club^
@@ -970,7 +971,6 @@ MRelateFeedAd
 ||union*.365inews.com^
 ||poptraf.
 ||vns86.oss-*.aliyuncs.com^
-rgmechanicsgames.com*VPN.exe
 ||util-*.simply-hentai.com^
 ||cas.*.criteo.com^
 ||142.91.159.
@@ -979,15 +979,15 @@ directtrack.*.js
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||stw.zone-telechargement.
-d4?appid*type*
 notifications.google.com%2Fg%2Fimg%2F*.gif
+d4?appid*type*
 %2Fvia%2Fo%3Fh%3D
 ||data.anisearch.
 ||invenio_tracking_*.sgnapps.com^
 esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 %2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
-click.official.infomaniak.com%2Fo%2F
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
+click.official.infomaniak.com%2Fo%2F
 ||access*.tpns.tencent.com^
 ||mishop.pandora.xiaomi.com.^
 ||api.*.hismarttv.com^
