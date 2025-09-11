@@ -1,4 +1,4 @@
-# Update time: 2025-09-11 09:14:20
+# Update time: 2025-09-11 20:32:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,13 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||ads*.papegames.com^
+||tnc0-*.zijieapi.com^
+||ads-*.xhscdn.com^
+||download*.vzuu.com^
+||pagead*.googlesyndication-cn.com^
+||api-access.pangolin-sdk-toutiao-*.com^
+||pagead*.googleadservices-cn.com^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -57,13 +64,6 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
-||ads*.papegames.com^
-||tnc0-*.zijieapi.com^
-||ads-*.xhscdn.com^
-||download*.vzuu.com^
-||pagead*.googlesyndication-cn.com^
-||api-access.pangolin-sdk-toutiao-*.com^
-||pagead*.googleadservices-cn.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -7510,11 +7510,19 @@
 |cg.hmedustudy.com^
 |dmugc-cn.domobcdn.com^
 |ectandroid.yxqiche.com^
+||pangolin-sdk^
+||xiaoqiang^
+||dybz^
+||adexpo.tencentmusic.com adclick.tencentmusic.com^
+||mgsdk-sign^
+||奥门广场.com^
+||diyibanzhu^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
 ||cj1*.online^
 ||host*.carl-ras.dk^
+||ads*.dfiles.ru^
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
@@ -7612,6 +7620,7 @@
 ||ad*.nexage.com^
 ||aj1*.xyz^
 ||discovery-ios-*.ertelecom.ru^
+||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
 ||collector-*.tvsquared.com^
@@ -7763,13 +7772,6 @@
 ||aj2*.bid^
 ||analytics*.prezly.com^
 ||collector*.ex.co^
-||pangolin-sdk^
-||xiaoqiang^
-||dybz^
-||adexpo.tencentmusic.com adclick.tencentmusic.com^
-||mgsdk-sign^
-||奥门广场.com^
-||diyibanzhu^
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
 ||an.yandex.
@@ -7781,10 +7783,12 @@ analytics-*.aasaam.com
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
 |load.sst.
+||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||bondzgi*.
 ||etargetnet.*.hu^
+||prebid-*.rubiconproject.com^
 ||rum*.cdnvideo.ru^
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
@@ -7865,7 +7869,6 @@ analytics-*.aasaam.com
 ||ad*.bilgin.pro^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||px*.mediahills.ru^
 ||subnewss*.net^
 ||t.delfi.
@@ -7941,10 +7944,10 @@ analytics-*.aasaam.com
 |167.206.10.148^
 ||collector.xhamster*.
 ||poptraf.
-||zbb.bbb.*.pics^
 ||v*.sitecounter.site^
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||rgfftupf.
@@ -7953,18 +7956,15 @@ analytics-*.aasaam.com
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
 ||ads.livetv*.me^
-||fxhpaoxqyajvmdg.
-||prebid-*.rubiconproject.com^
-||cintent.streanplay.
-Banner468x60
-rgmechanicsgames.com*VPN.exe
-728x90.jpg|
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
-||centent.streamp1ay.
+||advert*.livesportmedia.eu^
 ||142.91.159.
-||acookie.*.gif?
+||fxhpaoxqyajvmdg.
+728x90.jpg|
 ||23.109.82.
+||centent.streamp1ay.
+||acookie.*.gif?
+||zbb.bbb.*.pics^
+||cintent.streanplay.
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 directtrack.*.js
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
@@ -7978,8 +7978,8 @@ d4?appid*type*
 ||onetrust.
 esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 %2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
-||allsportsflix.
 ||23.109.87.
+Banner468x60
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 click.official.infomaniak.com%2Fo%2F
 ||mishop.pandora.xiaomi.com.^
