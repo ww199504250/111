@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Plus
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Plus Verison, And Add Some Filters
-! ! Version: 2025-09-17 20:15:25(GMT+8) 
-! Total count: 358468
+! ! Version: 2025-09-17 21:37:16(GMT+8) 
+! Total count: 358479
  
 ###AC_ad
 ###AD_160
@@ -17106,7 +17106,7 @@
 ##iframe[src^="//tempest.services.disqus.com/ads-iframe/"]
 ##iframe[src^="//tsyndicate.com/"]
 ##iframe[src^="https://av.ageverify.co/"]
-##iframe[src^="https://creative.xlirdr.com/"]
+##iframe[src^="https://creative."][src*="/widgets/v4/Universal?"]
 ##iframe[src^="https://mmmdn.net/"]
 ##iframe[src^="https://tsyndicate.com/"]
 ##iframe[src^="https://vidsservices.space/"]
@@ -19636,7 +19636,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-/\.[a-z]{2,5}\/[0-9A-Za-z]{5,7}\.js$/$script,third-party,domain=bestjavporn.com|ero-anime.website|javdock.com|javtiful.com|onscreens.me
+/\.[a-z]{2,5}\/[0-9A-Za-z]{5,7}\.js$/$script,third-party,domain=bestjavporn.com|ero-anime.website|javdock.com|javtiful.com|onscreens.me|hdpornflix.com
 /\.[a-z]{2,5}\/[0-9A-Za-z]{5,7}\.js$/$script,~third-party,domain=love4porn.com|suptube.com|upload-pics.com
 /\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.*|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com|bdsmx.tube|blackporn.tube|mrgay.tube|bigdick.tube|xmilf.com|voyeurhit.tube|hdzog.tube|teenorgy.video|hotmovs.tube|asiantv.fun|pornclassic.tube|pornhits.com|sextu.com|in-porn.com|manysex.com|onlyporn.tube|manysex.tube|aniporn.com|abxxx.com|gaytxxx.com|xjav.tube|abjav.com|transtxxx.com
 /\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{25,}$/$script,1p,domain=gu-global.com|uniqlo.com
@@ -57680,6 +57680,7 @@ cleverst.com##.ad2
 clevertronic.de###js-popup-cookie-block
 clevertronic.de###popup-cookie-block
 clevescene.com###NewsletterSignup
+clevis.de#%#//scriptlet('trusted-click-element', 'dialog a[href="#"][id$="-ext-0-255"]')
 click-cre.capitalone.com$image
 click-csf.capitalone.com$image
 click-email.greenwaste.com$image
@@ -144646,7 +144647,6 @@ prosieben.de,sat1.de,computerweekly.com###cmp-banner
 prosleduet.media##.post-template-default section.donate
 prosleduetmedia.com##.donate
 prosleduetmedia.com##.wpcf7
-proson.gr##.gnews
 proson.gr##.ros
 prospan.com.au##.eu-privacy
 prospectmagazine.co.uk###piano_ribbon_collapsible_container
@@ -158001,6 +158001,7 @@ techbloat.com##.rk-inline-banner
 techbloat.com##.rk-resource-box
 techbloat.com##.rk-slidein-banner
 techblog.gr##.post-inner > blockquote:has(> p > a[href^="https://news.google.com/publications/"])
+techblog.gr,proson.gr##.gnews
 techblogng.com##.mailmunch-scrollbox
 techblogng.com##iframe.HB-Takeover[src="about:blank"]
 techbloogs.com,tutwuri.id,lokerwfh.net##+js(no-xhr-if, pagead2.googlesyndication.com)
@@ -176455,6 +176456,7 @@ zdnet.com##.sharethrough-top.placeholder
 zdnet.com##.sponsoredItem
 zdnet.com##.sticky-wrapper
 zdnet.com##div[data-component="newsletterWidget"]
+zdnet.com#%#//scriptlet('href-sanitizer', '.c-articleContent p a[href^="https://cc.zdnet.com/"]', '?url')
 zdnet.com#%#//scriptlet('trusted-set-cookie', 'OptanonConsent', 'groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A1')
 zdnet.com#@#.sponsoredItem
 zdnet.com,download.cnet.com,globalnews.ca##.c-newsletterSignup
@@ -194228,6 +194230,7 @@ zzzyk.com###Tinfo
 ||analytics.cdf.cl^
 ||analytics.cdn.live^
 ||analytics.cdnstr.com^$third-party
+||analytics.cdnweb.info^
 ||analytics.ceneo.pl^
 ||analytics.centrolilac.com^
 ||analytics.centrolilac.it^
@@ -210583,6 +210586,7 @@ zzzyk.com###Tinfo
 ||cetrk.com^$third-party
 ||cetzcfuxwx.com^
 ||ceveq.click^
+||cevianechoey.shop^
 ||cevichebland.cyou^
 ||cevoansoultum.net^
 ||cevtkv.climando.it^
@@ -211318,6 +211322,7 @@ zzzyk.com###Tinfo
 ||chl.carriagehillco.com^
 ||chl7rysobc3ol6xla.com^
 ||chl7rysobc3ol6xla.com^$popup
+||chlnxdsbxcobb.com^
 ||chlziaue.xyz^
 ||chmtriplet.qpon^
 ||chmueyv.icu^
@@ -256500,6 +256505,7 @@ zzzyk.com###Tinfo
 ||jadtottuleret.org^
 ||jadxs.org/themes/*/js/fixed.js
 ||jadxs.org/themes/*/js/test.js
+||jaexgetcradgl.store^
 ||jaforvsuneysw.website^
 ||jafsuasulxeoh.online^
 ||jagevirom.com^
@@ -256832,6 +256838,7 @@ zzzyk.com###Tinfo
 ||jcmgd.skullcandy.com^
 ||jcmonitor.xcar.com.cn^
 ||jcnedb.naracamicie.jp^
+||jcnypuepp.com^
 ||jcodecraeer.com/plus/fuckblok.
 ||jcokamia.top^
 ||jconceoormurg.online^
@@ -258096,6 +258103,7 @@ zzzyk.com###Tinfo
 ||jrqet.catholiccompany.com^
 ||jrrea.eddiebauer.ca^
 ||jrrygibhwcmwb.space^
+||jrscalwlfmmvp.store^
 ||jrtyi.club^
 ||jrucbb.guestreservations.com^
 ||jrvrkzrjrmoyy.top^
@@ -282245,6 +282253,7 @@ zzzyk.com###Tinfo
 ||nopndwloreleaay.com^
 ||nopokwgjli.com^
 ||noradown.bid^
+||norciliary.com^
 ||nordace.com/track.js
 ||nordbayern.de/scripts/drive-*.js
 ||nordbysupermarket.se/cookie-warning/cookie-warning.js
@@ -289312,6 +289321,7 @@ zzzyk.com###Tinfo
 ||perronsplyer.help^
 ||perryvolleyball.com^
 ||perryvolleyball.com^$popup
+||persecess.qpon^
 ||persecutionpunishlegally.com^
 ||persetoenail.com^
 ||persevered.com^$third-party
@@ -310125,6 +310135,7 @@ zzzyk.com###Tinfo
 ||siafukiln.qpon^
 ||siam.marketingbangladesh.com^
 ||siazlw.cetroloja.com.br^
+||sibapbtinaz.com^
 ||sibautomation.com^$third-party
 ||sibergy.com^$third-party
 ||siberiabecrush.com^
