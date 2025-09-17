@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-17 08:38:25(GMT+8) 
-! Total count: 180276
+! ! Version: 2025-09-17 20:15:25(GMT+8) 
+! Total count: 180299
  
 ###ADtip
 ###Ad_windows
@@ -2130,7 +2130,6 @@ $websocket,domain=wap.yushuwu.cloud
 &ga_blocked=$image
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
-&ii=fingerprintjs-pro-react
 &l=dataLayer&cx=c
 &pagegroup=*&url=$script
 &refer=http$script
@@ -4140,6 +4139,8 @@ $websocket,domain=wap.yushuwu.cloud
 /detectIncognito.min.js
 /detm-container-ftr.js
 /detm-container-hdr.js
+/detroitchicago/overlandpark.js
+/detroitchicago/reno.js
 /dfm/fp.min.js
 /dg_measurement_protocol.js
 /dh-analytics-prod/*
@@ -4318,6 +4319,7 @@ $websocket,domain=wap.yushuwu.cloud
 /exponea.min.js
 /extendedanalytics.js
 /external-tracking.min.js
+/ezais/analytics
 /ezais/analytics?
 /ezoicanalytics.js
 /ezprice_ad.js
@@ -6786,6 +6788,7 @@ $websocket,domain=wap.yushuwu.cloud
 /utag.sync.js
 /utag_data.js
 /utiqloader.js
+/utm-tags.min.js
 /utm-tracker.min.js
 /utm-tracking.js
 /utm.gif?
@@ -21028,7 +21031,7 @@ disp.cc###ads_page_b
 disp.cc###ads_page_r
 disp.cc##.ads_bot_block
 dispatches.subvert.fm$image
-disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', 'text')
+disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', '?url')
 ditu.so.com##.label-ads
 ditu.so.com##a[class^="index-bcItem"]
 ditu.so.com##a[href^="https://e.so.com/"]
@@ -51167,6 +51170,7 @@ iqilu.com##.gg300250dbl
 iqilu.com##.gg580140
 iqilu.com##.kejie_ad
 iqiyi.com###adflash
+iqiyi.com###bottom_banner_ad_bk
 iqiyi.com###jingdongArea
 iqiyi.com###middle_banner_ad_bk
 iqiyi.com###scrollWrap-vipbuy
@@ -51246,6 +51250,7 @@ iqiyi.com##section[class^="ChannelHomeBanner"]
 iqiyi.com#%#(()=>{let e=!1;window.qyMesh=window.qyMesh||{},window.qyMesh=new Proxy(window.qyMesh,{get:function(a,t,d){return!e&&a?.preload?.Page_recommend_1?.response?.items&&(a.preload.Page_recommend_1.response.items.forEach((e=>{e.extData?.dataExtAd&&(e.extData.dataExtAd={}),e.video&&e.video.forEach((e=>{e.adverts&&(e.adverts=[]),e.data&&(e.data=e.data.filter((e=>!e.ad)))}))})),e=!0),Reflect.get(a,t,d)}})})();
 iqiyi.com#%#//scriptlet('adjust-setInterval', 'adUI', '1000', '0.02')
 iqiyi.com#%#//scriptlet('json-prune', 'data.[-].ad.adScene items.*.video.*.data.[-].ad.adScene data.template.tabs.*.blocks.*.data.data.*.videos.feature_ad data.template.tabs.*.blocks.*.data.data.videos.*.ad')
+iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 iqshv.com#?#.post-list-item:-abp-has(.thumb-link[href^="http"]:not([href*=".iqshv."]))
 iqshw.com##.iqshwad-comm
@@ -74466,6 +74471,7 @@ zzzyk.com###Tinfo
 ||analytics.knifestock.eu^
 ||analytics.knottenwol.nl^
 ||analytics.knottenwolle.de^
+||analytics.kode.co.kr^
 ||analytics.koebogspar.dk^
 ||analytics.komiku.org^
 ||analytics.komoder.at^
@@ -81628,6 +81634,7 @@ zzzyk.com###Tinfo
 ||bu.adpinfo.com^
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
+||bu2kak23b.com^
 ||buasmk.earthshoes.com^
 ||bubasocks-ss.olladeals.com^
 ||bubblestat.com^$third-party
@@ -83125,6 +83132,7 @@ zzzyk.com###Tinfo
 ||cc.swiftype.com^
 ||cc.xiaodapei.com^
 ||cc.xwscg.com^
+||cc1ej6d0e.com^
 ||ccaas.avaya.com^
 ||ccacc.darrensmithmd.com^
 ||ccakgk.adoucisseur-eau.com^
@@ -83684,6 +83692,9 @@ zzzyk.com###Tinfo
 ||cfg.imtt.qq.com^
 ||cflbu.cuddledown.com^
 ||cfm.kt.com/js/adobe/*/launch-
+||cfm.kt.com/js/adobe/staticsLogcodeLaunch.js
+||cfm.kt.com/js/common/global/oms.js
+||cfm.kt.com/js/integrate/kLogcode.js
 ||cfmediaview.com/API/MV_Visit.ashx
 ||cfoxpgfzxl.com^
 ||cfpwood.actonservice.com^
@@ -100611,6 +100622,7 @@ zzzyk.com###Tinfo
 ||gasaq.com/public/flash/
 ||gassales.eversource.com^
 ||gastdn.wolfandbadger.com^
+||gatag.uplus.co.kr^
 ||gatan.actonservice.com^
 ||gate.datacaciques.com^
 ||gate.mykite.com.ua^
@@ -112822,6 +112834,7 @@ zzzyk.com###Tinfo
 ||jsdelivr.net/npm/keen-tracking@*/keen-tracking.min.js
 ||jsdelivr.net/npm/live2d-
 ||jsdelivr.net/npm/navigator.sendbeacon
+||jsdelivr.net/npm/search-insights$domain=qobuz.com
 ||jsdelivr.net/snowplow/
 ||jsdelivr.net^*/fp.min.js
 ||jsdelivr.vip^
@@ -129011,6 +129024,7 @@ zzzyk.com###Tinfo
 ||nfudeh.jadebag.co.kr^
 ||nfuwow.com/static/nfuwow/source/front/new/images/
 ||nfwebminer.com^$third-party
+||nfxonb.icu^
 ||nfydd.com/template/wap1/js/dd.js
 ||ng.virgul.com^
 ||ng8f.top^
@@ -135299,6 +135313,7 @@ zzzyk.com###Tinfo
 ||pzcld.easymealz.ca^
 ||pzd.rakuten.co.jp^
 ||pzdnf.salonweardirect.co.uk^
+||pzfans.com^$cookie=ezosuibasgeneris-1
 ||pzgqgw.able.co.jp^
 ||pzifsf.th-agent.jp^
 ||pzimff.com^
@@ -135794,6 +135809,7 @@ zzzyk.com###Tinfo
 ||qnzma.beforeyouspeakcoffee.com^
 ||qo2.fun^
 ||qoairs.scholl-shoes.com^
+||qobuz.com/api.json/*/user/tracking?
 ||qobuz.surveysparrow.com^
 ||qoe-*.yottaa.net/*/configure.rapid.js
 ||qogonsuqq.com^
@@ -151183,6 +151199,7 @@ zzzyk.com###Tinfo
 ||spot.im/v1.0.0/conversation/realtime/read
 ||spotify.com/ads/
 ||spotify.com^$removeparam=si
+||spotifycdn.com/cdn/js/gtm.
 ||spotifycdn.com/cdn/js/retargeting-pixels.
 ||spotlersearchanalytics.com^
 ||spotlessstamp.com^
@@ -164469,6 +164486,7 @@ zzzyk.com###Tinfo
 ||therapeuticcars.com^
 ||therawolf-ss.olladeals.com^
 ||therealreal.com/ev56mY37/init.js
+||thermaltake.com/bannerslider/index/impress/
 ||thermstats.com^$third-party
 ||theroot.black.news^
 ||thesac2.top^
@@ -171235,6 +171253,7 @@ zzzyk.com###Tinfo
 ||two.tio.nl^
 ||two.tracedock.com^
 ||twoeej.carrefour.fr^
+||tworld.co.kr/web/service/xtractor.service.js
 ||twowheeler.policybazaar.com/js/GTMgoogleAnalytics.js
 ||twpcbx.ullapopken.at^
 ||twrank.com^$third-party
@@ -173446,6 +173465,7 @@ zzzyk.com###Tinfo
 ||vgo.vegaoo.pt^
 ||vgo.vegaoopro.com^
 ||vgoicp.animaljob.jp^
+||vgovvoinf.com^
 ||vgqhv.killcliff.com^
 ||vgragvory.com^
 ||vgrbvi.atncorp.com^
@@ -178057,6 +178077,7 @@ zzzyk.com###Tinfo
 ||xtjpdfr.cn^
 ||xtnwxhjv.xyz^
 ||xtpwfb.xyz^
+||xtr.tos.sktelecom.com^
 ||xtractor.no^$third-party
 ||xtremepush.com^$third-party
 ||xtremline.com^$third-party
@@ -178112,6 +178133,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/wefong2.js
 ||xvideos.com/picserror/
 ||xvkhez.swiatkwiatow.pl^
+||xvkz.cn^
 ||xvp.imgix.net/assets/*/*tracking*.js
 ||xvp.imgix.net/assets/customer_tools/ip_checker-
 ||xvteew.lacoste.jp^
@@ -179062,6 +179084,7 @@ zzzyk.com###Tinfo
 ||yur09160og.com^
 ||yur09161og.com^
 ||yur09170og.com^
+||yur09171og.com^
 ||yurobl.rw-co.com^
 ||yushuwen.com/astyle/wap.js
 ||yuske2.xyz^
