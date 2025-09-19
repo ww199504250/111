@@ -1,4 +1,4 @@
-# Update time: 2025-09-19 22:20:36
+# Update time: 2025-09-19 22:25:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,11 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+*-ad.video.yximgs.com*
+*-ad.sm.cn*
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
+*-ad.wtzw.com*
 ||ad.wx.com:12638^
 ||*/snscosdownload/*/reserved/*$app=com.tencent.mm
 ||*.voiceads.cn^
@@ -64,11 +69,6 @@
 ||api.zhihu.com/ab/*^
 ||*.juicyads.me^
 ||*googleadsserving.cn^
-*-ad.video.yximgs.com*
-*-ad.sm.cn*
-*-be-pack-sign.pglstatp-toutiao.com*
-*-normal.zijieapi.com*
-*-ad.wtzw.com*
 ||com/adimg
 ||gushiwen.cn/getTicket.aspx^$xhr
 *.pop.js^$script
@@ -5079,6 +5079,7 @@ douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 @@/adimage/*$domain=scyts.com|wacom.tw
 yahoo.com###sda-mid-right-iframe
+@@||cnprint.org^$generichide
 ||iid97.com/bdgo/
 ##.index-top-gg
 ||php.cn/hezuo/
@@ -30054,6 +30055,7 @@ techradar.com###sidebar > .slot-top_of_sidebar
 knowyourmeme.com##.header-unit-wrapper
 @@||popads.net/pop.js$script,important,domain=shinden.pl
 ##.menu-ads
+warezcrack.net##a[href^="http://felafk.com/r/"]
 ||in.com/common/script_catch.js
 ##.ad_long
 nrl.com##.partner-groups
@@ -31453,6 +31455,7 @@ thewindowsclub.blog##.position-sticky > .section  > a[target="_blank"] > img
 ||top.l2jbrasil.com/banner/
 otakuusamagazine.com##.geekmag-page-right > div[id^="text-"]:has(ins[data-revive-zoneid])
 dywanik.pl##.min-h-\[65px\].sm\:min-h-\[72px\].lg\:min-h-\[96px\].xl\:min-h-\[93px\]
+||vivatube.*/templates/base_master/js/jquery.shows.min.js
 auto.cz##.ads
 /cpmbanners.js$script
 cnbc.com##div[class*="BoxRail-styles-makeit-ad--"][data-test^="adFlexBox-"]
@@ -79125,7 +79128,6 @@ canadapolicereport.ca##.adsbygoogle
 ##.widget_adsingle
 hentaipins.com#%#//scriptlet("abort-on-property-read", "popundrCheck")
 theatlantic.com##.ad-boxright-wrapper
-@@||cnprint.org^$generichide
 xpornzo.com#%#//scriptlet("abort-on-property-read", "iamout")
 ||hentaihaven.icu/wp-content/plugins/sscript-manager/
 newser.com###headerAdSection
