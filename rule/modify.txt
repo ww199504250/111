@@ -1,4 +1,4 @@
-# Update time: 2025-09-19 09:14:15
+# Update time: 2025-09-19 11:50:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,11 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+*-ad.video.yximgs.com*
+*-ad.sm.cn*
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
+*-ad.wtzw.com*
 ||ad.wx.com:12638^
 ||*/snscosdownload/*/reserved/*$app=com.tencent.mm
 ||*.voiceads.cn^
@@ -64,11 +69,6 @@
 ||api.zhihu.com/ab/*^
 ||*.juicyads.me^
 ||*googleadsserving.cn^
-*-ad.video.yximgs.com*
-*-ad.sm.cn*
-*-be-pack-sign.pglstatp-toutiao.com*
-*-normal.zijieapi.com*
-*-ad.wtzw.com*
 ||com/adimg
 ||gushiwen.cn/getTicket.aspx^$xhr
 *.pop.js^$script
@@ -3299,7 +3299,6 @@ firefoxchina.cn##.layout > .banner
 baidu.com###index_right_float
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
 qq.com##.tmallredpacket
-@@||blackmod.net^$generichide
 bilibili.com##span[style*="height:"][data-loc-id]
 chongbuluo.com###add + a
 hao123.com###\5f _wgt_0_1
@@ -5080,7 +5079,6 @@ douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 @@/adimage/*$domain=scyts.com|wacom.tw
 yahoo.com###sda-mid-right-iframe
-@@||cnprint.org^$generichide
 ||iid97.com/bdgo/
 ##.index-top-gg
 ||php.cn/hezuo/
@@ -27342,7 +27340,6 @@ pirate-bays.net##.message-wrap
 @@||keibana.com/wp-content/uploads/*/300x250_$~third-party
 ||nativetimes.com/images/banners/
 thepiratesproxy.org,pirateproxy.space,tpbproxypirate.com,pirateproxy-bay.com##.symple__block
-##.adcont
 fapello.com#$#.wbar { display: none !important; }
 dr-farfar.com##img[alt="original ad 300"]
 ||targetspot.com^$third-party
@@ -31449,6 +31446,7 @@ thewindowsclub.blog##.position-sticky > .section  > a[target="_blank"] > img
 ||top.l2jbrasil.com/banner/
 otakuusamagazine.com##.geekmag-page-right > div[id^="text-"]:has(ins[data-revive-zoneid])
 dywanik.pl##.min-h-\[65px\].sm\:min-h-\[72px\].lg\:min-h-\[96px\].xl\:min-h-\[93px\]
+||vivatube.*/templates/base_master/js/jquery.shows.min.js
 auto.cz##.ads
 /cpmbanners.js$script
 cnbc.com##div[class*="BoxRail-styles-makeit-ad--"][data-test^="adFlexBox-"]
@@ -53713,7 +53711,6 @@ vectorspedia.com##div[style="min-height:280px;"]
 redtube.com,redtube.net,pornhub.com,pornhub.org,pornhub.net###main-container > .abovePlayer
 hotdeals.com##.ads-list-two
 ||aorpum.com^$third-party
-cryptomininggame.com#?#.col-lg-3 > .panel:has(>.panel-heading > h2:contains(Advertisements))
 ###advertising_wrapper
 cinemagia.ro#$##main_container { padding-top: 0!important; }
 hentaifreak.org##.text-center.col-md-6 > a[target="_blank"]  > img
@@ -56814,6 +56811,7 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 ||bullz-eye.com/images/ads/
 alternativeto.net##div[style^="min-height: 114px; background-color:"]
 ##.w_ad
+@@||blackmod.net^$generichide
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion#?#div[data-testid="block-Well"] > div[class] > div[data-well-section="well-section"]:has( > div[class] > .ad)
 ##.ad--banniere_haute
 money.it#?#a[rel="sponsored nofollow"]
@@ -65212,7 +65210,6 @@ ytboob.com##.mbrsp
 @@||traficodetorrents.com^$generichide
 vietjack.com##.box-most-viewed
 ###navAdBanner
-wtatennis.com##.footer-sponsors
 4shared.com##div[class^="rekl"]
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=barrons.com
 olarila.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
@@ -67606,6 +67603,7 @@ safetydetectives.com###best_deals_widget
 readhxh.com,readsnk.com,readkingdom.com,readonepiece.com,readvinlandsaga.com,demonslayermanga.com,read7deadlysins.com,readfairytail.com,readnaruto.com,readdrstone.com,dbsmanga.com,readopm.com,readkaguyasama.com,readjujutsukaisen.com,readtowerofgod.com,readnoblesse.com,readmha.com##.justify-center > div > b:first-child
 ||videoroll.net^$third-party
 ||i.bongacams.com/b/
+||chaturbate.com*popunder$popup
 @@||platform.pubadx.one/pubadx-ad.js$domain=embed.wcostream.com
 ###top_sponsor_text
 ||creepy-frame.com^$popup
@@ -79109,6 +79107,7 @@ canadapolicereport.ca##.adsbygoogle
 ##.widget_adsingle
 hentaipins.com#%#//scriptlet("abort-on-property-read", "popundrCheck")
 theatlantic.com##.ad-boxright-wrapper
+@@||cnprint.org^$generichide
 xpornzo.com#%#//scriptlet("abort-on-property-read", "iamout")
 ||hentaihaven.icu/wp-content/plugins/sscript-manager/
 newser.com###headerAdSection
@@ -81016,7 +81015,6 @@ m.smutty.com##.ui-content .center[style*="margin-"]:not([id])
 ||1warie.com^$third-party
 oggi.it##.adv-square
 mitula.com.pl#@#.adsList
-sexytube.me##.banners-aside
 channel4.com#%#//scriptlet('prevent-element-src-loading', 'script', 'v.fwmrm.net/ad/')
 allkeyshop.com##.blc-left
 ##.pencil_ad
@@ -86920,7 +86918,6 @@ podu.me#%#//scriptlet("set-constant", "adsAreBlocked", "false")
 @@||contentx.me^$stealth=referrer
 ###advertise2
 ###advertise1
-thehansindia.com#?#.theiaStickySidebar > div > section.editorial:has(> div.pd-0.hide)
 pornicom.com##.spots:has(> div > div[data-banner])
 /bundle_js.ashx$replace=/function\(\){try{if\(\(eval\(atob[\s\S]*?}}}\,/function(){}\,/,domain=mobilmania.cz
 einthusan.ca,einthusan.com,einthusan.tv##div[class^="adspace-"]
@@ -92868,7 +92865,6 @@ whistleout.com.au##.has-hover
 pherotruth.com$$script[wildcard="*.shift()*void 0===*"][min-length="50000"][max-length="250000"]
 ||zanox.com^$third-party
 greatandhra.com##.great_andhra_main_local_rotator1
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=factable.com
 shroomery.org##[href^="https://www.shroomery.org/ads/"]
 ekantipur.com###roadblock-ad
 ||berangkasilmu.com^$third-party
