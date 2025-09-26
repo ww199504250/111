@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-09-26 08:38:34(GMT+8) 
-! Total count: 182205
+! ! Version: 2025-09-26 20:15:38(GMT+8) 
+! Total count: 182238
  
 ###ADtip
 ###Ad_windows
@@ -1629,6 +1629,7 @@ $cookie=IDE
 $cookie=MUIDB
 $cookie=MgidStorage
 $cookie=MicrosoftApplicationsTelemetryDeviceId
+$cookie=PAPVisitorId,domain=pelikan.cz|pelikan.hu|pelikan.sk
 $cookie=PUBMDCID
 $cookie=PWA_adbd,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
 $cookie=SC_ANALYTICS_GLOBAL_COOKIE
@@ -3050,7 +3051,7 @@ $websocket,domain=wap.yushuwu.cloud
 /SdaAnalytics.js
 /SessionHit.aspx?
 /SiteSearchAnalytics.js
-/Smile_ElasticsuiteTracker/*$script
+/Smile_ElasticsuiteTracker/js/tracking.min.js
 /StatCms/ViewCount?
 /StatProviderV2.min.js
 /StatRecorder.asp?
@@ -4365,6 +4366,7 @@ $websocket,domain=wap.yushuwu.cloud
 /fdjdjghrut_tt.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
+/federated-analytics.all.min.js
 /figanalytics-short-ttl.js
 /fingerprint-3.4.1.js
 /fingerprint.js
@@ -6356,6 +6358,7 @@ $websocket,domain=wap.yushuwu.cloud
 /status/impression?
 /storeAdvImpression.jsp
 /storefront.google-analytics-4.min.js
+/stormcaster.js
 /stp.gif?
 /stracking.js
 /strak.php?t=
@@ -6462,6 +6465,7 @@ $websocket,domain=wap.yushuwu.cloud
 /template/m1938pc/bd/*.js
 /template/mytheme/statics/js/listing.js
 /template/paody/aaaa/all-top.js
+/template/piankuwap/js/afixed.js
 /template/piankuwap/js/afoot.js
 /template/shoujigg/*
 /template/znfls/asd/*
@@ -6816,6 +6820,7 @@ $websocket,domain=wap.yushuwu.cloud
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
+/v1/rgstr?k=client-
 /v1/rgstr|
 /v1/stats/track
 /v1/tracker.js
@@ -10237,7 +10242,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://email.*/o/$image
 ://estats.*/code/e.js
 ://fallback.*/collector
-://fathom.$domain=~fathom.care|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=GTM-
 ://gtm.*.js?st=
 ://gtrack.*.com/dye?
@@ -10292,6 +10297,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://tagging.*.js?aw=
 ://tagging.*.js?id=GTM-
 ://tagging.*/settings.js
+://tj.*.com$third-party
 ://top.*/count/cnt.php?
 ://track.*/collect
 ://track.*/dye
@@ -12248,6 +12254,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||gifshow.com/rest/wd/common/log/collect/acfun
 @@||giga.de/wp-content/plugins/econa-stats/log/video-views/log.php?id=
 @@||gigabyte.*^$cookie=/^_ga_/
+@@||gildia.pl/static/*/Smile_ElasticsuiteTracker/js/tracking.min.js$~third-party
 @@||giraff.io^$domain=vs.lv
 @@||gitee.com/HServer/
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
@@ -16735,6 +16742,7 @@ bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.b_ads1line)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com,cn.bing.net##.b_algo:has([tabindex="0"][role="link"])
 bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
@@ -16836,6 +16844,7 @@ blog.truongrealestateteam.com$image
 blog.zhheo.com#@##footer-banner
 blogterest.net#?#.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
 bloomberg.com###adBlockerContainer
+bloomberg.com#%#//scriptlet('set-local-storage-item', '/statsig|youboraDeviceUUID/', '$remove$')
 bmcx.com##div[id^="ggwz"]
 bmlink.com##.Tg_1190x70
 bmlink.com##.Tg_190x70
@@ -48532,6 +48541,7 @@ ifirstrow.eu###adblockplus
 ifirstrow.eu###fanback
 ifkdy.com##.hb
 ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
+iflscience.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 ifooday.cn##.myzs
 ifoodie.tw##.ad-right-column-desktop
 ifoodie.tw,avtb01.com,beauty321.com,aotu43.com,csdn.net##.ads
@@ -51304,6 +51314,7 @@ litecoiner.net,bitcoiner.net#@##ad-top
 litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
+litv.tv#%#//scriptlet('trusted-replace-fetch-response', '"PlayAds":true', '"PlayAds":false', 'api/get-urls')
 liues.cn##.widget-graphic-cover
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
@@ -55364,6 +55375,7 @@ pcworks.cn##.xintheme-ad
 pcworld.com#%#//scriptlet('href-sanitizer', 'a[href*="skimresources.com"]', '?url')
 pebx.pl#@#.adsbygoogle
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
+pelikan.*#%#//scriptlet('set-local-storage-item', 'PAPVisitorId', '$remove$')
 pencurimovie.cc###simplemodal-container
 pencurimovie.cc###simplemodal-overlay
 pencurimovie.cc##.adb_overlay
@@ -62595,6 +62607,7 @@ zzzyk.com###Tinfo
 ||1dor1d6vc.com^
 ||1e90.pandasuite.io^
 ||1eusy6.boxoffice.adventuretix.com^
+||1f0l.top^
 ||1freecounter.com^$third-party
 ||1gmzo.icu^
 ||1gr.cz/log/
@@ -69101,6 +69114,7 @@ zzzyk.com###Tinfo
 ||adalyser.com^$third-party
 ||adalytics.io/api/view
 ||adamantsnail.com^
+||adameve.com/emetrics/
 ||adapf.com^$third-party
 ||adapi.izuiyou.com^
 ||adara.com^$third-party
@@ -73461,6 +73475,7 @@ zzzyk.com###Tinfo
 ||api-access.pangolin-sdk-toutiao1.com^
 ||api-adservices.apple.com^
 ||api-analytics-prd.pelcro.com^
+||api-analytics.pelikan.sk^
 ||api-analytics.prod.birdapp.com^
 ||api-analytics.rozetka.com.ua^
 ||api-bloomreach.comfy.ua/js/exponea.min.js
@@ -74835,6 +74850,7 @@ zzzyk.com###Tinfo
 ||app.ggpoker.co.uk^
 ||app.global.certain.com^
 ||app.globalbusinesstravel.americanexpress.com^
+||app.gnosispay.com/relay-gp-ph/
 ||app.go.bankintelligence.fiserv.com^
 ||app.go.bmc.com^
 ||app.go.coxmedia.com^
@@ -78296,6 +78312,7 @@ zzzyk.com###Tinfo
 ||bi.manhuaren.com^
 ||bi.medscape.com^
 ||bi.medscape.com^$app=~com.medscape.android
+||bi.pst.tech^
 ||bi205u0cx.com^
 ||bi25.cc/js/hf
 ||bia.brightinfo.com^
@@ -81229,6 +81246,7 @@ zzzyk.com###Tinfo
 ||cc.xiaodapei.com^
 ||cc.xwscg.com^
 ||cc1ej6d0e.com^
+||cca-lite.coinbase.com/metrics
 ||ccaas.avaya.com^
 ||ccacc.darrensmithmd.com^
 ||ccakgk.adoucisseur-eau.com^
@@ -82342,6 +82360,7 @@ zzzyk.com###Tinfo
 ||ck123.io^
 ||ck180.net/mitao
 ||ck33.top^
+||ck4g3p2x92.com^
 ||ckcikq.dondup.com^
 ||ckerw.xyz^
 ||ckfkzn.dubz.com^
@@ -96818,6 +96837,7 @@ zzzyk.com###Tinfo
 ||fahmta.theaa.com^
 ||fahmta.themiddlesizedgarden.co.uk^
 ||fahmta.xcweather.co.uk^
+||fahwlqf37l.com^
 ||faibl.org^$third-party
 ||fail.adr.ec^
 ||failedforks.com^
@@ -97493,6 +97513,7 @@ zzzyk.com###Tinfo
 ||finley.finleyusa.com^
 ||finn.no/clientstats.html
 ||finn.no/ec/REK^
+||fino.svc.litv.tv/acs/dms.js
 ||finsq.silentballacademy.com^
 ||fintechpi.com^
 ||fionamignon.com^
@@ -101673,6 +101694,7 @@ zzzyk.com###Tinfo
 ||grow.national.biz^
 ||grow.powerstep.com^
 ||growingio.com^$third-party
+||growth-channel.net^
 ||growthmodemarketing.actonservice.com^
 ||growthol22.com^
 ||growthrx.in^$third-party
@@ -108675,6 +108697,7 @@ zzzyk.com###Tinfo
 ||indiatimes.in/*/detector.js$script
 ||indicative.com^$third-party
 ||indicia.com^$third-party
+||indiegogo.com/speclayer/stdfp.js
 ||indigitall.com^$third-party
 ||indir.boowetr.com^
 ||indir.pembepanjur.com^
@@ -112324,6 +112347,7 @@ zzzyk.com###Tinfo
 ||jznits.igrotime.ru^
 ||jzoxch.menswearhouse.com^
 ||jzprtb.1stdibs.com^
+||jzq915.playmobil.com^
 ||jzq915.playmobil.com^ы
 ||jzqfac.bestsecret.ch^
 ||jzrcod.ygl.co.il^
@@ -115627,6 +115651,8 @@ zzzyk.com###Tinfo
 ||littlebigsnake.com/event?
 ||littlecdn.com^
 ||littlelilistore.rdtrke.com^
+||litv.tv/api/generate-device-id
+||litv.tv/library/comscore/
 ||liu16.com/vip.png
 ||liugaohao.com^
 ||liuxoi.green-petfood.de^
@@ -129836,6 +129862,7 @@ zzzyk.com###Tinfo
 ||nzl09250oa.com^
 ||nzl09251oa.com^
 ||nzl09260oa.com^
+||nzl09261oa.com^
 ||nzlelmarw.com^
 ||nzmkzl.mytheresa.com^
 ||nzoj.cn^
@@ -130155,6 +130182,7 @@ zzzyk.com###Tinfo
 ||offshorecyclone.com^
 ||offshoregeology.com^
 ||ofgik.site^
+||ofgreencolumn.com^
 ||ofhau.mamannyc.com^
 ||oficial.enriquecendoonline.com^
 ||ofincm.icu^
@@ -133311,6 +133339,7 @@ zzzyk.com###Tinfo
 ||pimormebwf.com^
 ||pimpmypr.de^$third-party
 ||pimpoint.inriver.com^
+||pimuedrozt.com^
 ||pin-river.data.ea.com/pinEvents
 ||pin6d37stu.com^
 ||pincai.com/js/pubuliu.
@@ -133543,6 +133572,7 @@ zzzyk.com###Tinfo
 ||pixel.nudgify.com^
 ||pixel.nur.kz^
 ||pixel.organicprodact.com^
+||pixel.patch.com^
 ||pixel.pcworld.com^
 ||pixel.peek-cloppenburg.nl^
 ||pixel.playbuzz.com^
@@ -133970,6 +134000,7 @@ zzzyk.com###Tinfo
 ||player.ooyala.com/errors/report?
 ||player.sbs.co.kr/log/
 ||player.stats.live-video.net^
+||player.svc.litv.tv/pixel/
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||playerserver.walkme.com/Statistics/
@@ -135217,6 +135248,7 @@ zzzyk.com###Tinfo
 ||pushwoosh.com^$third-party
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
+||pusti.svc.litv.tv/puid
 ||putaoys.com/static/js/acb1.js
 ||putonghua520.com/skins/10ym/3jin.gif
 ||putonghua520.com/skins/10ym/baicai.gif
@@ -176478,6 +176510,7 @@ zzzyk.com###Tinfo
 ||weather.go.kr/w/resources/js/logger
 ||weathercn.com/m_mobile/ad_image/
 ||web-analytics.lastpass.com^
+||web-beacon.starii-rover.com^
 ||web-boosting.net^$third-party
 ||web-counter.net^$third-party
 ||web-device-id.banggood.com^
