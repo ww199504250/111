@@ -1,4 +1,4 @@
-# Update time: 2025-09-28 09:21:05
+# Update time: 2025-09-28 20:30:09
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -52,23 +52,6 @@
 *-be-pack-sign.pglstatp-toutiao.com*
 *-normal.zijieapi.com*
 *-ad.wtzw.com*
-||ad.wx.com:12638^
-||*/snscosdownload/*/reserved/*$app=com.tencent.mm
-||*.voiceads.cn^
-||*pangolin*toutiao*.com^
-||119.28.83.28:8099^
-||*googleads*^
-||*.applovin.com^
-||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
-||*pglstatp-toutiao.com^
-||api.zhihu.com/ad-style-service
-||*ad.wtzw.com^
-||*adintl.cn^
-||*.ads.heytapmobi.com^
-||*unityads.unity3d.com^
-||api.zhihu.com/ab/*^
-||*.juicyads.me^
-||*googleadsserving.cn^
 ||com/adimg
 ||gushiwen.cn/getTicket.aspx^$xhr
 *.pop.js^$script
@@ -1135,6 +1118,23 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 */178acg/
 */adz.js|
 *.ppunion.
+||ad.wx.com:12638^
+||*/snscosdownload/*/reserved/*$app=com.tencent.mm
+||*.voiceads.cn^
+||*pangolin*toutiao*.com^
+||119.28.83.28:8099^
+||*googleads*^
+||*.applovin.com^
+||113-116-50-196-yf81c2bb.nodeedge.cn:9512^
+||*pglstatp-toutiao.com^
+||api.zhihu.com/ad-style-service
+||*ad.wtzw.com^
+||*adintl.cn^
+||*.ads.heytapmobi.com^
+||*unityads.unity3d.com^
+||api.zhihu.com/ab/*^
+||*.juicyads.me^
+||*googleadsserving.cn^
 ||g.csdnimg.cn/track^$important
 gitee.com##.wallet-banner
 */cgi-bin/apptrace^$image
@@ -3663,7 +3663,6 @@ firefoxchina.cn##.layout > .banner
 baidu.com###index_right_float
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
 qq.com##.tmallredpacket
-@@||blackmod.net^$generichide
 bilibili.com##span[style*="height:"][data-loc-id]
 chongbuluo.com###add + a
 hao123.com###\5f _wgt_0_1
@@ -4799,6 +4798,7 @@ anquan.org##.pub_side_ad
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
 webjx.com###middleimg
 actoys.net##.p_top_ad
+ternity.net###playerdavLayer
 ||kaolashuwu.com/zb_users/plugin/ZF_tanchuang/
 ||xiaoxiaks.com/1.
 90pan.com###tt_xker
@@ -5444,7 +5444,6 @@ douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 @@/adimage/*$domain=scyts.com|wacom.tw
 yahoo.com###sda-mid-right-iframe
-@@||cnprint.org^$generichide
 ||iid97.com/bdgo/
 ##.index-top-gg
 ||php.cn/hezuo/
@@ -12127,6 +12126,7 @@ nfuwow.com##.bannermid3box
 @@||guahao.cn/common/js/plugins/fingerprint.js
 mnw.cn##.mnw_960
 eastday.com##.detail_fixed_gg
+ternity.net##.da
 hao123.com###ecom
 ###hengfu1.banner
 =ad_top_slider&
@@ -13322,7 +13322,6 @@ cr173.com##.downurl[data^="viewAds"]
 ||51vob.com/js/hf.js
 ||af29.com/banner/
 ||ps123.net/MyFile/
-@@||rmdown.com/ads.js
 xc6b.com###leftbottbox
 /js/ads/piao.js
 159i.com##.a3d
@@ -40680,6 +40679,7 @@ mathgames.com##.main-banner-adContainer
 qz.com##.js_sticky-second-scroll
 ##.innerAds
 ||offshuppetchan.com^$popup
+||nicerisle.com^$popup
 riflegear.com#@#.featuredAds
 ||dsp.wtf^$popup
 ||777-partners.net^$third-party
@@ -45329,6 +45329,7 @@ tutorialsplanet.net#$?#.better-ads-listitemad { remove: true; }
 /simply-hentai.com\/javascripts\/[_-a-zA-Z0-9]{5,}.js/$domain=simply-hentai.com
 idol69.net,javmvp.com,videogreen.xyz,hentai4.me#%#//scriptlet("abort-on-property-read", "pop")
 @@||satunivers.tv^$generichide
+||inouva.com^$popup
 vijesti.me##.ads
 playstationcommunity.hu#$#body { background-image: none!important; background: #06203d!important; }
 ||txxx.com/api/input.php?
@@ -56831,6 +56832,7 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 ||bullz-eye.com/images/ads/
 alternativeto.net##div[style^="min-height: 114px; background-color:"]
 ##.w_ad
+@@||blackmod.net^$generichide
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion#?#div[data-testid="block-Well"] > div[class] > div[data-well-section="well-section"]:has( > div[class] > .ad)
 ##.ad--banniere_haute
 money.it#?#a[rel="sponsored nofollow"]
@@ -71043,6 +71045,7 @@ goodrx.com##div[class^="adContainer"]
 ##.ablock300
 racingamerica.com###section-15922
 timesofisrael.com##.sellwild-label
+@@||rmdown.com/ads.js
 clutchpoints.com##.hYrQwu
 pcguide.com##.wepc-takeover-top
 ##.sponsor-area
@@ -79197,6 +79200,7 @@ canadapolicereport.ca##.adsbygoogle
 ##.widget_adsingle
 hentaipins.com#%#//scriptlet("abort-on-property-read", "popundrCheck")
 theatlantic.com##.ad-boxright-wrapper
+@@||cnprint.org^$generichide
 xpornzo.com#%#//scriptlet("abort-on-property-read", "iamout")
 ||hentaihaven.icu/wp-content/plugins/sscript-manager/
 newser.com###headerAdSection
