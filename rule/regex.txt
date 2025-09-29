@@ -1,4 +1,4 @@
-# Update time: 2025-09-28 20:30:09
+# Update time: 2025-09-29 09:15:50
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,13 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||ads*.papegames.com^
+||tnc0-*.zijieapi.com^
+||ads-*.xhscdn.com^
+||download*.vzuu.com^
+||pagead*.googlesyndication-cn.com^
+||api-access.pangolin-sdk-toutiao-*.com^
+||pagead*.googleadservices-cn.com^
 ||allyes.
 ||icast.
 ||gg.
@@ -67,13 +74,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||ads*.papegames.com^
-||tnc0-*.zijieapi.com^
-||ads-*.xhscdn.com^
-||download*.vzuu.com^
-||pagead*.googlesyndication-cn.com^
-||api-access.pangolin-sdk-toutiao-*.com^
-||pagead*.googleadservices-cn.com^
 ||report.*.qq.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
@@ -99,14 +99,6 @@
 ||zbc6hy*.live^
 ||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
-||pangolin-sdk^
-||xiaoqiang^
-||dybz^
-||adexpo.tencentmusic.com adclick.tencentmusic.com^
-||tnc3-bjlgy.snssdk.^
-||mgsdk-sign^
-||奥门广场.com^
-||diyibanzhu^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -117,6 +109,14 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
+||pangolin-sdk^
+||xiaoqiang^
+||dybz^
+||adexpo.tencentmusic.com adclick.tencentmusic.com^
+||tnc3-bjlgy.snssdk.^
+||mgsdk-sign^
+||奥门广场.com^
+||diyibanzhu^
 @@||ulog*.*.com^$important
 @@||register*mi.com^
 ||mishop.pandora.xiaomi.com.^
@@ -233,8 +233,8 @@ notifications.google.com%2Fg%2Fimg%2F*.gif
 @@||p*-passport.byteacctimg.com^
 |load.sst.
 ||host*.carl-ras.dk^
-||allsportsflix.
 ||log*-normal-*.tiktokv.us^
+||allsportsflix.
 ||hw-sh-pcdn-*.biliapi.net^
 ||ysdm*.ys137.com.cn^
 ||faro-collector-prod-*.grafana.net^
@@ -370,8 +370,8 @@ d4?appid*type*
 ||backstory.ebay.
 ||event.*.shoplive.cloud^
 ||auth-*.hismarttv.com^
-||stats-*.p2pnow.ru^
 ||batchlogging*-eu.truecaller.com^
+||stats-*.p2pnow.ru^
 ||ads*-normal-lf.amemv.com^
 ||report.*.gbqofs.io^
 ||eum*.instana.io^
@@ -404,8 +404,8 @@ directtrack.*.js
 ||dn*.ixinwei.com^
 ||rum*.a.trbcdn.net^
 @@||p*-piu.byteimg.com^
-||analytics-api.dvdfab.
 ||analytics-*-nfl.yinzcam.com^
+||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
 @@||lf*-dy-cdn-tos.bytegecko.com^
 ||sdk-*.moengage.com^
@@ -436,8 +436,8 @@ directtrack.*.js
 ||collector-*.px-cdn.net^
 ||host*.polaroid.com^
 ||staging-*.ispot.tv^
-||onetrust.
 esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+||onetrust.
 ||cas.*.criteo.com^
 ||datacollector-*.dt.dbankcloud.cn^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
@@ -472,8 +472,8 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 ||p*-ad.byteimg.com^
 @@||bgp.video-upload-v*.lf.bytelb.net^
 ||ac*.faxingchina.com^
-||tracker.twenga.
 ||tnc*.zijieapi.com^
+||tracker.twenga.
 ||v*-novelapp.fqnovelvod.com^
 ||use-trk*.bluevoox.com^
 ||log*.zijieapi.com^
@@ -501,8 +501,8 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 ||app-analytics-*.snapchat.com^
 ||api*.amplitude.com^
 ||px*.mediahills.ru^
-||23.109.87.
 ||ulog.*.kwai-pro.com^
+||23.109.87.
 ||static*.365inews.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
@@ -521,16 +521,16 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||host*.rvshare.com^
 ||log*-*.tiktokv.com^
 ||p*-local-ads.byteimg.com^
-||158.247.208.
 ||logs-*.rebxgame.com^
+||158.247.208.
 ||df.infra.sz.shopee.
 ||geoloc*.geostats.ovh^
 |load.gtm.
 ||sf*-ttcdn-tos.pstatp.com^
 @@||p*-sdbk2-media.byteimg.com^
 ||ssp*.rtb.beeline.ru^
-||pixel.archive.
 ||stats*.videonow.ru^
+||pixel.archive.
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
 ||bdcpro*.techweb.com.cn^
