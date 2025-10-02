@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-10-02 08:37:31(GMT+8) 
-! Total count: 174253
+! ! Version: 2025-10-02 20:14:58(GMT+8) 
+! Total count: 174284
  
 ###ADtip
 ###Ad_windows
@@ -5605,6 +5605,7 @@ $websocket,domain=wap.yushuwu.cloud
 /piNctTracking.js
 /piano-analytics-$script
 /piano-analytics.js
+/piano/engagement
 /piaofu.js
 /pic.jsp?uid=$script,third-party
 /pic/ad/*
@@ -9278,6 +9279,7 @@ $websocket,domain=wap.yushuwu.cloud
 4gamers.com.tw##video[src^="https://img.4gamers.com.tw/ads-media/"]
 4gamers.com.tw#?#.aroma-news-detail-side > div[media-width]:has(div.aols-wrapper > a[target="_blank"][rel="noopener"])
 4gamers.com.tw#?#.container-fluid > .vue-portal-target:has(> div[style] > .aroma-news-detail-iframe-ads)
+4gtv.tv#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 4hu.tv##.couplet-left
 4hu.tv##.wrap > div.mod > div.row > dl:has(> dt > a[target="_blank"]:not([href^="/html/"]) > img)
 4pda.to#%#//scriptlet('remove-attr', 'data-dotrack', 'a[data-dotrack]')
@@ -11831,6 +11833,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||evernote.com^*/google-analytics-util.js
 @@||eveskunk.com/ad/300x250/ads/$xmlhttprequest,domain=eveskunk.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
+@@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||exashare.com/ici.html$subdocument
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc|jav777.xyz
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
@@ -12845,7 +12848,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||imasdk.googleapis.com$domain=vvvvid.it
 @@||imasdk.googleapis.com/flash/*.swf$domain=syndication.vmma.be,object-subrequest
 @@||imasdk.googleapis.com/js/sdkloader/*$script,domain=mindgames.com|htmlgames.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mingpao.com|4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|ha365.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk
@@ -13963,6 +13965,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||redirect.appmetrica.yandex.com^
 @@||redirect.appmetrica.yandex.net^
 @@||regapi.37.com/api/p_register.php?login_account=
+@@||registro.pse.com.co/PSENF/assets/js/fingerprint.min.js$script,domain=registro.pse.com.co
 @@||relevant-digital.com^$script,domain=20min.ch
 @@||remodelista.com/media/js/libs/ga_social_tracking.js
 @@||remote-data.urbanairship.com^$app=com.caribou.caribouapp
@@ -21353,6 +21356,7 @@ douyin.com##xg-controls + div[class]:has(> div[style] > a[href^="https://gad.net
 douyin.com#%#//scriptlet('adjust-setTimeout', '.current=setTimeout', '5000', '0.001')
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
+douyin.com#?#.discover-video-card-item:-abp-has(>div>div>span:-abp-contains(广告))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
@@ -43589,6 +43593,8 @@ imydl.com##div[id*="banner"]
 in.click.s11.sfmc-osl.com$image
 inbound.communityloaves.org$image
 indiatimes.com#@#div[id^="div-gpt-ad"]
+inet.se#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
+inet.se#%#//scriptlet('set-local-storage-item', 'visitorInfo', '$remove$')
 infinity.magicalcredit.ca$image
 info.atwork.email$image
 info.avitaonline.com$image
@@ -65209,6 +65215,7 @@ zzzyk.com###Tinfo
 ||ag.unistyleinc.com/pd.js
 ||ag1.zuszw.com^
 ||agata88.com^$removeparam=source
+||agatameble.pl^$cookie=private_content_version
 ||agates.ru/counters/
 ||agathacd.com^
 ||agbi.com/kqmp6?
@@ -85022,6 +85029,9 @@ zzzyk.com###Tinfo
 ||dciep.xyz^
 ||dcihja.oviala.com^
 ||dcinfos-cache.abtasty.com^
+||dcinside.com/_js/click_log.js
+||dcinside.com^$cookie=ci_c
+||dcinside.com^$cookie=csid
 ||dcirm.calocurb.com^
 ||dcjm-tms.gestalterbank.de^
 ||dcjm-tms.hannoversche-volksbank.de^
@@ -85309,6 +85319,7 @@ zzzyk.com###Tinfo
 ||delidatax.net^$third-party
 ||delightful.eso.com^
 ||delikoko.openapp.link^
+||delishkitchen.tv/api/access_trackers
 ||deliver.ifeng.com^
 ||deliver.oztam.com.au^
 ||deliver.ptgncdn.com^
@@ -86127,6 +86138,7 @@ zzzyk.com###Tinfo
 ||dis.*.criteo.com/dis/
 ||dis.criteo.com/dis/
 ||disagreeabledrop.com^
+||discards55.com^
 ||discord.com/api/track
 ||discord.com/api/v*/science
 ||discord.com/api/v*/users/@me?with_analytics_token=true$domain=~discord.com
@@ -87167,6 +87179,7 @@ zzzyk.com###Tinfo
 ||duba.com/static/v*/js/tiyan*/ad/ad.*.js
 ||duba.com/wangmeng/
 ||duba.net/skins/2009/images/db300_250.gif
+||dubcdn.com/analytics/
 ||duboku.net/static/images/20201111
 ||duboku.net/static/images/yabo
 ||dubox.com/api/analytics
@@ -99832,6 +99845,8 @@ zzzyk.com###Tinfo
 ||hlhyzh.fann.cz^
 ||hlj10010ip.com^
 ||hlj10011ip.com^
+||hlj10020ip.com^
+||hlj10021ip.com^
 ||hljgz.phxhomeremodeling.com^
 ||hlkhxw.ashampoo.com^
 ||hllu.cn^
@@ -100828,6 +100843,7 @@ zzzyk.com###Tinfo
 ||iatspayments.actonservice.com^
 ||iaudienc.com^$third-party
 ||iaumyc.icu^
+||iauw.cn^
 ||iavebq.desart.co.kr^
 ||iaw-events.polarbyte.com^
 ||iaxmmw9fbx.com^
@@ -102013,6 +102029,7 @@ zzzyk.com###Tinfo
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hoy.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=line.me
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=news.now.com,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=4gtv.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=linetv.tw
 ||imbhdu.housedo.co.jp^
 ||imbzs.drinkloverboy.com^
@@ -106105,6 +106122,7 @@ zzzyk.com###Tinfo
 ||karte.io/mirror-record/
 ||karte.io/mirror-record/record?
 ||karte.io/rewrite-log/
+||karte.io^$domain=delishkitchen.tv
 ||kartell.com/ccstoreui/*/analytics/
 ||kartik.devishetty.com^
 ||kartik.devishetty.net^
@@ -107539,6 +107557,7 @@ zzzyk.com###Tinfo
 ||layeredinsight.actonservice.com^
 ||laypi.odontolyds.com.br^
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
+||layuion.com/get/showcase/
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||lazada.(com|co.th|co.id|com.my|com.ph|sg|vn)^$removeparam=abid
 ||lazada.(com|co.th|co.id|com.my|com.ph|sg|vn)^$removeparam=ad_src
@@ -119866,6 +119885,7 @@ zzzyk.com###Tinfo
 ||mnihnl.ku.edu^
 ||mnjvh.tipperarycrystal.ie^
 ||mnks.cn/jk/appAD_
+||mnkusi.icu^
 ||mnnmnn.com^
 ||mno.hkshop.com.bd^
 ||mno.link^$third-party
@@ -124274,6 +124294,7 @@ zzzyk.com###Tinfo
 ||order.sick-series.com^
 ||order.timeelegance.com.bd^
 ||order.workweargiant.co.uk^
+||orderana*.spankbang.com^
 ||ordergroove.com/log/offer?
 ||ordpmx.victorianplumbing.co.uk^
 ||oreab.mycubesafe.com^
@@ -124827,6 +124848,7 @@ zzzyk.com###Tinfo
 ||p70y44odg.com^
 ||p769.wgal.com^
 ||p7cloud.net^
+||p7d3miyh2q.com^
 ||p7h1silo3f.app.cainthus.com^
 ||p7jroq6xco.com^
 ||p8u.hinet.net^
@@ -128824,6 +128846,7 @@ zzzyk.com###Tinfo
 ||qiyun.org/images/js/*.htm
 ||qizhihaotian.com^*.js
 ||qizut.furniturefair.net^
+||qj9m4nou8t.com^
 ||qjapso.r.pl^
 ||qjbdm.apotheken-gesundheitstipps.com^
 ||qjcpcy.imkosmetik.com^
@@ -131108,6 +131131,7 @@ zzzyk.com###Tinfo
 ||rnrxer.wsp.ne.jp^
 ||rnwenpn.icu^
 ||rnweus.arvelle.de^
+||rnxhdv.icu^
 ||rnybul.gismeteo.kz^
 ||rnybul.gismeteo.lt^
 ||rnybul.gismeteo.lv^
@@ -133151,6 +133175,7 @@ zzzyk.com###Tinfo
 ||sapphire.api.microsoftapp.net^$app=com.microsoft.bing
 ||sappmetrics.sprint.com^
 ||saptorge.com^
+||saptuqse29.com^
 ||sar.techplugsolutions.com^
 ||sara.buenospa.com^
 ||sara.wellisparts.com^
@@ -144417,6 +144442,10 @@ zzzyk.com###Tinfo
 ||spanids.dictionary.com^
 ||spanids.thesaurus.com^
 ||spanishdict.com/page-view-metadata
+||spankbang.com/api/*/events
+||spankbang.com/api/*/track-impression
+||spankbang.com^$cookie=ana_sid
+||spankbang.com^$cookie=ana_vid
 ||spanking.wiki/morning-bread-
 ||spareapp.com^
 ||spark.cloud.funkedigital.de/agnes.js
@@ -154400,6 +154429,7 @@ zzzyk.com###Tinfo
 ||superficialsquare.com^
 ||superfiliate.com^$third-party
 ||superfish.com^$third-party
+||superhuman.com^$cookie=web-device
 ||superiorgroup.actonservice.com^
 ||superjob.ru/ws/
 ||superpointlesshamsters.com^
@@ -155026,6 +155056,7 @@ zzzyk.com###Tinfo
 ||syycwa.barcelo.com^
 ||syzjxz2018.cn^
 ||sz.met.vgwort.de^
+||sz2xlvu6jq.com^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szaction.cc/public/*/assets/js/custom/tt.
 ||szaction.cc/public/*/plugins/
@@ -159179,6 +159210,7 @@ zzzyk.com###Tinfo
 ||tpkv.cn^
 ||tpmexb.vans.co.nz^
 ||tps.programmieren-starten.de^
+||tps.trovaprezzi.it/javascripts/tracking-vanilla.min.js
 ||tps.trovaprezzi.it^
 ||tpstelemetry.tencent.com^
 ||tptd.douglas.es^
@@ -164278,6 +164310,7 @@ zzzyk.com###Tinfo
 ||trugaze.io^$third-party
 ||truliantfcu.fmservice.com^
 ||trumba.com/et.aspx?
+||trundrak.com^
 ||truoptik.com^$third-party
 ||trust-provider.com^*/trustlogo.js$third-party
 ||trust.flexpay.io^
@@ -172786,8 +172819,6 @@ zzzyk.com###Tinfo
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$method=post
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/api/stats/qoe?fmt=
 ||youtube.com/csi_204?
