@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-10-01 20:16:48(GMT+8) 
-! Total count: 174252
+! ! Version: 2025-10-02 08:37:31(GMT+8) 
+! Total count: 174253
  
 ###ADtip
 ###Ad_windows
@@ -1563,6 +1563,7 @@
 #@#.has-ad
 #@#.uk-container.uk-container-expand
 #@#div[itemtype="http://schema.org/WPAdBlock"]
+$$div[style="display: none !important; width: 1px"]:contains(ed2k://)
 $$script:contains(?is_not=1&target=1&ty=2)
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
