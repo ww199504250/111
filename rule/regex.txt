@@ -1,4 +1,4 @@
-# Update time: 2025-10-02 20:32:43
+# Update time: 2025-10-03 09:12:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,7 +54,6 @@
 ||pagead*.googlesyndication-cn.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||pagead*.googleadservices-cn.com^
-||report.*.qq.com^
 ||allyes.
 ||icast.
 ||gg.
@@ -75,6 +74,7 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||report.*.qq.com^
 ||zcchyr*.xyz^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
@@ -123,21 +123,6 @@
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
-||bdcpro*.techweb.com.cn^
-||38.33.15.*.gif
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||res*.pinpai8.cn^
-||gcw*.2liang.cn^
-||impservice*.yodao.com^
-||dn*.ixinwei.com^
-||a*.chajiaotong.com^
-||bdlm*.hc360.com^
-||ac*.faxingchina.com^
-||fpb*.51edu.com^
-||js*.abolezi.com^
-||static*.365inews.com^
-||vns86.oss-*.aliyuncs.com^
-||ac*.pingguolv.com^
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||dm-*.toutiao.com^
@@ -302,9 +287,11 @@ r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 |load.ss.
 ||tnc16-*.hypic.com^
 ||mcs-va-*.tiktokv.com^
+||fpb*.51edu.com^
 ||events-api*.outfit7.com^
 ||sgtm.fairmont.
 @@||lf*-infras.bytetos.com^
+||ac*.pingguolv.com^
 ||analytics.streamfab.
 ||tnc*.tiktokv.us^
 @@||p*-im.byteimg.com^
@@ -313,6 +300,7 @@ r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||report*.appmetrica.webvisor.com^
 ||log-collector.shopee.
 ||ad*.ettoday.net^
+||impservice*.yodao.com^
 ||beacons*.gvt3.com^
 ||rtlog*.tiktokv.com^
 ||flurry.agentportal.*.yahoodns.net^
@@ -354,6 +342,7 @@ d4?appid*type*
 %2Fvia%2Fo%3Fh%3D
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
+||js*.abolezi.com^
 ||ads*-normal-hl.zijieapi.com^
 ||log-va*.capcutapi.com^
 ||track.tiara.
@@ -413,6 +402,7 @@ directtrack.*.js
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||mapi-log.qoo*.jp^
 ||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
 ||rum*.a.trbcdn.net^
 @@||p*-piu.byteimg.com^
 ||analytics-api.dvdfab.
@@ -421,8 +411,8 @@ directtrack.*.js
 @@||lf*-dy-cdn-tos.bytegecko.com^
 ||sdk-*.moengage.com^
 @@||lf*-baike.searchpstatp.com^
-||liveme-sensors-collect2-*.amazonaws.com^
 ||ad*.on.cc^
+||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
 %2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
 @@||p*-novel.byteimg.com^
@@ -436,6 +426,7 @@ directtrack.*.js
 @@||lf*-static.bytednsdoc.com^
 ||analytics-rollout-*.amazonaws.com^
 ||ad-*file.myqcloud.com^
+||38.33.15.*.gif
 ||mssdk*.zijieapi.com^
 @@||p*-ppx-report.byteimg.com^
 ||23.109.82.
@@ -463,6 +454,7 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 @@||p*-ppx-sign.byteimg.com^
 ||event.*.karrotmarket.com^
 ||ulog.*.ksapisrv.com^
+||a*.chajiaotong.com^
 ||servo-report.dvdfab.
 ||trk*.vidible.tv^
 ||gscounters.*.gigya.com^
@@ -472,12 +464,14 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 ||client.rum.*.amazonaws.com^
 ||acr-*-prd.samsungcloud.tv^
 ||mon*-*.tiktokv.com^
+||zhizhizhizhi.oss-*.aliyuncs.com^
 ||collector-*.px-client.net^
 ||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
 ||metric*.rediff.com^
 ||p*-ad.byteimg.com^
 @@||bgp.video-upload-v*.lf.bytelb.net^
+||ac*.faxingchina.com^
 ||tracker.twenga.
 ||tnc*.zijieapi.com^
 ||v*-novelapp.fqnovelvod.com^
@@ -494,6 +488,7 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 ||cnt.winporn.
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
+||res*.pinpai8.cn^
 ||collector.hamsterix.
 ||ads*-normal-lf.zijieapi.com^
 ||log*.vietnamplus.vn^
@@ -508,11 +503,12 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 ||px*.mediahills.ru^
 ||ulog.*.kwai-pro.com^
 ||23.109.87.
+||static*.365inews.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||appanalysis*.banggood.com^
-||maas-*.phunware.com^
 ||tw-726620180914.*.run.app^
+||maas-*.phunware.com^
 ||applog*.matrix.easebar.com^
 ||hstats*.hepsiburada.com^
 ||tnc-va*.capcutapi.com^
@@ -537,11 +533,13 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||stats*.videonow.ru^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
+||bdcpro*.techweb.com.cn^
 ||mon-va*.capcutapi.com^
 ||collect-v*.51.la^
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||logger-*.dailymotion.com^
 ||ub.galaxus.
+||bdlm*.hc360.com^
 ||polaris*-normal-*.zijieapi.com^
 |a.klaviyo.com^
 %2Fopen.aspx%3F
@@ -559,6 +557,7 @@ notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||analytics.ticketmaster.
 ||snowplow-collector.
 @@||p*-ecop-imagex.byteimg.com^
+||gcw*.2liang.cn^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
 ||stat.tiara.
 ||p*-webcast-sign.douyinpic.com^
@@ -570,6 +569,7 @@ notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||collector.xhamster*.
 ||union*.365inews.com^
 ||collector*.ex.co^
+||vns86.oss-*.aliyuncs.com^
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
