@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-10-09 08:38:43(GMT+8) 
-! Total count: 175604
+! ! Version: 2025-10-09 20:16:12(GMT+8) 
+! Total count: 175625
  
 ###ADtip
 ###Ad_windows
@@ -1741,6 +1741,8 @@ $cookie=_rdt_uuid
 $cookie=_scor_uid
 $cookie=_sharedID
 $cookie=_sharedID_cst
+$cookie=_sharedid
+$cookie=_sharedid_cst
 $cookie=_shopify_y
 $cookie=_sotmpid
 $cookie=_sotmsid
@@ -2935,6 +2937,7 @@ $websocket,domain=wap.yushuwu.cloud
 /BKVTrack.js
 /BadwebRemindPage.aspx?param=$popup,third-party
 /BrandXuanDong.js
+/CC6F9ACB52D1582671AFEA808AFE10FE.gif
 /CI0/0$image
 /CaptureStat.asmx
 /ClickTail.js
@@ -6356,6 +6359,7 @@ $websocket,domain=wap.yushuwu.cloud
 /statscounter/*
 /statscript.js
 /statsd_proxy
+/statsig/rgstr?k=client-
 /statstracker.
 /statstracker/*
 /statstracker?
@@ -6829,7 +6833,7 @@ $websocket,domain=wap.yushuwu.cloud
 /v1/pixel.js
 /v1/pixel?
 /v1/rgstr?k=client-
-/v1/rgstr|
+/v1/rgstr^
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
@@ -12597,6 +12601,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||huntress.com/assets/snowplow.tracker-*.js$domain=huntress.com
 @@||hvemder.no/js/hitcount.min.js$~third-party
 @@||hypixel.net^$generichide
+@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 @@||i.onthe.io^$script,image,stylesheet,domain=nur.kz
 @@||i.snssdk.com/bds^$app=com.sup.android.superb
 @@||i.snssdk.com/log/sentry/$domain=lv.ulikecam.com
@@ -41551,6 +41556,7 @@ exashare.com,dowed.info###player_mgs
 experience-click.flixbus.com$image
 experiencia.wain.cr$image
 express.co.uk##.most-read-stories
+express.co.uk,iflscience.com,nypost.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 expreview.com##.babaBox
 expreview.com##.colbaba
 expreview.com##.crossAd
@@ -43616,7 +43622,6 @@ ifirstrow.eu###adblockplus
 ifirstrow.eu###fanback
 ifkdy.com##.hb
 ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
-iflscience.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 ifooday.cn##.myzs
 ifoodie.tw##.ad-right-column-desktop
 ifoodie.tw,avtb01.com,beauty321.com,aotu43.com,csdn.net##.ads
@@ -48259,9 +48264,9 @@ nxslink.wytv.com$image
 nxslink.yourcentralvalley.com$image
 nxslink.yourerie.com$image
 nyb.soundestlink.com*track$image
-nypost.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 nypost.com#%#//scriptlet('set-local-storage-item', 'ow/social-browser-storage', '$remove$')
 nytimes.com#%#//scriptlet("set-constant", "Navigator.prototype.joinParakeetInterestGroup", "noopFunc")
+nytimes.com,slideshare.net#%#//scriptlet('set-local-storage-item', '/^statsig/', '$remove$')
 o8tv.com##.container > .row > .myui-panel-bg> .myui-panel-box > .myui-panel_bd > .myui-vodlist > .col-lg-8 > .myui-vodlist__box > a[target="_blank"]
 o8tv.com##.myui-panel_bd > .col-xs-1 > a[target="_blank"] > img
 o8tv.com##a[href^="https://c.madeqr.com/"][target="_blank"] > img
@@ -51091,7 +51096,6 @@ sli.*.com%2Fimp%3Fs%3D$image
 sli.*.com/imp?s=$image
 sli.fortune.com$image
 sli.thedailybeast.com$image
-slideshare.net#%#//scriptlet('set-local-storage-item', '/^statsig/', '$remove$')
 slit.cn#%#//scriptlet("abort-current-inline-script", "alert", "typeof(ad)")
 slobodnadalmacija.hr,meconomynews.com,brandbrief.co.kr,motorgraph.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeURIComponent(escape(window.atob("KCgpPT5')
 slobodnadalmacija.hr,meconomynews.com,brandbrief.co.kr,motorgraph.com#%#//scriptlet('prevent-eval-if', '/07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/')
@@ -70998,6 +71002,7 @@ zzzyk.com###Tinfo
 ||awfyuqoidy.com^
 ||awfzfs.kwantum.nl^
 ||awggij.wplay.co^
+||awh3vupyf.com^
 ||awifi.cn^$third-party
 ||awin.consogame.com^
 ||awin.magazin-momente.de^
@@ -71451,6 +71456,7 @@ zzzyk.com###Tinfo
 ||baccarat.abzorbagames.com^
 ||bacder.fun^
 ||bace10.top^
+||bachashuku.cc/scripts/ad/
 ||bachecaannunci.it/statins3.php?
 ||back.marketing^$third-party
 ||backbone.rossel.tech^$third-party
@@ -72430,6 +72436,7 @@ zzzyk.com###Tinfo
 ||bfmio.com^
 ||bfmio.com^$third-party
 ||bfntkv.icon.co.cr^
+||bfocuqeona.com^
 ||bfofv.starkcarpet.com^
 ||bfoleyinteractive.com^$third-party
 ||bfp.capitalone.com^
@@ -87285,6 +87292,7 @@ zzzyk.com###Tinfo
 ||e23.cn/js/aaa.js
 ||e246.pandasuite.io^
 ||e2e.mashable.com^
+||e2jda3h01.com^
 ||e2ma.net/track/
 ||e3c7.com/dh/
 ||e3c7.com/love/
@@ -93455,6 +93463,7 @@ zzzyk.com###Tinfo
 ||gekhasaks.com^
 ||gekko.spiceworks.com^
 ||gelderlander.nl/logger
+||gem-log.sloegem.com^
 ||gem.com/api/o/$image,third-party
 ||gemini.yahoo.com^
 ||gemius.pl/gstream.js$script,redirect=noopjs,domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
@@ -93952,6 +93961,8 @@ zzzyk.com###Tinfo
 ||ggm.clemonsboats.com^
 ||ggm.schietsmotorsports.com^
 ||ggmvge.cheapoair.ca^
+||ggo10090lq.com^
+||ggo10091lq.com^
 ||ggpig.melodymaison.co.uk^
 ||ggs.myzaker.com^
 ||ggsel.com/js/download/analytics.js
@@ -95626,6 +95637,7 @@ zzzyk.com###Tinfo
 ||grandkingdom.com^
 ||granify.com^$third-party
 ||granlite.com^
+||granteesixtes.com^
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
 ||graph.facebook.com/?ids=*&callback=$script,third-party
@@ -99994,6 +100006,8 @@ zzzyk.com###Tinfo
 ||hlj10071ip.com^
 ||hlj10080ip.com^
 ||hlj10081ip.com^
+||hlj10090ip.com^
+||hlj10091ip.com^
 ||hljgz.phxhomeremodeling.com^
 ||hlkhxw.ashampoo.com^
 ||hllu.cn^
@@ -113000,6 +113014,7 @@ zzzyk.com###Tinfo
 ||log.newsvine.com^
 ||log.nordot.jp^
 ||log.nordot.jp^$~script
+||log.oceanzz.xyz^
 ||log.ohou.se^
 ||log.olark.com^
 ||log.onmas.kt.com^
@@ -113889,6 +113904,7 @@ zzzyk.com###Tinfo
 ||lwadm.com^
 ||lwadm.com^$third-party
 ||lwashh.hessischer-jobanzeiger.de^
+||lwbo.cn^
 ||lwcnmtl.top^
 ||lweizal.top^
 ||lwh1.carrefour-banque.fr^
@@ -123479,6 +123495,7 @@ zzzyk.com###Tinfo
 ||o.jy135.com^
 ||o.macworld.co.uk^
 ||o.medallia.com^
+||o.momently.info^
 ||o.myomnicard.in^
 ||o.opentable.co.uk^
 ||o.opentable.com^
@@ -123509,6 +123526,7 @@ zzzyk.com###Tinfo
 ||o3t.icu^
 ||o4q.fun^
 ||o68c.sfr.fr^
+||o6oxvugdl.com^
 ||o8.hyatt.com^
 ||o8s.icu^
 ||o8zoz.icu^
@@ -123791,6 +123809,7 @@ zzzyk.com###Tinfo
 ||ogcsvq.sourcenext.com^
 ||ogdbsi.mister-auto.dk^
 ||ogdez.beauty-heroes.com^
+||ogdoad7.top^
 ||ogese.miko.ai^
 ||ogfvadunon.com^
 ||oghqvffmnt.com^
@@ -123863,6 +123882,7 @@ zzzyk.com###Tinfo
 ||oipvs.banknoteworld.com^
 ||oiqbdwjkl.com^
 ||oiqwnfk.com^
+||oiscuy.icu^
 ||oislon.mimosareizen.nl^
 ||oispo.poshpeanut.com^
 ||oit4.destinia.com.br^
@@ -132782,7 +132802,6 @@ zzzyk.com###Tinfo
 ||s.srvsynd.com^
 ||s.srvsynd.com^$third-party
 ||s.ssl.qhres2.com/ssl/
-||s.ssl.qhres2.com^
 ||s.stcatharinesstandard.ca^
 ||s.sternregister.de^
 ||s.stgeorgeafc.com.au^
@@ -159453,6 +159472,7 @@ zzzyk.com###Tinfo
 ||tiexue.net/pic/tx_1220.jpg
 ||tiexue.net/zgg/
 ||tif.ionos.com^
+||tifphl.icu^
 ||tifyeldi.top^
 ||tiger.melissajclark.ca^
 ||tigershark.garethtdavies.com^
@@ -170932,6 +170952,7 @@ zzzyk.com###Tinfo
 ||wizardbuck.com^
 ||wizcase.com/jssdk//track/
 ||wizertv-ss.olladeals.com^
+||wizoevljj.com^
 ||wiztube.xyz/cdn-cgi/trace
 ||wj.jiancai365.cn^
 ||wj9uod3838.com^
