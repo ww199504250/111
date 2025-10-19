@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-10-18 20:14:18(GMT+8) 
-! Total count: 178373
+! ! Version: 2025-10-19 08:44:30(GMT+8) 
+! Total count: 178371
  
 ###ADtip
 ###Ad_windows
@@ -5483,6 +5483,7 @@ $websocket,domain=wap.yushuwu.cloud
 /oo/cl*.js?rd=
 /oo/cl*.js?rd=$~third-party
 /oo/cl.js|$~third-party
+/op/analytics.js?domain=
 /opbb/float.js
 /opbb/obpp.tpl
 /opdc.js
@@ -16607,7 +16608,7 @@ btvsports.com###ai_tapar
 btyingshi.com##.aside > .card:last-child
 bukaivip.com##img[onclick]
 bulletin.sntba.com#%#//scriptlet("set-constant", "returnCitySN", "emptyObj")
-bunshun.jp##.recommend-articles
+bunshun.jp##.recommend-articles:has(> div[class^="taboola"])
 burze.dzis.net#@#.adsbygoogle
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
@@ -70865,6 +70866,7 @@ zzzyk.com###Tinfo
 ||api.teslatreinamentos.com^
 ||api.testbook.com/api/*/popup
 ||api.teste.auditiv.pt^
+||api.thefantazy.com/web-vitals
 ||api.themembersbrasil.com^
 ||api.thetamovement.com.br^
 ||api.thiagohota.com.br^
@@ -76274,7 +76276,6 @@ zzzyk.com###Tinfo
 ||bungeesleeves.com^
 ||bunkr.*/js/last_visit.js
 ||bunkr.*/js/lv.js
-||bunshun.jp/*/analytics.js
 ||buonasera.openapp.link^
 ||buondua.com/hit/
 ||buondua.com/hit/?
@@ -101727,6 +101728,7 @@ zzzyk.com###Tinfo
 ||hayatbilgileri.com/*/js/front.js
 ||haymarket.com/injector/deliver/
 ||haymarketstat.de^$third-party
+||haystack.wavve.com^
 ||hazawl.veke.fi^
 ||hazgyj.netahsilat.com^
 ||hazmatworkshop.com^
@@ -122166,6 +122168,7 @@ zzzyk.com###Tinfo
 ||mghezaxh.com^
 ||mghjqe.gloomyeyes.com^
 ||mghlbo.alliance-elevage.com^
+||mgir.cn^
 ||mgivkqk.cn^
 ||mgixgn.wittchen.com^
 ||mgln.ai^$~media,third-party
@@ -124999,10 +125002,7 @@ zzzyk.com###Tinfo
 ||nimbleplot.com^
 ||nimbleswan.io^
 ||nimbusweb.me/gtlytics.js
-||nimiq.com^$third-party
-||nimiqpool.com^$third-party
 ||nimoatl.icu^
-||nimpool.io^$third-party
 ||nindu.smallwoodhome.com^
 ||ninestats.com^$third-party
 ||ninja.akamaized.net^
@@ -130198,7 +130198,6 @@ zzzyk.com###Tinfo
 ||ponos.zeronaught.com^
 ||ponyo.cheriefm.fr^
 ||pooir.myquietfuel.com^
-||pool.nimiq.watch^$third-party
 ||pool.onjoyri.de^
 ||pool.onjoyride.com^
 ||pool1.i-am.io^
@@ -158514,7 +158513,6 @@ zzzyk.com###Tinfo
 ||surveywriter.com^$third-party
 ||survicate.com^$third-party
 ||suscripciones.medios.puntoscolombia.com^
-||sushipool.com^$third-party
 ||sustainability.ricoh.ch^
 ||sustainability.ricoh.co.za^
 ||sustainable.optum.com^
