@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-11-01 08:43:59(GMT+8) 
-! Total count: 192782
+! ! Version: 2025-11-01 20:14:08(GMT+8) 
+! Total count: 192805
  
 ###ADtip
 ###Ad_windows
@@ -782,6 +782,7 @@
 ##.self-gg
 ##.single-ad-banner
 ##.siteAnn1
+##.slick-slider.slick-initialized[dir='ltr']
 ##.slider-ad[adid]
 ##.space-y-6 > .advertising
 ##.spon-img[src*=".alicdn."]
@@ -5498,8 +5499,8 @@ $websocket,domain=wap.yushuwu.cloud
 /onlinecount.php
 /oo/*/l.js
 /oo/*/l.js|$~third-party
-/oo/*/lsync.js
-/oo/*/lsync.js$~third-party
+/oo/*/lsync.
+/oo/*/lsync.$~third-party
 /oo/cl*.js?rd=
 /oo/cl*.js?rd=$~third-party
 /oo/cl.js|$~third-party
@@ -5632,6 +5633,7 @@ $websocket,domain=wap.yushuwu.cloud
 /piNctTracking.js
 /piano-analytics-$script
 /piano-analytics.js
+/piano-analytics/pa.js
 /piano/engagement
 /piaofu.js
 /pic.jsp?uid=$script,third-party
@@ -16990,6 +16992,7 @@ bukaivip.com##img[onclick]
 bulletin.sntba.com#%#//scriptlet("set-constant", "returnCitySN", "emptyObj")
 bunshun.jp##.recommend-articles:has(> div[class^="taboola"])
 burze.dzis.net#@#.adsbygoogle
+business.nikkei.com###pianoRecommendBottom
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
@@ -67317,6 +67320,7 @@ udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 udn.com##.ad_mask
 udn.com##.bg-banner--link
+udn.com##.ec-section
 udn.com##.inline-ads
 udn.com##.mag_topic > a[href][target="_blank"] > img[src^="https://p.udn.com.tw/upf/"][src*="_banners/Special/"]
 udn.com##.mag_topic > a[href^="https://goo.gl/"][target="_blank"] > img[src*="_banners/BD/"]
@@ -71013,7 +71017,6 @@ zouaw.com##.cloudbox
 zrblog.net###top_nav
 zrblog.net##.ad_h
 zrblog.net##a[href^="http://u.zrblog.net"]
-zt5.com##.gg_1
 zt5.com##.gg_bt
 zuanke8.com##.zuanpw
 zuhaowan.com##.zhw-bottom-ad
@@ -71142,6 +71145,7 @@ zzzyk.com###Tinfo
 ||01231sop.xyz^
 ||01240sop.xyz^
 ||0186141170.apps.iocnt.de^
+||01anf08rf.com^
 ||01net.com/e3/nrtv/?u=
 ||01net.com/track/
 ||01u.net/js/tj.js
@@ -72480,6 +72484,7 @@ zzzyk.com###Tinfo
 ||5ggj5cp.com^
 ||5gtb.com^
 ||5gxs.org^
+||5h3wnuhr8.com^
 ||5ibanma.com^
 ||5icool.org/uploadfile/poster/
 ||5idoy8p7.live^
@@ -73060,6 +73065,7 @@ zzzyk.com###Tinfo
 ||9gag.com/track/
 ||9gag.com^$removeparam=ref
 ||9game.cn/stat/
+||9gau3j8x7.com^
 ||9hyf6wsiv5.com^
 ||9ihome.com/info/ADTopvnet/
 ||9ist.com/others/ad/
@@ -89272,6 +89278,7 @@ zzzyk.com###Tinfo
 ||bz*.net/js/html*.js$~third-party,script
 ||bz-berlin.de/_stats/
 ||bz88888.net/js/cdn.js
+||bzabwir.icu^
 ||bzaxgk.ecctur.com^
 ||bzclk.baidu.com^
 ||bzcuta.titleboxing.com^
@@ -93498,6 +93505,7 @@ zzzyk.com###Tinfo
 ||consent.trustarc.com/noticemsg?
 ||consentag.eu^$third-party
 ||consentmanager.net/delivery/info/$third-party
+||considerice.com^
 ||console-telemetry.oci.oraclecloud.com^
 ||console.uxlens.com^
 ||consolidata.ai^
@@ -102398,6 +102406,7 @@ zzzyk.com###Tinfo
 ||dyzmpx.speedway.fr^
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
+||dz3tfc2m9.com^
 ||dzbbzg.carfinance247.co.uk^
 ||dzbhdm.com/wp-content/uploads/2021/10/c278390aead8a2f7caea15eb42b36314.
 ||dzen.ru/api/*/stats/
@@ -123482,6 +123491,7 @@ zzzyk.com###Tinfo
 ||learnmore.protiviti.com^
 ||leasing.axus.be^
 ||leb-app.diasporaid.com^
+||leboncoin.fr/piano-analytics/
 ||leboncoin.fr/rav-monitoring/
 ||lebtpm.co-medical.com^
 ||lecai.com/page/zhuanti/baidu/
@@ -133228,6 +133238,7 @@ zzzyk.com###Tinfo
 ||meitu.com/js/floatxiuxiu.js
 ||meituan.com/ptapi/recommends?
 ||meituan.com/xiuxianyule/api/getRecommendList?
+||meituancdn.cc^
 ||meitui.org^*.js
 ||meitulu.com/css/*showgg.js
 ||meitustat.com^
@@ -138876,6 +138887,7 @@ zzzyk.com###Tinfo
 ||novedades.telecomfibercorp.com.ar^
 ||novelcool.com/files/js/yh_tj.js
 ||novi.webnovi.eu^
+||novikanidf.com^
 ||novinky.cz^$removeparam=dop_ab_variant
 ||novinky.cz^$removeparam=dop_id
 ||novinky.cz^$removeparam=dop_req_id
@@ -144728,6 +144740,7 @@ zzzyk.com###Tinfo
 ||pushbullet.com^$third-party
 ||pushd.netky.tech^
 ||pushengage.com^$third-party
+||pusherblight.com^
 ||pushible.com^$third-party
 ||pushify.com^$third-party
 ||pushly.com/pushly-event-tracker
@@ -155525,6 +155538,7 @@ zzzyk.com###Tinfo
 ||shinypond.com^
 ||shinystat.com^$third-party
 ||shinystat.it^$third-party
+||shipin188.com/66
 ||shipping.jp/raa/rd.js
 ||shippinginsights.com^$third-party
 ||shipsmarter.idrivelogistics.com^
@@ -160924,6 +160938,7 @@ zzzyk.com###Tinfo
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
 ||softonic-analytics.net^$third-party
+||softonic.jp/web-stats
 ||softportal.com/js/metrika.js
 ||softwarekeep.com^$cookie=_orig_referrer
 ||softxgtm.eboibangla.com^
@@ -162183,6 +162198,7 @@ zzzyk.com###Tinfo
 ||srepdata.yorkdispatch.com^
 ||sreport.mitsubishicars.com^
 ||srf.ch/udp/tracking/
+||srfo.cn^
 ||srgwny.bodycheck-shop.de^
 ||srhld.cloverdalefuneralhome.com^
 ||srjkl.alloyapparel.com^
@@ -183711,6 +183727,7 @@ zzzyk.com###Tinfo
 ||uhd5nn09mgml.fort-shop.kiev.ua^
 ||uhdwwe.gcmgames.com.br^
 ||uhedt.trywellbe.rs^
+||uhek.cn^
 ||uhenqb.manning.com^
 ||uheql.drjimz.com^
 ||uhhmdy.jaloezieen-fabriek.nl^
@@ -184009,6 +184026,7 @@ zzzyk.com###Tinfo
 ||unifilabs.actonservice.com^
 ||uniformer.biz^
 ||unifyintent.com/analytics/
+||uniicreative.com^$third-party
 ||unikoshardware.com/wp-content/uploads/*/*/WPointer_Ad_440x250.jpg
 ||unileversolutions.com/*/js/trackUser.
 ||uninterestedquarter.com^
@@ -190376,6 +190394,7 @@ zzzyk.com###Tinfo
 ||xtremline.com^$third-party
 ||xtube.chat^$all
 ||xtv.cz/api/v3/log/
+||xtxbemp.xyz^
 ||xtxwva.intersport.com.tr^
 ||xtyxcc.provitamin.hu^
 ||xu6.icu^
@@ -191879,6 +191898,7 @@ zzzyk.com###Tinfo
 ||zdcv5.xyz^
 ||zdcxfw.bangsan365.com^
 ||zddpnf.xyz^
+||zddsnuxow.icu^
 ||zdfjas.top^
 ||zdfl.xyz^
 ||zdftqc.xyz^
@@ -191903,6 +191923,8 @@ zzzyk.com###Tinfo
 ||zdh10301lo.com^
 ||zdh10310lo.com^
 ||zdh10311lo.com^
+||zdh11010lo.com^
+||zdh11011lo.com^
 ||zdhpen.xyz^
 ||zdhpenn.live^
 ||zdhpenn.shop^
@@ -192365,6 +192387,7 @@ zzzyk.com###Tinfo
 ||zndsssp.dangbei.net^
 ||zneerf.ixtem-moto.com^
 ||znegiu.top^
+||zngvqwp.icu^
 ||znlgke.jiobit.com^
 ||znlvhnej.icu^
 ||znmtka.kikocosmetics.com^
