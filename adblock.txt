@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-11-06 08:41:57(GMT+8) 
-! Total count: 193823
+! ! Version: 2025-11-06 20:16:20(GMT+8) 
+! Total count: 193864
  
 ###ADtip
 ###Ad_windows
@@ -1580,6 +1580,7 @@ $cookie=/WZRK_/
 $cookie=/^AMCVS?_.*AdobeOrg/
 $cookie=/^CaosGtag_ga/
 $cookie=/^KRTBCOOKIE_/
+$cookie=/^UBT_/,domain=trip.com
 $cookie=/^_chartbeat/
 $cookie=/^_dc_gtm_UA-/
 $cookie=/^_ga_/,domain=~nintendo.com
@@ -1607,6 +1608,7 @@ $cookie=/^ezux_lpl_/
 $cookie=/^ezux_tos_/
 $cookie=/^mprtcl-prodv4_/
 $cookie=/^mprtcl-v4/
+$cookie=/^ubtc_/,domain=trip.com
 $cookie=/^uid-bp-\d+/
 $cookie=/^wisepops/
 $cookie=/dwac_/,domain=~nintendo.com
@@ -4389,7 +4391,7 @@ $websocket,domain=wap.yushuwu.cloud
 /fingerprint2.min.js^
 /fingerprint3.js
 /fingerprint3.min.js
-/firebase-analytics.js$domain=furunavi.jp|mt.co.kr
+/firebase-analytics.js$domain=furunavi.jp|mt.co.kr|hanatour.com
 /firebase-performance-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
@@ -4542,6 +4544,7 @@ $websocket,domain=wap.yushuwu.cloud
 /gen204?
 /gen_204?$image,other,ping,script
 /generate_204?$image
+/genesis/lib/js/skip-links.min.js
 /geo-location/info|$~third-party,domain=redeszone.net|movilzona.es|softzone.es|adslzone.net|hardzone.es|lamanzanamordida.net
 /geo.php?
 /geoAnalysis.js
@@ -5252,6 +5255,7 @@ $websocket,domain=wap.yushuwu.cloud
 /magento/page-visit?
 /magento2.js
 /magpie.js
+/mai-publisher-analytics.js
 /mail-stat.airdroid.com/*$image
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
@@ -10509,7 +10513,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@/urchin.js$domain=on.cc
 @@/webtracking/*$domain=pasts.lv
 @@/wp-content/*/social_$domain=servercat.me
-@@/wp-content/themes/radio-hub/static/js/*.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/*.js$domain=tingfm.com
 @@://analytics.google.com/analytics/$domain=analytics.google.com
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
@@ -16465,6 +16469,8 @@ baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##.sidebar-content > astro-island
 baomidou.com#%#//scriptlet('set-constant', '_AdBlockInit', 'noopFunc')
 baozimh.one,yazhouse8.com##.banners
+baozimh.org##a[href*="g-mh.com"]
+baozimh.org#?#.relative:-abp-has(>.bg-red-500)
 baozimh.org,bzmh.org,g-mh.org,godamh.com,manhuafree.com,sportsplanetmag.com##.adshow
 barracuda.buyersparadise.happycustomer.io$image
 barryblogs.com##.ad-single-top
@@ -64317,6 +64323,7 @@ qq.com##.home-download-btn
 qq.com##.in-top-ad
 qq.com##.jpBanner
 qq.com##.m[pbflag="guess"]
+qq.com##.maillist_ad_bar
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 qq.com##.masker_1111
@@ -65864,7 +65871,6 @@ ting89.com,tingshuge.com##.banner688_2
 tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
 tingfm.com#%#//scriptlet('set-constant', 'canRunAds', 'true')
 tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
-tingfm.com#%#//scriptlet('trusted-replace-node-text', 'script', 'wndt.can_run_ads', '/wndt\.can_run_ads.*=.*;/', 'wndt.can_run_ads = !0;')
 tingroom.com###ifram_563
 tingroom.com###play_ggr
 tingroom.com##a[href*="weidian.com"]
@@ -72320,6 +72326,7 @@ zzzyk.com###Tinfo
 ||90oo.com/tp/hg
 ||90oo.com/tp/msn.jpg
 ||90q0tq3bwo.com^
+||90qxskdmn9.com^
 ||91160.com/nykj/f=static/v4/common/tj.js
 ||9129666tp.com^$domain=9xav.cc
 ||918000.xyz^
@@ -72448,6 +72455,7 @@ zzzyk.com###Tinfo
 ||9gag.com^$removeparam=ref
 ||9game.cn/stat/
 ||9gau3j8x7.com^
+||9h3s1ew2qn.com^
 ||9hyf6wsiv5.com^
 ||9ihome.com/info/ADTopvnet/
 ||9ist.com/others/ad/
@@ -78464,6 +78472,7 @@ zzzyk.com###Tinfo
 ||adxxx.info^$domain=avgle.com
 ||adxzju.penti.com^
 ||adyapper.com^$third-party
+||adyen.com/*/analytics/
 ||adyen.com/checkoutshopper/images/analytics.png?
 ||adyen.com/checkoutshopper/v2/analytics/log?
 ||adyun.com^$third-party
@@ -82040,6 +82049,7 @@ zzzyk.com###Tinfo
 ||api-js.mixpanel.com/engage/?
 ||api-js.mixpanel.com^
 ||api-kit.snapchat.com/com.snap.camerakit.v3.Metrics^
+||api-ktm.kkday.com^
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api-meta.mercelsantos.com.br^
 ||api-metric.gosweb.gosuslugi.ru^
@@ -90991,6 +91001,7 @@ zzzyk.com###Tinfo
 ||chjoua.badblood.co.kr^
 ||chkgdb.trendhim.com^
 ||chl.carriagehillco.com^
+||chloro.trip.com^
 ||chnci.com^$third-party
 ||chnmi.store.bariatricpal.com^
 ||chnmoney.com/dfile/
@@ -93234,6 +93245,7 @@ zzzyk.com###Tinfo
 ||convertro.com^$third-party
 ||conveyor.lewcoinc.com^
 ||convision.davivienda.com^
+||conviva.com^$third-party
 ||convtrack.bitsacademy.com.br^
 ||conyz.cn^
 ||coobuo.pinkpanda.cz^
@@ -93855,6 +93867,7 @@ zzzyk.com###Tinfo
 ||crm.ironmountain.com^
 ||crm.landing.ni.com^
 ||crm.leads360.com^
+||crm.marketap.io^
 ||crm.masonmac.com^
 ||crm.toyotago.com.ec^
 ||crm.velocify.com^
@@ -99734,6 +99747,7 @@ zzzyk.com###Tinfo
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||dealnews.com/lw/ul.php
 ||dealxplorer.org^$popup
+||deapi.nestads.com^
 ||deb.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||deb.gs/visitScript/$script,third-party
 ||deb.spendsky.com^
@@ -99891,6 +99905,7 @@ zzzyk.com###Tinfo
 ||dell.com/*/clickstream/collect
 ||dell.com/TAG/tag.aspx?$third-party
 ||dell.compellent.com^
+||delog.nestads.com^
 ||delog.sooplive.co.kr^
 ||delphi.lv/t/t.js
 ||delphi.ni.com^
@@ -104977,6 +104992,7 @@ zzzyk.com###Tinfo
 ||event.lginnotek.com^
 ||event.lib.visumo.io/js/hbn_track.js
 ||event.lib.visumo.io^
+||event.marketap.io^
 ||event.meloshort.com^
 ||event.mrtnsvr.com^
 ||event.msi.com^
@@ -105079,6 +105095,7 @@ zzzyk.com###Tinfo
 ||events.app-performance.music.amazon.dev^
 ||events.appsflyer.com^
 ||events.askjdhaa.com^
+||events.asurion.com^
 ||events.attentivemobile.com^
 ||events.audiate.me^
 ||events.audioplace.me^$third-party
@@ -117020,6 +117037,9 @@ zzzyk.com###Tinfo
 ||image.cauly.co.kr/script/caulytracker_async.js
 ||image.deginvest.de^
 ||image.go.aricent.com^
+||image.hanatour.com/ice/fx/lib/amplitude.js
+||image.hanatour.com/ice/fx/lib/appsflyer.js
+||image.hanatour.com/ice/fx/lib/nestads.js
 ||image.info.perkinelmer.com^
 ||image.kfw-entwicklungsbank.de^
 ||image.kfw-formularsammlung.de^
@@ -122206,6 +122226,7 @@ zzzyk.com###Tinfo
 ||kkbco.thehouseofmarley.co.uk^
 ||kkbnzz.cn^
 ||kkcmcp.printemps.com^
+||kkday.com/api/_nuxt/recommend/user-action-record
 ||kkhq.actonservice.com^
 ||kkisoo.com^
 ||kkjshsj.com^
@@ -125072,6 +125093,7 @@ zzzyk.com###Tinfo
 ||llrce.goldandhoney.com^
 ||lls.lumberliquidators.com^
 ||lls11050ko.com^
+||lls11060ko.com^
 ||llsami.eauclair.kr^
 ||llss.lampadaeluce.it^
 ||llss.lampandlight.eu^
@@ -142973,6 +142995,7 @@ zzzyk.com###Tinfo
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
 ||phonearena.com/_track.php
+||phoneclaim.com/api/*/logger/
 ||phonecup.com^
 ||phoneresult.com^
 ||phonetrack.hukumkaikka.in^
@@ -147802,6 +147825,7 @@ zzzyk.com###Tinfo
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
 ||riskid.security^$third-party
+||riskpoc.trip.com^
 ||ritzyrepresentative.com^
 ||ritzyveil.com^
 ||riueq.pomegranate.com^
@@ -171172,6 +171196,8 @@ zzzyk.com###Tinfo
 ||static.thepreppercodex.com^
 ||static.tohomh123.com/js/funasd.js
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
+||static.tp-link.com/assets/js/ga.js
+||static.tripcdn.com/packages/ubt/websdk/*/ubt.minh.js
 ||static.user-red.com^
 ||static.vocento.com/tag-manager/latest/vtm.js
 ||static.vocstatic.com/*/voonto.js
@@ -172820,6 +172846,7 @@ zzzyk.com###Tinfo
 ||store.esquirrel.at^
 ||store.litebite.ae^
 ||store.lixil.co.jp/*/Amasty_Xsearch/js/widgets/analytics-data-collector.js
+||store.maaltalk.com/admin/gd_share/script/visit/gd_visit.js
 ||store.nike.com/cms/analytics-store-desktop.js
 ||store.penryair.com^
 ||store.steampowered.com/app/usabilitytracking/
@@ -173611,6 +173638,7 @@ zzzyk.com###Tinfo
 ||svgator.com/common/GoogleTagManager.js
 ||svhfat.bestbrilliance.com^
 ||svhil.landsend.com^
+||svhk4bt874.com^
 ||svi.online.sberbank.ru^
 ||svibeacon.onezapp.com^
 ||svitals.easyspirit.com^
@@ -177185,6 +177213,7 @@ zzzyk.com###Tinfo
 ||thenextweb.com/geppetto/s.js
 ||theoplayer.com/t?
 ||thepaper.cn/bottomBanner_
+||thepixelpioneer.com^
 ||theporn.cc/anyalytics?
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
@@ -182685,6 +182714,8 @@ zzzyk.com###Tinfo
 ||trinklink1.s3.amazonaws.com/trinklink.js
 ||trip.com/bee/collect
 ||trip.com/bf.gif?
+||trip.com/restapi/soa2/*/clog
+||trip.com/restapi/soa2/*/tripAds.json
 ||tripadvisor.*/BALinkImpressionTracking/
 ||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
@@ -184501,6 +184532,7 @@ zzzyk.com###Tinfo
 ||ubssn.namesakehome.com^
 ||ubsumw.ifp.es^
 ||ubt-sgp.travix.com^
+||ubt-sgp.trip.com^
 ||ubt-sin.tripcdn.com^
 ||ubt.tracking.shopee.
 ||ubudhal.com^
@@ -185429,6 +185461,8 @@ zzzyk.com###Tinfo
 ||usfw2eu.icu^
 ||usgo.chucaotang.net/ua.js
 ||usgzei.vidaxl.ch^
+||usimsa.com/_nuxt/kakaoPixel.
+||usimsa.com/_nuxt/naverAdsScript.
 ||usingyourcard.americanexpress.co.uk^
 ||usizy.com/external/pageview
 ||usjjt.belfurniture.com^
@@ -187283,6 +187317,7 @@ zzzyk.com###Tinfo
 ||vroom.be^*/stats.js?
 ||vroom.be^*/stats.php?
 ||vrosqutsgh.com^
+||vrovadwd.com^
 ||vrow.cn^
 ||vrpmi.drmbernstein.com^
 ||vrr.name^
@@ -187399,6 +187434,7 @@ zzzyk.com###Tinfo
 ||vuorrx.aromantic.co.uk^
 ||vupload.duowan.com^
 ||vuqgzz.fiftyoutlet.com^
+||vurr.cn^
 ||vurshz.gregory.jp^
 ||vursv.naturalcycles.com^
 ||vushgt.motatos.dk^
@@ -189265,6 +189301,7 @@ zzzyk.com###Tinfo
 ||workplacesolutions.equifax.com^
 ||workplacesolutions.inform.equifax.com^
 ||workplacewellbeingshow.ubm-events.com^
+||workshop39.top^
 ||workspacesolutions.gos1.com^
 ||workwonders.hallstar.com^
 ||worlderva.com^
@@ -191434,6 +191471,7 @@ zzzyk.com###Tinfo
 ||xutvbt.icu^
 ||xuugnuits.com^
 ||xuwfmhh.icu^
+||xuwmylm697.com^
 ||xuymgm.hostgator.mx^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv98.com/js/daohang
@@ -192935,6 +192973,8 @@ zzzyk.com###Tinfo
 ||zdh11041lo.com^
 ||zdh11050lo.com^
 ||zdh11051lo.com^
+||zdh11060lo.com^
+||zdh11061lo.com^
 ||zdhpen.xyz^
 ||zdhpenn.live^
 ||zdhpenn.shop^
@@ -193641,6 +193681,7 @@ zzzyk.com###Tinfo
 ||zuixinyiqi.com^
 ||zujz.cn^
 ||zukddms.cn^
+||zulaedha.com^
 ||zum7cc.oui.sncf^
 ||zumiq.ellevetwholesale.com^
 ||zumneojf.icu^
