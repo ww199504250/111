@@ -2,7 +2,7 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-11-14 20:17:15(GMT+8) 
+! ! Version: 2025-11-15 08:40:47(GMT+8) 
 ! Total count: 187826
  
 ###ADtip
@@ -11092,6 +11092,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||app-sjf.marketo.com^$domain=live.altium.com
 @@||app.adjust.world^$app=com.spotify.music
 @@||app.clarity.so^$~third-party
+@@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||apple.com/metrics/ac-analytics/*/scripts/$domain=apple.com
 @@||apple.com/metrics/data-relay/*/scripts/data-relay.js
@@ -14476,6 +14477,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||siteanalytics.compete.com^$~third-party
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||siteintercept.qualtrics.com/$domain=idealo.de
+@@||siteintercept.qualtrics.com^$domain=idealo.*
 @@||sitenable.com/admega.php$script
 @@||sitenable.org/admega.php$script
 @@||sizhiai.com/api/stat?$~third-party
@@ -59088,6 +59090,7 @@ v.qq.com##.video-card-wrap[element-params*="ad_creative_id"]
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
+v.qq.com#%#(()=>{const e={apply:(e,n,t)=>{const o=Reflect.apply(e,n,t);try{o instanceof HTMLIFrameElement&&o.matches('iframe[style="display: none;"]:not([src], [id])')&&o.contentWindow&&(o.contentWindow.JSON=window.JSON)}catch(e){}return o}};Node.prototype.appendChild=new Proxy(Node.prototype.appendChild,e)})();
 v.qq.com#%#//scriptlet('json-prune', 'data.CardList.[].children_list.ad_list data.CardList.[-].params.advertiser_name')
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
@@ -82642,6 +82645,7 @@ zzzyk.com###Tinfo
 ||cdn.cohesionapps.com^$domain=gamespot.com
 ||cdn.cohesionapps.com^$third-party
 ||cdn.computerworld.com.au/compressor-staticfiles/adsmin/idg_gpt_pipeline_generated.js$script
+||cdn.connectif.cloud^$third-party
 ||cdn.contalyze.com^
 ||cdn.contx.net/collect.js
 ||cdn.counter.dev^$third-party
@@ -85378,6 +85382,7 @@ zzzyk.com###Tinfo
 ||connected.verical.com^
 ||connectedmedicaltechnologies.actonservice.com^
 ||connectfpc.zebra.com^
+||connectif.cloud/integration-type/
 ||connectif.cloud^$third-party
 ||connection.arrow.com^
 ||connection.spartathletics.com^
@@ -92683,7 +92688,6 @@ zzzyk.com###Tinfo
 ||dexuanyu.top^
 ||deyangs.com/img/
 ||df-srv.de^$third-party
-||df.afafb.com^
 ||df.cfp.microsoft.com/Images/Clear.PNG
 ||df.huya.com^
 ||df.infra.shopee.
@@ -95299,7 +95303,6 @@ zzzyk.com###Tinfo
 ||economysoil.com^
 ||ecovk.trudiagnostic.com^
 ||ecp.eitacasaperfeita.com.br^
-||ecpm.afafb.com^
 ||ecpoc.com/style/ad
 ||ecranlarge.com/stat
 ||ecriqadg.com^
@@ -100803,7 +100806,6 @@ zzzyk.com###Tinfo
 ||gamedistribution.com/collect?
 ||gamedistribution.com/event?
 ||gamedock.io/gamemonkey-web-tracker/
-||gamedot.afafb.com^
 ||gameforge.de/init.gif?
 ||gamefowl.emailforward.mx^
 ||gamefowl.karlsutt.com^
@@ -110615,6 +110617,7 @@ zzzyk.com###Tinfo
 ||img1.eywdf.com^
 ||img1.hblds.com^
 ||img1.leyun365.com^
+||img1.wsimg.com/traffic-assets/js/tccl.min.js
 ||img11.biyan8.com^
 ||img16.diyifanwen.com^
 ||img2-digitouch.mncdn.com/include/dynamic_click_tag.js
@@ -126240,7 +126243,6 @@ zzzyk.com###Tinfo
 ||mediasolutions.netinsight.net^
 ||mediasource.actonservice.com^
 ||mediatescarf.com^
-||mediation-receiver.afafb.com^
 ||mediation-tracking.prd.mz.internal.unity3d.com^
 ||mediation.mwmadnetworks.com^
 ||mediatoday.ru^$third-party
@@ -128990,7 +128992,6 @@ zzzyk.com###Tinfo
 ||microware.actonservice.com^
 ||midas-i.com^$third-party
 ||midas.chase.com^
-||middle-defend.afafb.com^
 ||middletownpress.com/413gkwMT/init.js
 ||middleware.marktjagd.de/proxy/trackings
 ||middleware.p7s1.io^
@@ -168935,7 +168936,6 @@ zzzyk.com###Tinfo
 ||tacojournal.com^
 ||tad.suning.com^
 ||tad.tygem.com^
-||tadata.afafb.com^
 ||tadpull.com^$third-party
 ||taduhy.timberland.co.uk^
 ||taemhn.zamst-online.jp^
