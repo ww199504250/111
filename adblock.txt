@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-11-22 20:14:03(GMT+8) 
-! Total count: 148408
+! ! Version: 2025-11-23 08:48:22(GMT+8) 
+! Total count: 148412
  
 ###ADtip
 ###Ad_windows
@@ -2281,6 +2281,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
 .cn/*-*-*.xc$script,third-party
+.cn/*/o*.js?t=*$domain=12ju.com
 .cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
 .cn/Ao390sW2.js
@@ -2293,6 +2294,8 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/bid?url=*$third-party
 .cn/by389.js$script,third-party
 .cn/cS389.js
+.cn/d/o*.js?t=*
+.cn/e/o*.js?t=*
 .cn/gg/$script,third-party
 .cn/hL389.js$script,third-party
 .cn/js/ads/
@@ -31973,6 +31976,7 @@ hcbbs.com###portal_block_2652
 hcbbs.com###portal_block_3441
 hcbbs.com##.a_cn_pb
 hcbbs.com##.pcbanner
+hcbbs.com##.plc > .pct + :last-child
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 hcbbs.com##a[href*="&adid="]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
@@ -44043,7 +44047,6 @@ www.17173.com##.pn-tg
 www.3ppp.net##DIV.bottom_fixed
 www.67tool.com##.footer-banner
 www.actuator-0.cloud.s11.sfmc-osl.com$image
-www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='100%'][src*='.gif']
 www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.authentication.cloud.s11.sfmc-osl.com$image
@@ -99375,6 +99378,7 @@ zzzyk.com###Tinfo
 ||mayla.jp/TRACKING/
 ||mayla.jp/tracking/
 ||maz.zba.jp^
+||mazincike.com^
 ||mazu.sec.miui.com^
 ||mb-srv.com^$third-party
 ||mb-tracking.com^
