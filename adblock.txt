@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-11-24 20:17:00(GMT+8) 
-! Total count: 145104
+! ! Version: 2025-11-25 08:40:31(GMT+8) 
+! Total count: 145111
  
 ###ADtip
 ###Ad_windows
@@ -1370,6 +1370,7 @@
 ##body > div#inplayer[align="center"]
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##body > div[style$=";background: #000;opacity:0.01;"]
+##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > embed[id][src*="://"][src$="="]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
@@ -1489,8 +1490,6 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[role="listitem"] > div > div > .bannerliststyle
-##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="60px"]
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="line-height"][style*="http"][style$="fixed;"]
@@ -10144,7 +10143,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||canada.com/js/ooyala/comscore.js
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
-@@||canadiantire.tt.omtrdc.net/rest/$domain=canadiantire.ca
+@@||canadiantire.tt.omtrdc.net/rest/$domain=marks.com|partycity.ca|sportchek.ca|lequipeur.com|canadiantire.ca
 @@||canarytokens.com/nest/$domain=canarytokens.com
 @@||captcha.qq.com^*&refer=http
 @@||captcha.qq.com^*?*=*=*=$subdocument
@@ -35012,6 +35011,7 @@ pincong.rocks##.aw-mod > a[target="_blank"]
 pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
+ping0.cc##.adeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -50521,6 +50521,7 @@ zzzyk.com###Tinfo
 ||almalasers.actonservice.com^
 ||almamedia.fi^*/scroll-monitor.min.js
 ||almhhn.pet-friends.co.kr^
+||almondbuns.com^
 ||almostsugar.com^
 ||alnop.skidznyc.com^
 ||alocdn.com^$third-party
@@ -64792,6 +64793,7 @@ zzzyk.com###Tinfo
 ||d810.mysanantonio.com^
 ||d81mfvml8p5ml.cloudfront.net^
 ||d8962a.xyz^
+||d89sze2uu.com^
 ||d90z5o386dhs7.cloudfront.net^
 ||d99xz3flubf0x.cloudfront.net/js/payhelm.*.js
 ||d9e5kmsg3asg0jq9.trkrabb.com^
@@ -74256,7 +74258,6 @@ zzzyk.com###Tinfo
 ||fast.adsemijoias.com.br^
 ||fast.americajoias.com.br^
 ||fast.amypets.com.br^
-||fast.arena.im/script.js
 ||fast.azulayacessorios.com.br^
 ||fast.chickakamodas.com.br^
 ||fast.couroecia.com.br^
@@ -86261,6 +86262,7 @@ zzzyk.com###Tinfo
 ||j2i0.mathon.fr^
 ||j2jtq0hpb.com^
 ||j300.dailynews.com^
+||j33xvvanl.com^
 ||j348.citizensvoice.com^
 ||j423.oneidadispatch.com^
 ||j4mxrs21gh.com^
@@ -99734,6 +99736,7 @@ zzzyk.com###Tinfo
 ||music.apple.com/assets/mt-client-logger-core.
 ||music.bugs.co.kr/js/log/
 ||musicallv.top^
+||musically.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics
 ||musiccounter.ru^$third-party
 ||musicfire.googlecode.com/files/AD.Loader-min.js
 ||musicfire.googlecode.com/files/CountryCode.js
@@ -103133,6 +103136,7 @@ zzzyk.com###Tinfo
 ||origin.www.services.healthcare.philips.com^
 ||origin.www.support.healthcare.philips.com^
 ||origin.www.webinar.healthcare.philips.com^
+||originblocks.com^
 ||orionember.com^
 ||orionmarketing.actonservice.com^
 ||orkreats.com^
@@ -105172,6 +105176,7 @@ zzzyk.com###Tinfo
 ||ping.pdst.fm^
 ||ping.resoluteoil.com^
 ||ping.typekit.net/p.gif
+||ping0.cc/static/images/ad/
 ||pingback.giphy.com^
 ||pingback.issuu.com/ping
 ||pingback.issuu.com^
@@ -135245,6 +135250,7 @@ zzzyk.com###Tinfo
 ||trout.travelmassive.com^
 ||trovo-tag.com^
 ||trovo-tag.com^$third-party
+||troypoint.com/wp-admin/admin-ajax.php?action=geoip_detect
 ||trp69.top^
 ||trpyceq.cn^
 ||trpzjj.hrkgame.com^
@@ -139733,6 +139739,7 @@ zzzyk.com###Tinfo
 ||webapi-cloud.bluestacks.com/api/*/report-page-view
 ||webapi.3cx.com^
 ||webapi.depop.com/*/collector
+||webapi.depop.com/api/v1/performance/collect/
 ||webapi.tresorit.com/*/weblogformdata/
 ||webapi.wral.com/api/analytics/
 ||webapp-middleware.21buttons.com/event_log/
