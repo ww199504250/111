@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-11-26 08:41:45(GMT+8) 
-! Total count: 145137
+! ! Version: 2025-11-26 20:17:38(GMT+8) 
+! Total count: 145176
  
 ###ADtip
 ###Ad_windows
@@ -1191,6 +1191,7 @@
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
+##[style$="z-index:100;display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;"]
 ##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
@@ -1219,7 +1220,7 @@
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
 ##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
-##[style^="pointer-events: none;background-image:url(': 2147483647; height: 123px; ']
+##[style^="pointer-events: none;background-image:url(': 2147483647; height: 123px; "]
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##[style^='display: block; width: 100%; height: 125px; background: url'][style*='center top / contain no-repeat;']
 ##[style^='display: block; z-index: 2147483646; width: 10%;']
@@ -11738,6 +11739,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|tvbs.com.tw|www.gamer.com.tw
 @@||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=acs.org
 @@||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=asda.com
+@@||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=cava.tw
 @@||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=wuzzuf.net
 @@||googletagservices.com^$domain=cenapaliw.pl
 @@||googletagservices.com^$script,domain=creaders.net
@@ -15892,6 +15894,9 @@ casper.townsquaremedia.info$image
 cast4u.tv###notice
 cast4u.tv###video_ads_overdiv
 catchv.fooish.com###ad
+cava.tw##.banner
+cava.tw#$##modal-dm { display: none !important; }
+cava.tw#$#body { overflow: auto !important; }
 cb.com.cn##.box > a[href^="http"]:not([href*=".cb."])
 cb.di.fm$image
 cb.jazzradio.com$image
@@ -28652,14 +28657,21 @@ hjenglish.com###uzt-mask
 hjenglish.com##.fix_questionnaire_btn
 hjenglish.com##.module-recommend-course
 hjenglish.com,hujiang.com##.lamu_banner
+hk.news.yahoo.com,tw.news.yahoo.com##.atoms > div[class^="bg-card-"]:has(> div[id^="sda-"])
 hk.on.cc##div[id^="google_div_"]
 hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
 hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
+hk.yahoo.com,tw.yahoo.com###panel-0 > .grid > .pb-2:not(.group):has(> div[id^="ntk-text"])
 hk.yahoo.com,tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
+hk.yahoo.com,tw.yahoo.com##[id^="taboola-"]
+hk.yahoo.com,tw.yahoo.com##aside > .box-border:has(> div[id^="sda-"])
 hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-adgroup"]
 hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
+hk.yahoo.com,tw.yahoo.com##li[id^="StreamMidCenter2Ad-"]
+hk.yahoo.com,tw.yahoo.com#%#//scriptlet('trusted-set-attr', 'div#Homepage', 'data-top-center-ad-type', 'noAd')
+hk.yahoo.com,tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
 hk01.com###debug-0-ad-outer-container
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
@@ -37440,10 +37452,11 @@ tw.yahoo.com###abu-live
 tw.yahoo.com###discount
 tw.yahoo.com###tabTemplate
 tw.yahoo.com###util-top-promotion
+tw.yahoo.com##.col1-bottom > .border-solid:not([id]):has(> iframe[src^="https://tw.buy.yahoo.com/smartbanner/"])
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
-tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
+tw.yahoo.com##iframe[src^="https://tw.buy.yahoo.com/smartbanner/"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
 twavking.com##.da_single_video
@@ -42789,6 +42802,7 @@ zzzyk.com###Tinfo
 ||6pm.com/track.cgi?
 ||6qo.fun^
 ||6quspne.com^
+||6s0zo8jzbb.com^
 ||6s8w2ck1g.com^
 ||6sc.co^$third-party
 ||6swu.cpa-france.org^
@@ -51320,6 +51334,7 @@ zzzyk.com###Tinfo
 ||analytics.cornbreadorganics.com^
 ||analytics.cornbreadrelief.com^
 ||analytics.corusent.com^
+||analytics.cosmicstack.org^
 ||analytics.cosmonova.net^
 ||analytics.cosmopolitanmag.com.tr^
 ||analytics.craftygoblin.nl^
@@ -55987,6 +56002,7 @@ zzzyk.com###Tinfo
 ||auto.ru/cookiesync/
 ||autoaffiliatenetwork.com^$third-party
 ||autoaudience.com^$third-party
+||autoblog.com/.api/admiral
 ||autofan.com.cn/UploadFiles/images/bAdImg.jpg
 ||autohome.com.cn/Topic/RobotVideo?
 ||autohome.com.cn/api/platformData/getFinanceBanner
@@ -59425,6 +59441,7 @@ zzzyk.com###Tinfo
 ||c.wort-suche.com^
 ||c.x.oanda.com^
 ||c.xbox.com^
+||c.ypcdn.com^
 ||c.ypcdn.com^$domain=yellowpages.com
 ||c.ypcdn.com^*&ptid
 ||c.ypcdn.com^*?ptid
@@ -60350,6 +60367,7 @@ zzzyk.com###Tinfo
 ||cdn.builder.io/api/v1/pixel
 ||cdn.c-i.as^
 ||cdn.c-i.as^$script,third-party
+||cdn.calibermind.com/a.js
 ||cdn.calltrk.com/companies/
 ||cdn.clerk.io/clerk.js
 ||cdn.clkmc.com/cmc.js
@@ -62921,6 +62939,7 @@ zzzyk.com###Tinfo
 ||connectwithus.cetera.com^
 ||connexity.net^
 ||connext-cdn.azureedge.net^
+||conscience34.top^
 ||consciouscheese.com^
 ||conseil.seicgland.ch^
 ||conseils.dotbase.com^
@@ -69831,6 +69850,7 @@ zzzyk.com###Tinfo
 ||dmuwlm.fonteynspas.com^
 ||dmvbpz.swimoutlet.com^
 ||dmvckj.icu^
+||dmw2pzbenclyd.cloudfront.net^
 ||dmx.sync.yume.com/tracker/
 ||dmxfdp.xyz^
 ||dmxhgf4zuwdvu.cloudfront.net^
@@ -72398,6 +72418,7 @@ zzzyk.com###Tinfo
 ||emltrk.com^$third-party
 ||emm.ca.puma.com^
 ||emm.us.puma.com^
+||emma-matratze.de/metrics/
 ||emmi.jp/Scripts/tracker.js
 ||emol.com/bt/ping
 ||emoney.cn/www/officalWebStatic/js/slideAd.js
@@ -82343,6 +82364,7 @@ zzzyk.com###Tinfo
 ||huntclubst.huntclubchiropractic.com^
 ||hunterindustries.actonservice.com^
 ||huntress.com^$cookie=/^_sp_id/
+||hunzlj.icu^
 ||huo07091hy.com^
 ||huo07100hy.com^
 ||huo07101hy.com^
@@ -83983,6 +84005,7 @@ zzzyk.com###Tinfo
 ||imgur.com^*.gif$domain=18p2p.com
 ||imgwdyey.com^
 ||imgxr.com^$domain=xiuren.org
+||imgzxr.cn^
 ||imhd.io^$third-party
 ||imhwzc.blibli.com^
 ||imjdmq.emcasa.com^
@@ -87065,6 +87088,7 @@ zzzyk.com###Tinfo
 ||jquery.envi-met.com.cn^
 ||jqvqzp.kimonomachi.co.jp^
 ||jqwwny.hotelpass.com^
+||jqz8z7gqxw.com^
 ||jqzmfh.autolucas.ro^
 ||jr-cross.co.jp/lib/js/ekinakaPotal-ga.js
 ||jraasj.kobo.com^
@@ -88137,6 +88161,7 @@ zzzyk.com###Tinfo
 ||klktmc.parler.co.jp^
 ||kllbu.babyletto.com^
 ||klldabck.com^$third-party
+||klljo2cp63.com^
 ||klm.us/CWZUvc/
 ||klmcorporate.americanexpress.nl^
 ||kloggyr-service.kyruus.com^
@@ -89089,6 +89114,7 @@ zzzyk.com###Tinfo
 ||lcdsyj.daily.co.jp^
 ||lcefua.timberland.ru^
 ||lcfpeb.sarouty.ma^
+||lcgcrldp6m.com^
 ||lchhd.wakeupwarrior.com^
 ||lciapi.ninthdecimal.com^
 ||lcidauv.top^
@@ -98473,6 +98499,7 @@ zzzyk.com###Tinfo
 ||mgptul.finson.com^
 ||mgrhe.myvolleybox.com^
 ||mgrwaui4.top^
+||mgs.instacart.com^
 ||mgs123.com^
 ||mgt7.madeindesign.it^
 ||mgtif.percivalclo.com^
@@ -104870,6 +104897,7 @@ zzzyk.com###Tinfo
 ||pergeroni.openapp.link^
 ||perimeterx.net/api/v1/collector/
 ||perion.com^$third-party
+||periscope73.com^
 ||perk0mean.com^$third-party
 ||perkyjade.com^
 ||perljs.com^$third-party
@@ -109652,6 +109680,7 @@ zzzyk.com###Tinfo
 ||rlftd.staples.com^
 ||rliwiqr.icu^
 ||rljjt.cn^
+||rlkx.cn^
 ||rllbu.lovisa.co.uk^
 ||rlog-api.under9.co^
 ||rlog.9gag.com^
@@ -114488,6 +114517,7 @@ zzzyk.com###Tinfo
 ||shiverscissors.com^
 ||shixiong.xyz^
 ||shiyaokejishanghai.com^
+||shiyiyuefalkjui.com^
 ||shjha.top^
 ||shjwhv.falsepeti.com^
 ||shoagooy.net^
@@ -137930,6 +137960,7 @@ zzzyk.com###Tinfo
 ||veilengh.com^
 ||veille-referencement.com^$third-party
 ||veinteractive.com^$third-party
+||veirkaey.com^
 ||vejrp6iq25.com^
 ||vekekc.nissanblainville.com^
 ||vel7.xyz^
@@ -142469,6 +142500,8 @@ zzzyk.com###Tinfo
 ||xjx11241ts.com^
 ||xjx11250ts.com^
 ||xjx11251ts.com^
+||xjx11260ts.com^
+||xjx11261ts.com^
 ||xjzize.maeva.com^
 ||xjztuj.kbwine.com^
 ||xjzyhp.xyz^
@@ -142980,6 +143013,7 @@ zzzyk.com###Tinfo
 ||y1.arte.tv^
 ||y1.junshitt.com^
 ||y18ut1kw22.com^
+||y194.asics.com^
 ||y197.standardspeaker.com^
 ||y1ma8c054n.com^
 ||y1n1n3e0v.com^
@@ -143208,6 +143242,8 @@ zzzyk.com###Tinfo
 ||yellow.ai/integrations/analytics/
 ||yellowbrix.com^$third-party
 ||yellowjm.com^
+||yellowpages.com/*/impression
+||yellowpages.com^$cookie=vrid
 ||yelp.*/ad_acknowledgment
 ||yelp.*/ad_syndication_user_tracking
 ||yelp.*/bunsen/api/bunsen/events/
@@ -143244,6 +143280,7 @@ zzzyk.com###Tinfo
 ||yewrcd.govoyages.com^
 ||yext-pixel.com^$third-party
 ||yext.com/plpixel?
+||yext.com^$third-party
 ||yextevents.com^$third-party
 ||yeyemo4.com^$third-party,image
 ||yeyou.com/2013/new/yeyou-float-window.js
@@ -143656,6 +143693,8 @@ zzzyk.com###Tinfo
 ||ypbvyc.mpa-pro.fr^
 ||ypcdbw.drive2.com^
 ||ypcdbw.drive2.ru^
+||ypcdn.com/ypu/js/compiled/srp_adsense.js
+||ypcdn.com/ypu/vendor/VisitorAPI.js
 ||ypdewh.dokuritsu.mynavi.jp^
 ||ypfyem.patatam.com^
 ||ypjihx.homemarkt.gr^
