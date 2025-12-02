@@ -1,4 +1,4 @@
-# Update time: 2025-12-01 20:38:13
+# Update time: 2025-12-02 09:21:03
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -489,12 +489,12 @@ advertisers.js|
 ||xlog*-*.tiktokv.com^
 ||counter*.stat.ovh^
 |load.sst.
+||sdk-*.moengage.com^
 ||stats.*.ronghub.com^
 ||w*statistics.info^
 ||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
 ||prebid-*.rubiconproject.com^
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||rum*.cdnvideo.ru^
 ||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
@@ -525,11 +525,12 @@ advertisers.js|
 |load.ss.
 ||talpa-analytics.
 ||tnc16-*.hypic.com^
-||pixelapi-*.cs.mysamba.tv^
 ||sgtm.fairmont.
+||sher.*.hu^
 ||web-visor.
 ||under-click.
 ||tnc*.tiktokv.us^
+||zhizhizhizhi.oss-*.aliyuncs.com^
 ||tracker.twenga.
 ||srmdata-*.com^
 ||use-trk*.bluevoox.com^
@@ -539,12 +540,16 @@ advertisers.js|
 ||ulog*.kwai-pro.com^
 ||tracking-v*.a.run.app^
 ||tracking*.euroads.fi^
+||sdk.fra-*.braze.eu^
 ||sensorsdata*.read.duokan.com^
 ||tnc*.tiktokv.com^
 ||track.zalando.
+||seller-log-collector.shopee.
 ||px*.mediahills.ru^
 ||subnewss*.net^
 ||ulog.*.kwai-pro.com^
+||static*.365inews.com^
+||t.delfi.
 ||hostingcloud.*.wasm^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||track.*.roku.com^
@@ -581,22 +586,19 @@ advertisers.js|
 ||www.fuze-hill*.xyz^
 ||videoclick.
 ||stats-*.p2pnow.ru^
-||parkdomainreal*.site^
 ||tnc16-*.byteoversea.com^
 ||stat.tiara.
-||pixel-*.convertagain.net^
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 |167.206.10.148^
 ||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
+||vns86.oss-*.aliyuncs.com^
 ||servo-report.keepstreams.*^
 ||tw*.netcore.co.in^
 ||v*.sitecounter.site^
 ||touch.yesim.
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||vns86.oss-*.aliyuncs.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -612,6 +614,7 @@ analytics-*.aasaam.com
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||log*-normal-*.tiktokv.com
 ||lt*.tritondigital.com^
 ||107.167.22.*.gif
@@ -700,9 +703,7 @@ analytics-*.aasaam.com
 ||mcs-*.tiktok.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
-||seller-log-collector.shopee.
 ||advert*.livesportmedia.eu^
-||t.delfi.
 ||medialand.
 ||device-metrics-*.amazon.com^
 ||install*.zonastat.com^
@@ -787,7 +788,6 @@ analytics-*.aasaam.com
 ||api16-access-ttp*.tiktokpangle-b.us^
 ||analytics-*-nfl.yinzcam.com^
 ||analytics-api.dvdfab.
-||sdk-*.moengage.com^
 ||ad*.on.cc^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
@@ -835,7 +835,7 @@ analytics-*.aasaam.com
 ||mon-*.tiktokv.com^
 ||ads-*.v.ssp.yahoo.com^
 ||client.rum.*.amazonaws.com^
-||sher.*.hu^
+||pixelapi-*.cs.mysamba.tv^
 ||1024wanzhai.
 ||at*.doubanio.com^
 ||acr-*-prd.samsungcloud.tv^
@@ -868,7 +868,6 @@ analytics-*.aasaam.com
 ||log*.vietnamplus.vn^
 ||matomo-demo-*.amazonaws.com^
 ||hn-ping*.hashnode.com^
-||sdk.fra-*.braze.eu^
 ||mcdp-*.outbrain.com^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||logstash-*.radio-canada.ca^
@@ -879,7 +878,6 @@ analytics-*.aasaam.com
 ||app-analytics-*.snapchat.com^
 ||matomo.*.vn^
 ||23.109.87.
-||static*.365inews.com^
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
 ||rotaban.
@@ -924,12 +922,14 @@ analytics-*.aasaam.com
 ||bjsvp*.space^
 @@||白名单仅用于测试.com^
 ||gcw*.2liang.cn^
+||parkdomainreal*.site^
 ||mobiadvert*.livesportmedia.eu^
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||fpb1.chinacar.
 ||quangcao-*.epicdn.me^
 ||rotator.
+||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
 ||collector.xhamster*.
 ||collector*.ex.co^
@@ -1003,8 +1003,14 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+notifications.google.com%2Fg%2Fimg%2F*.gif
+d4?appid*type*
+%2Fvia%2Fo%3Fh%3D
+%2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 directtrack.*.js
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||api.*.hismarttv.com^
@@ -1014,13 +1020,11 @@ directtrack.*.js
 |lgtvsdp.com^
 %2Fopen.aspx%3F
 |samsungcloudsolution.net^
-%2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
 ||df.infra.sz.shopee.
 %2Frw%2Fbeacon_
 ||fkp.samsungcloudsolution.
 ||mr.allegro.
-%2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
 |samsungqbe.com^
 ||oempprd.samsungcloudsolution.
 ||sta.zone-telechargement.
@@ -1029,10 +1033,6 @@ directtrack.*.js
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-notifications.google.com%2Fg%2Fimg%2F*.gif
-d4?appid*type*
 ||invenio_tracking_*.sgnapps.com^
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 click.official.infomaniak.com%2Fo%2F
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
