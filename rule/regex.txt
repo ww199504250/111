@@ -1,4 +1,4 @@
-# Update time: 2025-12-05 09:21:44
+# Update time: 2025-12-05 20:37:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -65,6 +65,11 @@
 ||mgsdk-sign^
 ||奥门广场.com^
 ||diyibanzhu^
+@@||ulog*.*.com^$important
+@@||register*mi.com^
+||mishop.pandora.xiaomi.com.^
+@@||resolver*mi.com^
+@@||p*-ppx.byteimg.com^
 ||allyes.
 ||icast.
 ||gg.
@@ -85,11 +90,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-@@||ulog*.*.com^$important
-@@||register*mi.com^
-||mishop.pandora.xiaomi.com.^
-@@||resolver*mi.com^
-@@||p*-ppx.byteimg.com^
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -322,7 +322,6 @@ advertisers.js|
 ||xsgdt.play.*.*^
 ||shuixiands.^
 ||ec*-core-lq.ecombdapi.com^
-||ads*-normal-hl.amemv.com^
 @@||data.mistat.*xiaomi.com^
 ||greycdn.net.^
 @@||lf*-cdn-tos.bytegoofy.com^
@@ -434,7 +433,6 @@ advertisers.js|
 ||da.hornbach.*^
 ||admob.*^
 ||impservice*.youdao.com^
-||d*.ruiwen.com^
 ||adsmogo*.*^
 ||adsystem*.*^
 ||analysis*.*^
@@ -444,7 +442,6 @@ advertisers.js|
 ||log.*.hunantv.com^
 ||admaster*.*^
 ||xn--wxtr9fwyxk9c.*^
-||d*.xinshipu.com^
 ||webads.*^
 ||admarvel*.*^
 ||ja*.gamersky.com^
@@ -511,11 +508,9 @@ advertisers.js|
 ||ulog*.gifshow.com^
 ||clk.rtpdn*.com^
 ||staging-*.ispot.tv^
-||real*traf.ru^
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
-||pxl-*.ozone.ru^
 ||tag-based.s3.*.amazonaws.com^
 ||sax*.sina.
 ||tracking.*.miui.com^
@@ -540,17 +535,14 @@ advertisers.js|
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||report*.appmetrica.webvisor.com^
 ||tracker.twenga.
-||rehs.*.hu^
 ||rtlog*.tiktokv.com^
 ||srmdata-*.com^
 ||use-trk*.bluevoox.com^
 ||stat*.1internet.tv^
-||rb*.design.ru^
 ||sam*.baby-kingdom.com^
 ||st-n.ads*-adnow.com^
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
-||res*.pinpai8.cn^
 ||tracking-v*.a.run.app^
 ||tracking*.euroads.fi^
 ||sdk.fra-*.braze.eu^
@@ -587,12 +579,10 @@ advertisers.js|
 ||uc*.atobo.com^
 |load.sgtm.
 |piwik.
-||q*-publick.club^
 ||production-adserver-*.amazonaws.com^
 ||sonar*.xy.fbcdn.net^
 ||polaris*-normal-*.zijieapi.com^
 |a.klaviyo.com^
-||s*.adduplex.com^
 ||snowplow-collector-*.amazonaws.com^
 ||ya*.dwstatic.com^
 ||thegreatesthits.
@@ -607,7 +597,6 @@ advertisers.js|
 ||parkdomainreal*.site^
 ||tnc16-*.byteoversea.com^
 ||stat.tiara.
-||quangcao-*.epicdn.me^
 ||rotator.
 ||pixel-*.convertagain.net^
 ||mf*.advantage.as^
@@ -652,11 +641,13 @@ analytics-*.aasaam.com
 ||ax.*.ifeng.com^
 ||flipflapflo.
 ||gonews*.net^
+||real*traf.ru^
 ||f-log-*.grammarly.io^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
 ||analytics*.clickdimensions.com^
 ||bi-eventtracker-*.amazonaws.com^
 ||mon*-*.tiktokv.us^
+||pxl-*.ozone.ru^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||ads*.production-public.tubi.io^
@@ -670,6 +661,7 @@ analytics-*.aasaam.com
 ||pixel*.adswizz.com
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
+||d*.ruiwen.com^
 ||banner*.kinogo.by^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
@@ -702,6 +694,7 @@ analytics-*.aasaam.com
 ||clickstream-*.homedepot.com^
 ||log*-normal-useast1a.lemon8-app.com^
 ||analyzer*.fc2.com^
+||rb*.design.ru^
 ||107.167.16.*.gif
 ||log*.byteoversea.com^
 ||mon*-misc-lf.fqnovel.com^
@@ -756,6 +749,7 @@ analytics-*.aasaam.com
 ||ad*.nexage.com^
 ||analytics.ahrefs.
 ||discovery-ios-*.ertelecom.ru^
+||s*.adduplex.com^
 ||collect-elb-*.amazonaws.com^
 ||adserver1.
 ||collector-*.tvsquared.com^
@@ -831,6 +825,7 @@ analytics-*.aasaam.com
 ||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
 ||imp-*.jampp.com^
+||ads*-normal-hl.amemv.com^
 ||bc.geocities.
 ||mobileanalytics.*.amazonaws.com^
 @@||cdn.us*.exponea.com^
@@ -859,6 +854,7 @@ analytics-*.aasaam.com
 ||ad-*.amazonaws.com^
 ||ads*-normal*.zijieapi.com^
 ||ac*.faxingchina.com^
+||rehs.*.hu^
 ||cdn*.swaxis.com^
 ||adimg*.search.naver.net^
 ||log*.zijieapi.com^
@@ -869,6 +865,7 @@ analytics-*.aasaam.com
 ||adcs-*.myappsget.com^
 ||cnt.winporn.
 ||mssdk*.capcutapi.com^
+||res*.pinpai8.cn^
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||ads*-normal-lf.zijieapi.com^
@@ -911,6 +908,7 @@ analytics-*.aasaam.com
 ||ad*.thisisgame.com^
 ||mon-va*.capcutapi.com^
 ||collect-v*.51.la^
+||q*-publick.club^
 ||logger-*.dailymotion.com^
 ||iad-*.appboy.com^
 ||minitds-*.info^
@@ -923,6 +921,7 @@ analytics-*.aasaam.com
 ||ads*-normal-lf.zijieapi.com.dhcp^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
+||d*.xinshipu.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
 @@||白名单仅用于测试.com^
@@ -931,18 +930,11 @@ analytics-*.aasaam.com
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||fpb1.chinacar.
+||quangcao-*.epicdn.me^
 ||analytics*.prezly.com^
 ||collector.xhamster*.
 ||collector*.ex.co^
 ||poptraf.
-Banner-Adv
-||util-*.simply-hentai.com^
-||xxsmtz*.com^
-||app2.*dfs.com^
-Banner-Ad
-||142.91.159.
-||cas.*.criteo.com^
-||acookie.*.gif?
 ||aj2*.online^
 ||ping*.qq.com^
 ||player-feedback*.glomex.*^
@@ -964,6 +956,7 @@ Banner-Ad
 ||promo-*.vercel.app^
 ||tblog-*.kgslb.com^
 ||ajx*.online^
+||cas.*.criteo.com^
 ||n*adserv.com^
 ||ks-p2p*pull*com^
 ||p2pup*.gamedl.qq.com^
@@ -973,6 +966,7 @@ Banner-Ad
 ||n*adserv.xyz^
 ||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
+||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -994,6 +988,12 @@ Banner-Ad
 ||dj1*.online^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
+Banner-Adv
+||xxsmtz*.com^
+||app2.*dfs.com^
+Banner-Ad
+||142.91.159.
+||acookie.*.gif?
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
@@ -1004,9 +1004,13 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
+d4?appid*type*
+notifications.google.com%2Fg%2Fimg%2F*.gif
 ||invenio_tracking_*.sgnapps.com^
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
-directtrack.*.js
+%2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||api.*.hismarttv.com^
@@ -1016,6 +1020,8 @@ directtrack.*.js
 |lgtvsdp.com^
 %2Fopen.aspx%3F
 |samsungcloudsolution.net^
+%2Famsweb.php%3F
+%2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
 ||df.infra.sz.shopee.
 %2Frw%2Fbeacon_
@@ -1029,12 +1035,6 @@ directtrack.*.js
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-notifications.google.com%2Fg%2Fimg%2F*.gif
-d4?appid*type*
-%2Famsweb.php%3F
-%2Fvia%2Fo%3Fh%3D
-%2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+directtrack.*.js
 click.official.infomaniak.com%2Fo%2F
