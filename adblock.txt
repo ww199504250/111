@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-12-08 08:43:39(GMT+8) 
-! Total count: 146553
+! ! Version: 2025-12-08 20:17:34(GMT+8) 
+! Total count: 146569
  
 ###ADtip
 ###Ad_windows
@@ -512,6 +512,7 @@
 ##.container > a[href^="http"] > .ads
 ##.containeradvertising
 ##.content > #dhxhtml
+##.content > .dds_w
 ##.content > .module > .small-icon-container > a.small-icon-div[target="_blank"]
 ##.content > .myads
 ##.content > .small-icon-container > a.small-icon-div[target="_blank"]
@@ -684,6 +685,7 @@
 ##.mod + #bottomBox
 ##.module-adslist
 ##.module-adslists
+##.module-player > .dds_w
 ##.module-tglist > .tg-normal-box
 ##.module-ttlist.tt_w-2
 ##.module-yylist.tg_w
@@ -2850,6 +2852,7 @@ $websocket,domain=wap.yushuwu.cloud
 /.*/$permissions=run-ad-auction=(),document
 /.bootscripts/analytics.min.js
 /.netlify/scripts/rum
+/.rum/@adobe/helix-
 /.webscale/rum?
 /.well-known/private-click-measurement
 /.well-known/shopify/monorail
@@ -13373,6 +13376,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||st-eu.dynamicyield.com/st?sec=$domain=adlibris.com
 @@||st-eu.dynamicyield.com/st?sec=$domain=gigasport.at|gigasport.de|gigasport.ch
 @@||st-eu.dynamicyield.com/st?sec=$domain=loropiana.com
+@@||st-eu.dynamicyield.com/st?sec=$domain=manor.ch
 @@||st.dynamicyield.com/st$domain=mediamarkt.de
 @@||st.dynamicyield.com/st?$domain=dafiti.com.br
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
@@ -27701,6 +27705,7 @@ eprice.com.hk##.ad-end-article
 eprice.com.hk##.article__content > div[style*="text-align"]
 eprice.com.hk##.main-section > .text-center[style^="min-height:"]:has(> div[class^="ad-"])
 eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
+eprice.com.hk##div[style]:has(> div[id^="div-gpt-ad-"])
 eprice.com.hk#@#.one-ad
 eprice.com.hk,ddcar.com.tw##.popup-adv
 eprice.com.hk,eprice.com.tw##.popup-adv
@@ -37585,7 +37590,6 @@ tsubasa.im#%#//scriptlet('prevent-setInterval', '/home/?adblock=')
 tsubasa.im#%#//scriptlet('prevent-setTimeout', '/home/?adblock=')
 tsviewer.com#@#.adsbygoogle
 tt776.com##iframe[src="/app/ad.html"]
-ttdm.me##.dds_w
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttshow.tw##div[id^="ad_article_"]
 ttshow.tw##div[id^="ad_index_"]
@@ -42260,6 +42264,7 @@ zzzyk.com###Tinfo
 ||2lzg9mqzw.com^
 ||2marketing-docs.net.home24.de^
 ||2no.co^$third-party
+||2nvd5j7iv0.com^
 ||2o7.net^
 ||2o7.net^$third-party
 ||2omfz9ygz2.com^
@@ -56090,6 +56095,7 @@ zzzyk.com###Tinfo
 ||asxxlo.interflora.es^
 ||asy76rvai.com^
 ||asycxtz.cn^
+||async-px-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
 ||asypwo.icu^
 ||asyy6.com/dm/
@@ -61171,6 +61177,7 @@ zzzyk.com###Tinfo
 ||cerberus.sqrt-5041.de/somtag/logs^
 ||cerdmann.com^$third-party
 ||cerebro.edna.yahoo.net^$image
+||ceremony79.com^
 ||cerionnano.actonservice.com^
 ||cerohj.loccitane.ru^
 ||ceros.com/a?data
@@ -61314,6 +61321,7 @@ zzzyk.com###Tinfo
 ||chaqraex.com^
 ||chargebee.com/api/internal/track_info_error
 ||chargecracker.com^
+||charger44.com^
 ||charlotte-content.cresa.com^
 ||charmingplate.com^
 ||charmmy-api.line.me/api/*/bars/tracking
@@ -75789,6 +75797,7 @@ zzzyk.com###Tinfo
 ||fp.nanrenwo.net^
 ||fp.puzzleapp.io^
 ||fp.techinasia.com^
+||fp2nn4zxlp.com^
 ||fpa-api.adweek.com^
 ||fpa-api.arstechnica.com^
 ||fpa-cdn.adweek.com^
@@ -82021,6 +82030,7 @@ zzzyk.com###Tinfo
 ||hinet.net/radio/getAdcode.do
 ||hinfogzi.sinful.co.uk^
 ||hinfogzi.sinful.se^
+||hingidnaa.com^
 ||hiooq0417.com^
 ||hiperstat.com^$third-party
 ||hipizza.openapp.link^
@@ -90013,6 +90023,7 @@ zzzyk.com###Tinfo
 ||lfeeder.com^$third-party
 ||lfemz.campsaver.com^
 ||lfercl.tcb-beauty.net^
+||lfew.cn^
 ||lfffzv.xyz^
 ||lfflvh.icu^
 ||lfhoyk.daydreamer.co.kr^
@@ -94065,6 +94076,7 @@ zzzyk.com###Tinfo
 ||m3cqjc3og6.com^
 ||m3ds.subarumetropolitain.com^
 ||m3uef4b38brmbntdzx.franchiseplus.nl^
+||m43ocq1uoj.com^
 ||m4fxreb5s.com^
 ||m4pgay.com^
 ||m4r.fun^
@@ -106695,6 +106707,7 @@ zzzyk.com###Tinfo
 ||pm.geniusmonkey.com^
 ||pm.pmu.fr^
 ||pm.poqwua.cn^
+||pm.redbull.com^
 ||pm0.net^$third-party
 ||pm14.com^$third-party
 ||pmazig.tycura.com^
@@ -109571,6 +109584,7 @@ zzzyk.com###Tinfo
 ||redbee.serverside.ai^$image
 ||redbooks.actonservice.com^
 ||redbricksoap.com^
+||redbull.com/btnt.js
 ||redcdn.pl/file/*/web/tdbc/*/js/redgalaxy-tdbc-*.min.js
 ||redclassic.actonservice.com^
 ||redcounter.net^$third-party
@@ -116238,6 +116252,7 @@ zzzyk.com###Tinfo
 ||smarketer.de^$third-party
 ||smart-bdash.com/receptions/action/impression
 ||smart-bdash.com/tracking-script/
+||smart-components-api.redbull.com/report-usage
 ||smart-counter.net^$third-party
 ||smart-data-systems.com^
 ||smart-digital-solutions.com^$third-party
@@ -136792,7 +136807,6 @@ zzzyk.com###Tinfo
 ||ttavav6.com/zz/
 ||ttcu-union.actonservice.com^
 ||ttdgbh.top^
-||ttdm.me/upload/files/sss/
 ||ttfpil.2dehands.be^
 ||ttfqcx.catfootwear.com^
 ||ttgrs.manumatters.com^
@@ -139507,6 +139521,8 @@ zzzyk.com###Tinfo
 ||vid12061hl.com^
 ||vid12070hl.com^
 ||vid12071hl.com^
+||vid12080hl.com^
+||vid12081hl.com^
 ||vidads.gr/imp/
 ||vidapi.expepp.de^$third-party
 ||vidazoo.com/aggregate?
