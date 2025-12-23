@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2025-12-23 08:43:59(GMT+8) 
-! Total count: 144828
+! ! Version: 2025-12-23 20:17:50(GMT+8) 
+! Total count: 144844
  
 ###ADtip
 ###Ad_windows
@@ -3113,7 +3113,6 @@ $websocket,domain=wap.yushuwu.cloud
 /TrackViews/*
 /TrackVisitors/*
 /TrackWebPage?
-/Tracking?id=
 /Tracking?t=
 /TrackingHandler.js
 /TrackingPixel/*
@@ -6486,7 +6485,7 @@ $websocket,domain=wap.yushuwu.cloud
 /t.ifly.southwest.com/*$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
-/t/*/a^$image
+/t/*/a^$image,domain=~permies.com
 /t/event.js?
 /t/event?
 /t?referer=
@@ -10479,6 +10478,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||collect.igodigital.com/collect.js$domain=wilsonparking.com.au
 @@||collect.igodigital.com^$domain=m.harborfreight.com
 @@||collections.archives.govt.nz/combo/*/gtag.js$script,~third-party
+@@||collector-*.px-cloud.net^$xmlhttprequest,domain=ifood.com.br
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
@@ -13715,6 +13715,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
+@@||try.abtasty.com^$script,domain=tickpick.com
 @@||tsa-algerie.com/wp-content/themes/tsa/js/ads.js$script
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
 @@||tt.omtrdc.net/rest/$xmlhttprequest,domain=shop.shoppersdrugmart.ca
@@ -15766,6 +15767,9 @@ business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
 businessinsider.com##.rail-recommended
+businessinsider.com#%#//scriptlet('set-local-storage-item', 'anonymous_id', '$remove$')
+businessinsider.com#%#//scriptlet('set-local-storage-item', 'fenrir_anonymous_id', '$remove$')
+businessinsider.com#%#//scriptlet('set-local-storage-item', 'universal_id', '$remove$')
 businessinsider.jp##div[class^="article_specialFeature_"]
 businessinsider.jp##div[class^="displayhandler"]:has(> div[class^="premiumRecommend"])
 businessinsider.jp##div[class^="recommendArticlesList_recommend__"]
@@ -58594,6 +58598,9 @@ zzzyk.com###Tinfo
 ||businessgrouphealth.actonservice.com^
 ||businessinsider.com/track.gif
 ||businessinsider.com^$cookie=/traffic_src|^_sp_/
+||businessinsider.com^$cookie=anonymous_id
+||businessinsider.com^$cookie=fenrir_anonymous_id
+||businessinsider.com^$cookie=universal_id
 ||businessinsider.jp^$cookie=mgppid
 ||businessinsider.jp^$cookie=ppid
 ||businessinsider.nl^*/tr.php
@@ -61851,6 +61858,7 @@ zzzyk.com###Tinfo
 ||collections.mp.microsoft.com/*/collections/query
 ||collector*.ex.co^
 ||collector-*.luigisbox.com^
+||collector-*.perimeterx.net^
 ||collector-*.px-cdn.net^
 ||collector-*.px-client.net^
 ||collector-*.px-cloud.net^
@@ -73801,6 +73809,7 @@ zzzyk.com###Tinfo
 ||fhl05181ps.com^
 ||fhlch.signals.com^
 ||fhljtu.styhome.co.kr^
+||fhnahnad.com^
 ||fhngty.vetsecurite.com^
 ||fhovoldaw.com^
 ||fhqrnb.feelway.com^
@@ -75192,6 +75201,7 @@ zzzyk.com###Tinfo
 ||fyzlfpjn.chillblast.com^
 ||fyznhp8inq9x.jaywilsonwebsolutions.com^
 ||fyzzxb.chaisepro.fr^
+||fz94px.site^
 ||fzb5.laboratoire-giphar.fr^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzcuii.rajapack.nl^
@@ -76145,6 +76155,7 @@ zzzyk.com###Tinfo
 ||ggai12211cp.com^
 ||ggai12220cp.com^
 ||ggai12221cp.com^
+||ggai12230cp.com^
 ||ggaik.preppy.org^
 ||ggbko.obsessedlawn.com^
 ||ggckg.lovewellness.com^
@@ -95053,6 +95064,7 @@ zzzyk.com###Tinfo
 ||mcdp-*.outbrain.com^
 ||mcdwfed.cn^
 ||mcfeely.net.mydays.de^
+||mcge.cn^
 ||mcgst.homedone.co.uk^
 ||mchfp.pillarscientific.com^
 ||mchtna.fashionplus.co.kr^
@@ -101569,6 +101581,7 @@ zzzyk.com###Tinfo
 ||ombet.condition1.com^
 ||omcshw.pharmasi.it^
 ||omeda.com^$third-party
+||omelette12.top^
 ||omes-sec.heytapmobile.com^
 ||ometria.com^$third-party
 ||ometrics.ameds.com^
@@ -129652,6 +129665,7 @@ zzzyk.com###Tinfo
 ||tmi.vodafone.de^
 ||tmjzlr.icu^
 ||tmlt.actonservice.com^
+||tmlyhh.icu^
 ||tmmp.io^$third-party
 ||tmobile.15gifts.com/wizard/track.html
 ||tmochyf.cn^
@@ -142617,6 +142631,7 @@ zzzyk.com###Tinfo
 ||xzfizn.massmedian.co.jp^
 ||xzji.com/data/block_js/softShow_
 ||xzjqlg.marella.com^
+||xzkumjdqj.com^
 ||xzsqs.moshlife.com^
 ||xztjis.kikiluv.co.kr^
 ||xztqfj.dreamvs.jp^
@@ -143124,6 +143139,7 @@ zzzyk.com###Tinfo
 ||ykxfoj.purchasingpower.com^
 ||ykxmsm.buckle-down.com^
 ||ykxwn.com^
+||ykyfhxr.xyz^
 ||ykypoi.casanautica.com.br^
 ||yl04z4v.cn^
 ||ylafwg.greenpoint.pl^
