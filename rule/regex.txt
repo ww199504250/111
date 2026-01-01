@@ -1,4 +1,4 @@
-# Update time: 2026-01-01 09:43:11
+# Update time: 2026-01-01 20:37:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -62,6 +62,14 @@
 ||m7k4.com*.php?
 ||minero-proxy-*now.sh
 ||ad*.aginomoto.com
+||pangolin-sdk^
+||xiaoqiang^
+||dybz^
+||adexpo.tencentmusic.com adclick.tencentmusic.com^
+||tnc3-bjlgy.snssdk.^
+||mgsdk-sign^
+||奥门广场.com^
+||diyibanzhu^
 ||allyes.
 ||icast.
 ||gg.
@@ -82,14 +90,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||pangolin-sdk^
-||xiaoqiang^
-||dybz^
-||adexpo.tencentmusic.com adclick.tencentmusic.com^
-||tnc3-bjlgy.snssdk.^
-||mgsdk-sign^
-||奥门广场.com^
-||diyibanzhu^
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -565,6 +565,7 @@ advertisers.js|
 |load.sgtm.
 |piwik.
 ||production-adserver-*.amazonaws.com^
+||sonar*.xy.fbcdn.net^
 ||polaris*-normal-*.zijieapi.com^
 |a.klaviyo.com^
 ||util-*.simply-hentai.com^
@@ -574,6 +575,7 @@ advertisers.js|
 ||track-*.hungrypanda.co^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
+||snowplow-collector.
 ||www.fuze-hill*.xyz^
 ||videoclick.
 ||stats-*.p2pnow.ru^
@@ -735,7 +737,6 @@ analytics-*.aasaam.com
 ||piwik.*.vn^
 ||letssex.
 ||ad-host-backup-*.aliyuncs.com^
-||sonar*.xy.fbcdn.net^
 ||cl*.k5a.io^
 ||mautic.*.vn^
 ||mcs-*.lemon8-app.us^
@@ -931,7 +932,6 @@ analytics-*.aasaam.com
 ||bjsvp*.space^
 ||sgtm.wimdu.
 @@||白名单仅用于测试.com^
-||snowplow-collector.
 ||gcw*.2liang.cn^
 ||parkdomainreal*.site^
 ||mobiadvert*.livesportmedia.eu^
@@ -959,7 +959,6 @@ analytics-*.aasaam.com
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
-||log*-*.tiktokv.com^
 ||v*.denakop.com^
 ||promo-*.vercel.app^
 ||tblog-*.kgslb.com^
@@ -1013,8 +1012,7 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-||invenio_tracking_*.sgnapps.com^
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+d4?appid*type*
 ||stw.extreme-down.
 ||matt.mercadolibre.
 ||api.*.hismarttv.com^
@@ -1024,8 +1022,6 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 |lgtvsdp.com^
 %2Fopen.aspx%3F
 |samsungcloudsolution.net^
-%2Famsweb.php%3F
-%2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
 ||df.infra.sz.shopee.
 %2Frw%2Fbeacon_
@@ -1039,11 +1035,15 @@ esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-d4?appid*type*
 notifications.google.com%2Fg%2Fimg%2F*.gif
-directtrack.*.js
+%2Famsweb.php%3F
+%2Fvia%2Fo%3Fh%3D
+||invenio_tracking_*.sgnapps.com^
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
+directtrack.*.js
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+||log*-*.tiktokv.com^
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 click.official.infomaniak.com%2Fo%2F
