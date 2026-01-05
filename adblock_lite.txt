@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List Lite 
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2026-01-05 08:51:05(GMT+8) 
-! Total count: 32590
+! ! Version: 2026-01-05 20:18:50(GMT+8) 
+! Total count: 32606
  
 ###ADtip
 ###Ad_windows
@@ -4139,6 +4139,18 @@ $websocket,domain=wap.yushuwu.cloud
 88files.net#%#//scriptlet("prevent-window-open")
 8muses.com#@#[style*="background: transparent url(\"data:image/gif;base64,"]
 8se.me##.push-bottom
+8se.me,xchina.*##.block-overlay
+8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
+8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
+8se.me,xchina.*##.content-box:has(> .static-container-4:only-child > .a-media)
+8se.me,xchina.*##.ex-widget
+8se.me,xchina.*##.photos > div.item:has(> div > a[target="_blank"])
+8se.me,xchina.*##.photos > div.item:has(> div[class^="exoclick_"])
+8se.me,xchina.*##.push-top
+8se.me,xchina.*##div[class^="item photo zone"]
+8se.me,xchina.*##div[style*="width: 300px;"][style*="height: 455px;"]
+8se.me,xchina.*#%#//scriptlet('abort-current-inline-script', '$', 'adModal')
+8se.me,xchina.*#%#//scriptlet('prevent-addEventListener', '/DOMContentLoaded|load|complete/', '/check|detected/')
 8ziyuan.com##.deanadsside
 900.la##.banner_ad1
 900.la##.font-ad
@@ -14225,6 +14237,8 @@ tieba.baidu.com##.tbui_slideshow_slide
 tieba.baidu.com##.tl_spread
 tieba.baidu.com##.top-guide-wrap.top-guide
 tieba.baidu.com##.top_toutu_admarks
+tieba.baidu.com##.ylh-ad-container
+tieba.baidu.com##.ylh-ad-wrap
 tieba.baidu.com##DIV[id^='aside-ad']
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
 tieba.baidu.com##div[class*="appPromote"]
@@ -15139,16 +15153,6 @@ xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
-xchina.*##.block-overlay
-xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
-xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
-xchina.*##.photos > div.item:has(> div > a[target="_blank"])
-xchina.*##.photos > div.item:has(> div[class^="exoclick_"])
-xchina.*##.push-top
-xchina.*##div[class^="item photo zone"]
-xchina.*##div[style*="width: 300px;"][style*="height: 455px;"]
-xchina.*#%#//scriptlet('abort-current-inline-script', '$', 'adModal')
-xchina.*#%#//scriptlet('prevent-addEventListener', '/DOMContentLoaded|load|complete/', '/check|detected/')
 xchina.co##.block-overlay
 xclient.info###pop_business
 xdf.cn##.footadv
@@ -15969,6 +15973,7 @@ zzzyk.com###Tinfo
 ||11img.com/ad/
 ||11jianzhan.com^
 ||11kkzz.com/se/wf/
+||11vmzjiup.com^
 ||11xkkhe8hd.com^
 ||12.cookcai.com^
 ||1200555.com^
@@ -16569,6 +16574,7 @@ zzzyk.com###Tinfo
 ||4i1.icu^
 ||4ifhpfi1.xyz^
 ||4jc.icu^
+||4jh1le34m.com^
 ||4kfv18.cn^
 ||4kwu.cc/static/js/tj.js
 ||4kxczstxil.com^
@@ -17915,6 +17921,8 @@ zzzyk.com###Tinfo
 ||ainb01031zh.com^
 ||ainb01040zh.com^
 ||ainb01041zh.com^
+||ainb01050zh.com^
+||ainb01051zh.com^
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
@@ -18005,6 +18013,7 @@ zzzyk.com###Tinfo
 ||aldkfsd.cn^
 ||aldtop.com/scrtips/
 ||aldusmiskals.com^
+||aleldrodm.com^
 ||alemu4s.com^
 ||alexa.cn/upfile/images/
 ||alexanbelen.com^
@@ -19684,6 +19693,7 @@ zzzyk.com###Tinfo
 ||cgcg01040ht.com^
 ||cgcg01041ht.com^
 ||cgcg01050ht.com^
+||cgcg01051ht.com^
 ||cgdyw.net/xx/
 ||cgigc.com.cn^
 ||cgmalight.com^
@@ -26745,6 +26755,7 @@ zzzyk.com###Tinfo
 ||ovcnmtk.top^
 ||oveakmqk.com^
 ||overcoat55.top^
+||overture34.top^
 ||ovnrmvg.cn^
 ||owchaavetonb.com^
 ||owcnmtk.top^
@@ -26757,6 +26768,7 @@ zzzyk.com###Tinfo
 ||owqbirykia.com^
 ||owrkwilxbw.com^
 ||oxggiwdp57.com^
+||oxidation83.com^
 ||oxj8hcfg.xyz^
 ||oxjb.cn^
 ||oxkrcrlw.com^
@@ -27724,6 +27736,7 @@ zzzyk.com###Tinfo
 ||qwerhao3.com^
 ||qwertyuadf.com^
 ||qwilmiy.top^
+||qwnzzp50x.com^
 ||qwrnkpow.com^
 ||qwsbegovo.top^
 ||qwti.cn^
@@ -29390,6 +29403,7 @@ zzzyk.com###Tinfo
 ||titjzl.icu^
 ||titroikan.com^
 ||tixoilll.com^
+||tizdfz.icu^
 ||tizru.com^$domain=pronpic.org
 ||tj-cyhg.com^
 ||tj-yijiajing.com^
@@ -29883,6 +29897,7 @@ zzzyk.com###Tinfo
 ||ubmcvideo.baidustatic.com^
 ||ubudhal.com^
 ||ubxqerc.cn^
+||ubyf.cn^
 ||uc*.atobo.com^
 ||uc.qq.uuaoz.com^
 ||uc129.com/images/top_hjsj.jpg
@@ -30144,6 +30159,7 @@ zzzyk.com###Tinfo
 ||uuzwvqc.cn^
 ||uv4.fun^
 ||uvcnmtt.top^
+||uvd9re60w.com^
 ||uvj2.com^
 ||uvnjlm.cn^
 ||uvoisbg.xyz^
