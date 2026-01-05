@@ -1,4 +1,4 @@
-# Update time: 2026-01-04 20:35:49
+# Update time: 2026-01-05 09:43:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -59,9 +59,6 @@
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||pangolin-sdk^
 ||xiaoqiang^
 ||dybz^
@@ -70,6 +67,9 @@
 ||mgsdk-sign^
 ||奥门广场.com^
 ||diyibanzhu^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||allyes.
 ||icast.
 ||gg.
@@ -528,6 +528,7 @@ advertisers.js|
 ||servo-report.dvdfab.
 ||trk*.vidible.tv^
 ||t*.playdigo.live^
+||pop-under.
 ||sock*-goguardian.pusher.com^
 |load.ss.
 ||talpa-analytics.
@@ -575,9 +576,11 @@ advertisers.js|
 ||v.newsportal*.ru^
 ||get-me-wow.
 ||ubt.tracking.shopee.
+||popuptraf.
 ||ulog*.kwaipros.com^
 ||vst.videolink.
 ||videoclik.
+||poshalim.
 |load.gtm.
 ||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
@@ -585,6 +588,7 @@ advertisers.js|
 ||stlog*-local.kakao.com^
 ||reachableads-av.*.amazonaws.com^
 ||stats.*.rongnav.com^
+||popupclick.
 ||uc*.atobo.com^
 |load.sgtm.
 |piwik.
@@ -602,6 +606,7 @@ advertisers.js|
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||sgtm.wimdu.
+||pop-parad.
 ||snowplow-collector.
 ||www.fuze-hill*.xyz^
 ||videoclick.
@@ -610,13 +615,16 @@ advertisers.js|
 ||report.*.gbqofs.io^
 ||parkdomainreal*.site^
 ||tnc16-*.byteoversea.com^
+||popunder.
 ||stat.tiara.
+||quangcao-*.epicdn.me^
 ||rotator.
 ||pixel-*.convertagain.net^
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 |167.206.10.148^
 ||fxhpaoxqyajvmdg.
+||poptraf.
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
@@ -732,7 +740,6 @@ analytics-*.aasaam.com
 ||as*.prog.hu^
 ||ad-*.appacc.dbankedge.cn^
 ||cnt.tubeon.
-||poshalim.
 ||aff*.kolektiva.net^
 ||events*.cre.ma^
 ||adx-*.dbankedge.cn^
@@ -746,7 +753,6 @@ analytics-*.aasaam.com
 ||orbit*.lun.ua^
 ||ad*.gyaloglo.hu^
 ||adx-*.op.dbankcloud.com.edgekey.net^
-||popupclick.
 ||adverticum.*.hu^
 ||dw-informer-*.newsru.com^
 ||ad*.zonaplus.tv^
@@ -772,7 +778,6 @@ analytics-*.aasaam.com
 ||backstory.ebay.
 ||event.*.shoplive.cloud^
 ||adx-*.dbankcloud.
-||pop-parad.
 ||auth-*.hismarttv.com^
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
@@ -847,7 +852,6 @@ analytics-*.aasaam.com
 ||event.*.karrotmarket.com^
 ||stw.zone-telechargement.
 ||a*.chajiaotong.com^
-||pop-under.
 ||gscounters.*.gigya.com^
 ||adserver.*.yahoodns.net^
 ||c*hit.zerkalo.io^
@@ -902,7 +906,6 @@ analytics-*.aasaam.com
 ||mcs.*.tiktokv.com^
 ||cnt.proporn.
 ||fp-*it*.fengkongcloud.com^
-||popuptraf.
 ||host*.rvshare.com^
 ||events-*.op.hicloud.com^
 ||localhost^
@@ -936,14 +939,11 @@ analytics-*.aasaam.com
 @@||白名单仅用于测试.com^
 ||gcw*.2liang.cn^
 ||mobiadvert*.livesportmedia.eu^
-||popunder.
 ||livetracker.*.pangea-cms.com^
 ||fpb1.chinacar.
-||quangcao-*.epicdn.me^
 ||analytics*.prezly.com^
 ||collector.xhamster*.
 ||collector*.ex.co^
-||poptraf.
 ||aj2*.online^
 ||ping*.qq.com^
 ||player-feedback*.glomex.*^
@@ -959,7 +959,6 @@ analytics-*.aasaam.com
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
-||log*-*.tiktokv.com^
 ||v*.denakop.com^
 ||promo-*.vercel.app^
 ||tblog-*.kgslb.com^
@@ -1014,11 +1013,12 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn*.porn300.com^
 Banner468x60
 d4?appid*type*
+notifications.google.com%2Fg%2Fimg%2F*.gif
 %2Famsweb.php%3F
-%2Fvia%2Fo%3Fh%3D
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
-directtrack.*.js
+||invenio_tracking_*.sgnapps.com^
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+||log*-*.tiktokv.com^
 click.official.infomaniak.com%2Fo%2F
 ||stw.extreme-down.
 ||matt.mercadolibre.
@@ -1042,8 +1042,8 @@ click.official.infomaniak.com%2Fo%2F
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-notifications.google.com%2Fg%2Fimg%2F*.gif
-||invenio_tracking_*.sgnapps.com^
+%2Fvia%2Fo%3Fh%3D
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+directtrack.*.js
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
