@@ -1,4 +1,4 @@
-# Update time: 2026-01-14 09:39:08
+# Update time: 2026-01-14 20:40:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,14 +54,14 @@
 ||pagead*.googlesyndication-cn.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||pagead*.googleadservices-cn.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 @@||ulog*.*.com^$important
 @@||register*mi.com^
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||pangolin-sdk^
 ||xiaoqiang^
 ||dybz^
@@ -492,6 +492,7 @@ advertisers.js|
 |load.sst.
 ||sdk-*.moengage.com^
 ||stats.*.ronghub.com^
+||rtlog*.tiktokv.us^
 ||w*statistics.info^
 ||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
@@ -508,8 +509,8 @@ advertisers.js|
 ||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
 ||ulog*.gifshow.com^
-||clk.rtpdn*.com^
 ||staging-*.ispot.tv^
+||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
@@ -529,10 +530,13 @@ advertisers.js|
 ||wslog-global-dual.cool*cloud.com^
 ||tnc16-*.hypic.com^
 ||sgtm.fairmont.
+||sher.*.hu^
 ||web-visor.
 ||under-click.
 ||tnc*.tiktokv.us^
+||zhizhizhizhi.oss-*.aliyuncs.com^
 ||tracker.twenga.
+||rtlog*.tiktokv.com^
 ||srmdata-*.com^
 ||use-trk*.bluevoox.com^
 ||stat*.1internet.tv^
@@ -556,6 +560,8 @@ advertisers.js|
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||track.*.roku.com^
 ||tw-726620180914.*.run.app^
+||rusrestbest.
+||prebid-cache*.ifunny.co^
 ||tnc-va*.capcutapi.com^
 ||v.newsportal*.ru^
 ||get-me-wow.
@@ -575,6 +581,7 @@ advertisers.js|
 |piwik.
 ||production-adserver-*.amazonaws.com^
 ||sonar*.xy.fbcdn.net^
+||polaris*-normal-*.zijieapi.com^
 |a.klaviyo.com^
 ||util-*.simply-hentai.com^
 ||snowplow-collector-*.amazonaws.com^
@@ -598,12 +605,11 @@ advertisers.js|
 ||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
+||vns86.oss-*.aliyuncs.com^
 ||servo-report.keepstreams.*^
 ||tw*.netcore.co.in^
 ||v*.sitecounter.site^
 ||touch.yesim.
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||vns86.oss-*.aliyuncs.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -635,11 +641,11 @@ analytics-*.aasaam.com
 ||rotabanner.
 ||advert*.ultraweb.hu^
 ||collector-*.perimeterx.net^
+||clk.rtpdn*.com^
 ||ax.*.ifeng.com^
 ||flipflapflo.
 ||gonews*.net^
 ||real*traf.ru^
-||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||f-log-*.grammarly.io^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
 ||analytics*.clickdimensions.com^
@@ -689,7 +695,6 @@ analytics-*.aasaam.com
 ||goodadvert.
 ||ads*.bojijulebu.com^
 ||flurry.agentportal.*.yahoodns.net^
-||rtlog*.tiktokv.com^
 @@||api-v*.trbo.com^
 ||logservice-*.platform.dbankcloud.cn^
 ||clickstream-*.homedepot.com^
@@ -715,7 +720,6 @@ analytics-*.aasaam.com
 ||medialand.
 ||device-metrics-*.amazon.com^
 ||install*.zonastat.com^
-||rusrestbest.
 ||adi*.cnool.net^
 ||mob*.novanewsapp.com^
 ||as*.prog.hu^
@@ -803,7 +807,6 @@ analytics-*.aasaam.com
 ||analytics-api.dvdfab.
 ||ad*.on.cc^
 ||liveme-sensors-collect2-*.amazonaws.com^
-||rtlog*.tiktokv.us^
 ||bondzgi*.
 ||ads*-normal-lq.amemv.com^
 ||etargetnet.*.hu^
@@ -849,7 +852,6 @@ analytics-*.aasaam.com
 ||ads-*.v.ssp.yahoo.com^
 ||client.rum.*.amazonaws.com^
 ||pixelapi-*.cs.mysamba.tv^
-||sher.*.hu^
 ||1024wanzhai.
 ||at*.doubanio.com^
 ||acr-*-prd.samsungcloud.tv^
@@ -898,7 +900,6 @@ analytics-*.aasaam.com
 ||rotaban.
 ||api*.batmobi.net^
 ||applog*.matrix.easebar.com^
-||prebid-cache*.ifunny.co^
 ||hstats*.hepsiburada.com^
 ||cza*.crazygames.com^
 ||geoloc*.geo20120530.com^
@@ -928,7 +929,6 @@ analytics-*.aasaam.com
 ||minitds-*.info^
 ||bdlm*.hc360.com^
 ||jtbo*.nqxvevk.cn^
-||polaris*-normal-*.zijieapi.com^
 @@||clk*.tradedoubler.com^
 ||ad.*.doubleclick.net^
 ||analytics*.carambo.la^
@@ -958,15 +958,12 @@ analytics-*.aasaam.com
 ||cj1*.online^
 ||stats*.credit-cooperatif.coop^
 ||prod.*.analytics.console.aws.a2z.com^
-||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||adservice.google.*^
 ||ad.kisstvshow.*^
 ||qn-*pcdn.cdn.huya.com^
 ||widgets.*.webengage.com^
 ||collector-*.us.tvsquared.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
@@ -975,12 +972,12 @@ analytics-*.aasaam.com
 ||promo-*.vercel.app^
 ||tblog-*.kgslb.com^
 ||ajx*.online^
+||cas.*.criteo.com^
 ||n*adserv.com^
 ||ks-p2p*pull*com^
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
 ||ts-p2p*pull*com^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||n*adserv.xyz^
 ||gads*s.com^
@@ -1013,18 +1010,23 @@ Banner-Adv
 ||app2.*dfs.com^
 Banner-Ad
 ||142.91.159.
-||cas.*.criteo.com^
 ||acookie.*.gif?
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||ads*.dfiles.ru^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
+it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
+notifications.google.com%2Fg%2Fimg%2F*.gif
 ||invenio_tracking_*.sgnapps.com^
-deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
-directtrack.*.js
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 click.official.infomaniak.com%2Fo%2F
 ||stw.extreme-down.
 ||matt.mercadolibre.
@@ -1035,6 +1037,8 @@ click.official.infomaniak.com%2Fo%2F
 |lgtvsdp.com^
 %2Fopen.aspx%3F
 |samsungcloudsolution.net^
+%2Famsweb.php%3F
+%2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
 ||df.infra.sz.shopee.
 %2Frw%2Fbeacon_
@@ -1048,12 +1052,8 @@ click.official.infomaniak.com%2Fo%2F
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
-notifications.google.com%2Fg%2Fimg%2F*.gif
 d4?appid*type*
-%2Famsweb.php%3F
-%2Fvia%2Fo%3Fh%3D
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+directtrack.*.js
+deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
