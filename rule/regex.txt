@@ -1,4 +1,4 @@
-# Update time: 2026-01-24 20:36:14
+# Update time: 2026-01-25 09:45:05
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,14 +54,22 @@
 ||pagead*.googlesyndication-cn.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||pagead*.googleadservices-cn.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 @@||ulog*.*.com^$important
 @@||register*mi.com^
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
+||pangolin-sdk^
+||xiaoqiang^
+||dybz^
+||adexpo.tencentmusic.com adclick.tencentmusic.com^
+||tnc3-bjlgy.snssdk.^
+||mgsdk-sign^
+||奥门广场.com^
+||diyibanzhu^
 ||allyes.
 ||icast.
 ||gg.
@@ -82,14 +90,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||pangolin-sdk^
-||xiaoqiang^
-||dybz^
-||adexpo.tencentmusic.com adclick.tencentmusic.com^
-||tnc3-bjlgy.snssdk.^
-||mgsdk-sign^
-||奥门广场.com^
-||diyibanzhu^
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -521,13 +521,13 @@ advertisers.js|
 ||ulog*.gifshow.com^
 ||vst.videolink.
 ||videoclik.
-||clk.rtpdn*.com^
 |load.gtm.
 ||stats*.videonow.ru^
 ||wa.gmx.
 ||s*.skencituer.com^
 ||track.tiara.
 ||underclick.
+||stlog*-local.kakao.com^
 ||reachableads-av.*.amazonaws.com^
 ||tag-based.s3.*.amazonaws.com^
 ||tracking.*.miui.com^
@@ -610,6 +610,7 @@ analytics-*.aasaam.com
 ||collector-*.perimeterx.net^
 ||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
+||clk.rtpdn*.com^
 ||ax.*.ifeng.com^
 ||flipflapflo.
 ||gonews*.net^
@@ -714,7 +715,6 @@ analytics-*.aasaam.com
 ||log-va*.capcutapi.com^
 ||黑名单仅用于测试.com^
 ||orbit*.lun.ua^
-||stlog*-local.kakao.com^
 ||ad*.gyaloglo.hu^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||popupclick.
@@ -1026,38 +1026,38 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn*.porn300.com^
 Banner468x60
 it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
-%2Famsweb.php%3F
-||invenio_tracking_*.sgnapps.com^
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+d4?appid*type*
+notifications.google.com%2Fg%2Fimg%2F*.gif
+healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+click.official.infomaniak.com%2Fo%2F
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||stw.extreme-down.
 ||matt.mercadolibre.
-||api.*.hismarttv.com^
-directtrack.*.js
 ||fls-*.amazon.com^
 ||ub.galaxus.
 ||XiaoQiang^
-|lgtvsdp.com^
 %2Fopen.aspx%3F
 |samsungcloudsolution.net^
+%2Frw%2Fbeacon_
+||oempprd.samsungcloudsolution.
+||sta.zone-telechargement.
+||analytics.ticketmaster.
+||api.*.hismarttv.com^
+directtrack.*.js
+|lgtvsdp.com^
+%2Famsweb.php%3F
+%2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
 ||df.infra.sz.shopee.
-%2Frw%2Fbeacon_
 ||fkp.samsungcloudsolution.
 ||mr.allegro.
 |samsungqbe.com^
-||oempprd.samsungcloudsolution.
-||sta.zone-telechargement.
 ||sta.wawacity.
-||analytics.ticketmaster.
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-notifications.google.com%2Fg%2Fimg%2F*.gif
-d4?appid*type*
-%2Fvia%2Fo%3Fh%3D
+||invenio_tracking_*.sgnapps.com^
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
-healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
-click.official.infomaniak.com%2Fo%2F
