@@ -1,4 +1,4 @@
-# Update time: 2026-02-05 09:53:05
+# Update time: 2026-02-05 20:56:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -492,7 +492,6 @@ advertisers.js|
 |load.sst.
 ||stats.*.ronghub.com^
 ||w*statistics.info^
-||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
 ||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
@@ -559,7 +558,6 @@ advertisers.js|
 ||vst.videolink.
 ||videoclik.
 |load.gtm.
-||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
 ||track.tiara.
 ||stlog*-local.kakao.com^
@@ -579,8 +577,6 @@ advertisers.js|
 ||telemetry.*.pvp.net^
 ||www.fuze-hill*.xyz^
 ||videoclick.
-||stats-*.p2pnow.ru^
-||spa-tracker*.spapi.io^
 ||parkdomainreal*.site^
 ||tnc16-*.byteoversea.com^
 ||tracking.geo.*.amazonaws.com^
@@ -767,6 +763,7 @@ analytics-*.aasaam.com
 ||admulti.
 ||batchlogging*-eu.truecaller.com^
 ||broredir*s.site^
+||stats-*.p2pnow.ru^
 @@||brm-core-*.brsrvr.com^
 ||ads*-normal-lf.amemv.com^
 ||eum*.instana.io^
@@ -803,6 +800,7 @@ analytics-*.aasaam.com
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
 ||bondzgi*.
+||st-*.dynamicyield.com^
 ||ads*-normal-lq.amemv.com^
 ||etargetnet.*.hu^
 ||host*.ncoi.nl^
@@ -915,6 +913,7 @@ analytics-*.aasaam.com
 ||banner.*.tccapis.com^
 ||data-track*.yingxiong.com^
 ||geoloc*.geostats.ovh^
+||ssp*.rtb.beeline.ru^
 ||pixel.archive.
 ||log-*.zadn.vn^
 ||api*.moengage.com^
@@ -942,6 +941,7 @@ analytics-*.aasaam.com
 @@||白名单仅用于测试.com^
 ||snowplow-collector.
 ||gbxreport-*.wf.com^
+||spa-tracker*.spapi.io^
 ||gcw*.2liang.cn^
 ||mobiadvert*.livesportmedia.eu^
 ||popunder.
@@ -966,14 +966,12 @@ analytics-*.aasaam.com
 ||widgets.*.webengage.com^
 ||collector-*.us.tvsquared.com^
 ||hads*s.com^
-||aj3*.bid^
 ||aj1*.online^
 ||log*-*.tiktokv.com^
 ||v*.denakop.com^
 ||promo-*.vercel.app^
 ||tblog-*.kgslb.com^
 ||ajx*.online^
-||cas.*.criteo.com^
 ||n*adserv.com^
 ||ks-p2p*pull*com^
 ||p2pup*.gamedl.qq.com^
@@ -1012,6 +1010,7 @@ Banner-Adv
 ||app2.*dfs.com^
 Banner-Ad
 ||142.91.159.
+||cas.*.criteo.com^
 ||acookie.*.gif?
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
@@ -1024,39 +1023,39 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
-notifications.google.com%2Fg%2Fimg%2F*.gif
-%2Famsweb.php%3F
-%2Fvia%2Fo%3Fh%3D
 ||invenio_tracking_*.sgnapps.com^
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
-deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
-healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||stw.extreme-down.
 ||matt.mercadolibre.
-||api.*.hismarttv.com^
-directtrack.*.js
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||fls-*.amazon.com^
 ||ub.galaxus.
 ||XiaoQiang^
-|lgtvsdp.com^
 %2Fopen.aspx%3F
-d4?appid*type*
+notifications.google.com%2Fg%2Fimg%2F*.gif
 |samsungcloudsolution.net^
+%2Frw%2Fbeacon_
+||oempprd.samsungcloudsolution.
+||sta.zone-telechargement.
+healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
+||analytics.ticketmaster.
+click.official.infomaniak.com%2Fo%2F
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
+||api.*.hismarttv.com^
+directtrack.*.js
+|lgtvsdp.com^
+it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
+d4?appid*type*
+%2Famsweb.php%3F
+%2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
 ||df.infra.sz.shopee.
-%2Frw%2Fbeacon_
 ||fkp.samsungcloudsolution.
 ||mr.allegro.
 |samsungqbe.com^
-||oempprd.samsungcloudsolution.
-||sta.zone-telechargement.
+deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 ||sta.wawacity.
-||analytics.ticketmaster.
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-click.official.infomaniak.com%2Fo%2F
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
