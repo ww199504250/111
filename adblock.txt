@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-02-24 08:56:12(GMT+8) 
-! Total count: 205618
+! ! Version: 2026-02-24 20:32:59(GMT+8) 
+! Total count: 205654
  
 ###ADtip
 ###Ad_windows
@@ -5959,6 +5959,7 @@ $websocket,domain=wap.yushuwu.cloud
 /px?t=
 /px_trans.gif
 /pxf.gif?
+/pxid?k=
 /pxl.cgi?
 /pxl.gif?
 /pxl.png?
@@ -13966,6 +13967,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp|sportiva.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||scdn.cxense.com/cx.js$domain=13.cl
+@@||scdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||scdn.cxense.com/cx.js$domain=delfi.lt
 @@||scdn.cxense.com/cx.js$domain=digi24.ro
 @@||scdn.cxense.com/cx.js$domain=digisport.ro
@@ -15613,6 +15615,7 @@ aproxy.moseasia.com$image
 aps.moseasia.com$image
 aps.verwin.com$image
 apteka.ru#%#window.yaCounter14913877={ reachGoal: function() {} };
+apteka22.ru#%#//scriptlet('set-constant', 'Ya', 'emptyObj')
 apticmail.core.sergel.com$image
 apticmail.dnsfinans.se$image
 apticmail.factoring.payex.com$image
@@ -19775,6 +19778,7 @@ cn.bing.com,cn.bing.net##.b_bza_pole
 cna.com.tw##.ad_336_2
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
 cna.com.tw,ettoday.net##.ad_970
+cnbctv18.com###postDetail > div[style][class^="jsx-"]:has(> .taboola_section)
 cnbeta.com##.wdj_box
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnbeta.com##div[id][style^="position: fixed; bottom: 0px;"]
@@ -75712,6 +75716,8 @@ myexception.cn##.m_a
 myfirstcomp.ru#?#.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 myhack58.com##.adv32
+myhixel.com#%#//scriptlet('set-local-storage-item', 'ANONYMOUS_CUSTOMER_ID', '$remove$')
+myhixel.com#%#//scriptlet('set-local-storage-item', 'user_id', '$remove$')
 myk3.com##a[href*="?aid="]
 mylivesocial.com##.bgimg
 mypianku.net##div[style*="background:url"]
@@ -78037,7 +78043,6 @@ pipi.cn#@#.ad-root
 pirlotv.tv###ad_overlay
 pirlotv.tv###ad_overlay_content
 pirlotv.tv###ad_overlay_countdown
-pitchfork.com,gq.com#%#//scriptlet('set-local-storage-item', '/^avoinspector/', '$remove$')
 pixabay.com##.show-gtty-item
 pixabay.com##div[class*="sponsoredWithResults"]
 pixel.monitor*.returnpath.net$image
@@ -79048,6 +79053,7 @@ segmentfault.com###first-ad
 segmentfault.com###gridAd
 segmentfault.com###hotArticles:nth-child(3)
 segmentfault.com#?##question-wrap > .row > .col-xl-auto:has(> #first-ad:first-child + #gridAd + #second-ad:last-child)
+self.com,allure.com,pitchfork.com,gq.com#%#//scriptlet('set-local-storage-item', '/^avoinspector/', '$remove$')
 semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 senao.com.tw#@#.ad-wrap
 send.grantstation.com$image
@@ -80143,6 +80149,7 @@ thecatcity.com##.article-page__ad-block
 theextopia.com##.adsbanner
 theextopia.com##.adsfoot1
 theextopia.com##.adsfoot2
+thegentlemansjournal.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 theguardian.com##.js-adblock-sticky
 theguardian.com##.site-message--adblock-message
 thehill.com###block-thehill-blocks-amp-outbrain
@@ -81306,6 +81313,7 @@ userstyles.org###top_android_button
 userstyles.org##.android_button_banner
 userstyles.org##.android_button_button
 userstyles.org#%#//scriptlet("set-constant", "poptin_display", "noopFunc")
+usmagazine.com#%#//scriptlet('set-local-storage-item', 'rl_anonymous_id', '$remove$')
 usnews.com###null-recommendations-widget
 uu114.cn##.side_top_banner
 uuu9.com###top
@@ -85028,10 +85036,11 @@ zzzyk.com###Tinfo
 ||11jianzhan.com^
 ||11kkzz.com/se/wf/
 ||11nux.com^$third-party
+||11st.co.kr/js/*/RakeData.js
 ||11st.co.kr/js/*/reviewLog.js
-||11st.co.kr/js/rake/RakeData.js
 ||11st.co.kr/st/
 ||11st.co.kr^$cookie=/RAKE_SID/
+||11st.co.kr^$cookie=PCID
 ||11vmzjiup.com^
 ||11xkkhe8hd.com^
 ||12.cookcai.com^
@@ -85763,6 +85772,7 @@ zzzyk.com###Tinfo
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
 ||3hads4i5hm.com^
+||3hfmrv8d45.com^
 ||3i2i.com^
 ||3i3w8hl6do.com^
 ||3j0pw4ed7uac-a.akamaihd.net^
@@ -94193,6 +94203,7 @@ zzzyk.com###Tinfo
 ||alicdn.com/AWSC/et/
 ||alicdn.com/UnionCps/tktrace/cps.js
 ||alicdn.com/ad-product/
+||alicdn.com/alilog/mlog/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/f/pcdn/i.php?
 ||alicdn.com/g/mm/afp-cdn/JS/
@@ -97745,6 +97756,7 @@ zzzyk.com###Tinfo
 ||aplus.aliexpress.*/ae.pc_ctr.statweb_ae_ctr
 ||aplus.aliexpress.*/aes.1.1
 ||aplus.aliexpress.*/g.gif?logtype=
+||aplus.gmarket.co.kr^
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||apm-fe.xiaohongshu.com^
@@ -97770,6 +97782,7 @@ zzzyk.com###Tinfo
 ||app-analytics-ru.huami.com^
 ||app-analytics-services.com^
 ||app-analytics.snapchat.com^
+||app-api.vidjet.io/track-event
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app-branch.yummybazaar-qa.com^
 ||app-clicks-corporate.firstrepublic.com^
@@ -99012,6 +99025,7 @@ zzzyk.com###Tinfo
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apptus.actonservice.com^
 ||appuat.intermiles.com^
+||appvtexio.weni.ai/pixel.js
 ||appvua.jetcost.nl^
 ||apqcjj.celford.com^
 ||apqmxf.curama.jp^
@@ -101697,6 +101711,7 @@ zzzyk.com###Tinfo
 ||bidgx.com^
 ||bidpapers.com^
 ||bidphysics.com^$third-party
+||bidr.io^
 ||bidr.io^$third-party
 ||bidrbu.bett1.at^
 ||bidsimulator.com^$third-party
@@ -119960,6 +119975,7 @@ zzzyk.com###Tinfo
 ||fdc.my0511.com^$script
 ||fdchhx.medipeel.co.kr^
 ||fddxbn.xyz^
+||fdetolgput.com^
 ||fdfda.zhuzhai.com^
 ||fdfghgfdd.yunqishi.net^
 ||fdgem.com^
@@ -123102,6 +123118,7 @@ zzzyk.com###Tinfo
 ||gloriousbeef.com^
 ||glove.fit^$third-party
 ||glow.glowtrackjoy.com^
+||glowing.com/unilog
 ||glowingmeadow.com^
 ||glpca.com^
 ||glrnb.wmpeyewear.com^
@@ -123119,6 +123136,8 @@ zzzyk.com###Tinfo
 ||gm.mmstat.com^
 ||gm99.com^$third-party
 ||gmarket.co.kr/js/common/uuid.js
+||gmarket.co.kr^$cookie=cna
+||gmarket.co.kr^$cookie=sca
 ||gmbbk.com/bbsgmbbk/
 ||gmbbk.com/fb.js
 ||gmbbku.com/img/top.js
@@ -123980,6 +123999,8 @@ zzzyk.com###Tinfo
 ||gohgn02221la.com^
 ||gohgn02230la.com^
 ||gohgn02231la.com^
+||gohgn02240la.com^
+||gohgn02241la.com^
 ||goi08130kh.com^
 ||goi08131kh.com^
 ||goi08141kh.com^
@@ -124063,6 +124084,7 @@ zzzyk.com###Tinfo
 ||goodreads.com^$removeparam=from_srp
 ||goodreads.com^$removeparam=qid
 ||goodreads.com^$removeparam=rank
+||goodrx.com^$cookie=grx_unique_id
 ||goods.preoponno.com^
 ||goods.tudou.com/api?
 ||google-analtyics.com/analytics.js
@@ -128187,6 +128209,7 @@ zzzyk.com###Tinfo
 ||haymarket.com/injector/deliver/
 ||haymarketstat.de^$third-party
 ||hayweb.net^
+||hazardous58.top^
 ||hazawl.veke.fi^
 ||hazmatworkshop.com^
 ||hazrat.loventrabd.com^
@@ -131238,6 +131261,8 @@ zzzyk.com###Tinfo
 ||img.labnol.org/di/support.png$image
 ||img.lancdn.com/*-top-banner-
 ||img.lancdn.com/landian/2025/08/110020B.png
+||img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/global-metrics/
+||img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/js/mmtrack.js
 ||img.learn.abreon.com^
 ||img.link.cabinetry.com^
 ||img.litix.io/a.gif
@@ -132978,6 +133003,7 @@ zzzyk.com###Tinfo
 ||investing.com^$cookie=smd
 ||investing.com^$cookie=udid
 ||investingchannel.com^$third-party
+||investinglive.com/api/set-device-id
 ||investment.lianest.co.jp^
 ||investments.aberdeenstandard.com^
 ||investments.virtus.com^
@@ -150874,6 +150900,7 @@ zzzyk.com###Tinfo
 ||myhaitang.cc/assets/public/*.js
 ||myhaitang.xyz/assets/public/
 ||myhealth.ssmhealth.com^
+||myhixel.com/apps/awin/
 ||myhome.nifty.com/buy/assets/js/tracking.min.js
 ||myhome.nifty.com/column/js/tracking.js
 ||myhome.nifty.com/smp/js/trackPageview.js
@@ -151861,6 +151888,7 @@ zzzyk.com###Tinfo
 ||ngghll.me.co.kr^
 ||nggli.sweethoneyclothing.com^
 ||nghdp.cn^
+||nghivugi92.com^
 ||nghv.cn^
 ||ngishc.top^
 ||ngjcvn.top^
@@ -152706,6 +152734,7 @@ zzzyk.com###Tinfo
 ||nwkcdv.pandapiac.hu^
 ||nwlnml.megaknihy.sk^
 ||nwot.boxie24.com^
+||nwq7zxf6jt.com^
 ||nwr.static.mmcdn.com^
 ||nws.naltis.com^
 ||nws5ay4cr2.com^
@@ -155592,7 +155621,6 @@ zzzyk.com###Tinfo
 ||payload.adadapted.com^
 ||payments-amazon.com^*/analytics.js
 ||payments.acutx.org^
-||payments.amazon.com/cs/uedata
 ||payments.americanexpress.co.uk^
 ||payments.google.com/gp/w/*/PaymentsPortals/web-reports?
 ||payments.google.com/payments/jslogs?
@@ -158772,6 +158800,7 @@ zzzyk.com###Tinfo
 ||qkixeld.xyz^
 ||qkphb.catherines.com^
 ||qkpkzb.iace.co.jp^
+||qkr4uac6tx.com^
 ||qksapp.net/gif/
 ||qksbin.nocturne.com.tr^
 ||qksxet.zeetours.nl^
@@ -161490,6 +161519,7 @@ zzzyk.com###Tinfo
 ||rubelhasanrokib.ruchibazar.com^
 ||rubelhasanrokib.trustimporterbd.com^
 ||rubicon.wellsfargo.com^
+||rubiconredirect.com^$third-party
 ||rubmdu.top^
 ||rubrafoz.com^
 ||rucounter.ru^$third-party
@@ -161959,6 +161989,7 @@ zzzyk.com###Tinfo
 ||s.northumberlandnews.com^
 ||s.np6.com^
 ||s.officialnanosparkle.com^
+||s.opensend.com^
 ||s.orangeville.com^
 ||s.ourwindsor.ca^
 ||s.p7s1.io/datalayer/conviva
@@ -186366,6 +186397,7 @@ zzzyk.com###Tinfo
 ||szpgd.terratherapy.co^
 ||szpkhq.ds-nature.co.kr^
 ||szqbzj.croisieresdiscount.com^
+||szqwzosxn3.com^
 ||szrpr.raen.com^
 ||szsmtk.com^$third-party
 ||szsvc.adinaeden.com^
@@ -189359,6 +189391,7 @@ zzzyk.com###Tinfo
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thecounter.com^$third-party
 ||thecrazychili.com^
+||theculturetrip.com^$cookie=tct-real-user
 ||thedailybeast.com/static/js/thirdparty.
 ||thedoc.doctronic.ai^
 ||thedp.exhalewell.com^
@@ -196679,7 +196712,6 @@ zzzyk.com###Tinfo
 ||uni7.uniplaces.com^
 ||unibet.com/orval/tracking/lastclick.min.js
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
-||unibling.com/eclytics/
 ||uniconsent.com^$third-party
 ||unicontainers.com^
 ||unid.go.com^$third-party
@@ -199329,6 +199361,7 @@ zzzyk.com###Tinfo
 ||w537a7.com^
 ||w54551.cc^
 ||w55b76.cc^
+||w55b76.com^
 ||w55c.net^
 ||w562f5.cc^
 ||w56953.cc^
@@ -200209,6 +200242,7 @@ zzzyk.com###Tinfo
 ||webmasters.ksalsocial.online/pixel/
 ||webmaxlogger.net^
 ||webmd.com/static/v/c?
+||webmd.com^$cookie=VisitorId
 ||webmet.creditreform-mahnwesen.de^
 ||webmet.creditreform.at^
 ||webmet.creditreform.de^
@@ -200539,6 +200573,7 @@ zzzyk.com###Tinfo
 ||wev.recipevideoz.online^
 ||wevbgr.vidaxl.it^
 ||wew.dushiwenxue.net^
+||wew56nanuc.com^
 ||wewbxx.hircus.fr^
 ||wewlkq.com^
 ||wezbvq.heine-shop.nl^
@@ -204595,6 +204630,7 @@ zzzyk.com###Tinfo
 ||zbl40hvzzy.com^
 ||zblbp.dukeshealth.com.au^
 ||zblz.me^
+||zbmeerconq.com^
 ||zbmre.pitbarrelcooker.com^
 ||zbphp.sqairz.com^
 ||zbrfde.ozmall.co.jp^
