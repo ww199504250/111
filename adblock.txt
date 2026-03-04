@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-03-03 20:28:23(GMT+8) 
-! Total count: 212941
+! ! Version: 2026-03-04 08:55:48(GMT+8) 
+! Total count: 212954
  
 ###ADtip
 ###Ad_windows
@@ -668,6 +668,10 @@
 ##.main-ad-r
 ##.main-ad-r + .topad
 ##.main-container > #dhxhtml
+##.main-container div[id^="core-zone-"]
+##.main-container div[id^="z-extra-"]
+##.main-container ~ div.z-gate-mask
+##.main-container ~ div[class^="z"][class$="-root"]
 ##.main-content > .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.mainbg > #s11navtop
@@ -3210,6 +3214,7 @@ $websocket,domain=wap.yushuwu.cloud
 /_ajax/tebilisim.php?
 /_api/tag-manager/api/*/tags/sites/*$xmlhttprequest,domain=boraware.kr
 /_assets/oply/public/*
+/_astro/useProtonTelemetry.$script
 /_blazor/*$ping
 /_events/api/setEvent$xmlhttprequest
 /_ga?send&
@@ -3264,7 +3269,6 @@ $websocket,domain=wap.yushuwu.cloud
 /activecampaign-subscription-forms/site_tracking.js
 /activity.gif?
 /ad-blocking-detector/*
-/ad-site-i18n-sg/*$xmlhttprequest
 /adPlat/adPlat_
 /adTopBar.
 /ad_360_$domain=somanhua.com
@@ -98878,6 +98882,7 @@ zzzyk.com###Tinfo
 ||allrisks.actonservice.com^
 ||allstarfg.actonservice.com^
 ||allsunflowers.com^
+||allthelogs.com^
 ||alltracked.com^$third-party
 ||alltypo.com^
 ||allure.com/hotzones/src/pixelpropagate.js
@@ -107929,6 +107934,7 @@ zzzyk.com###Tinfo
 ||bvzc.cn^
 ||bw66.cn/template/default_pc/bbs/
 ||bwapi.bikerumor.com^
+||bwau1s2fm.com^
 ||bwb101.goo.ne.jp^
 ||bwbwye.klarstein.hu^
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
@@ -119316,7 +119322,6 @@ zzzyk.com###Tinfo
 ||digikey.*/resources/ba4e6e570brn21616213e20fbeb902d9
 ||digiland.it/count.cgi?
 ||digimedia.com/pageviews.php?
-||diginetica.net^
 ||digistat.westjet.com^
 ||digistats.de^$third-party
 ||digistats.westjet.com^
@@ -126231,6 +126236,7 @@ zzzyk.com###Tinfo
 ||fpdisplay.com/upload/n_ad/
 ||fpdtag.tealiumdemo.com^
 ||fpghll.rossmann.hu^
+||fpgxyjv3h.com^
 ||fphach.conch.co.kr^
 ||fphcq.fullwellfertility.com^
 ||fpida.amphi.jp^
@@ -129503,6 +129509,7 @@ zzzyk.com###Tinfo
 ||goto.nearlist.com^
 ||goto.newmarklearning.com^
 ||goto.rosegal.com^
+||goto.suno.com^
 ||goto.www.iciba.com^
 ||goto.zaful.com^
 ||gotoaws.dresslily.com^
@@ -133947,6 +133954,7 @@ zzzyk.com###Tinfo
 ||heavly1.com^
 ||heavydetail.com^
 ||heavyplayground.com^
+||hebaidu.cc^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
 ||hebiichigo.com^$third-party
@@ -134644,6 +134652,7 @@ zzzyk.com###Tinfo
 ||hnibej.transat.com^
 ||hninxn.goldria.net^
 ||hnlczgjx.com^
+||hnlghkmp.icu^
 ||hnlphr.cn^
 ||hnltcw.com^
 ||hnnlwfur.livirafashion.com^
@@ -140058,7 +140067,6 @@ zzzyk.com###Tinfo
 ||join.stuypend.com^
 ||join.talker.network^
 ||join.thekrishi.com^
-||join.tlon.io^
 ||join.travelxp.com^
 ||join.vibely.io^
 ||join.vtail.co^
@@ -149378,6 +149386,7 @@ zzzyk.com###Tinfo
 ||m-metrics.capitalone.com^
 ||m-oo-m.com/data/report/
 ||m-pathy.com^$third-party
+||m-stratovibe.prod.suno.com^
 ||m-t.io^$third-party
 ||m-t.topya.com^
 ||m-test.papertrail.io^
@@ -155072,6 +155081,7 @@ zzzyk.com###Tinfo
 ||mhinvest.actonservice.com^
 ||mhizzr.eurorelais.nl^
 ||mhjrl.etrgovinca.cz^
+||mhmciof8ef.com^
 ||mhmp.bruker.com^
 ||mhmzhc.trysnow.com^
 ||mhnpec.nimaxi-online.com^
@@ -160683,9 +160693,7 @@ zzzyk.com###Tinfo
 ||p11.techlab-cdn.com/collect
 ||p11q.cn^
 ||p15vjj3og.com^
-||p16-ad-site-sign-sg.tiktokcdn.com^
 ||p16-tiktokcdn-com.akamaized.net.iberostar.com^
-||p19-ad-site-sign-sg.tiktokcdn.com^
 ||p192.eastbaytimes.com^
 ||p2.danskebank.co.uk^
 ||p2.danskebank.dk^
@@ -192504,6 +192512,7 @@ zzzyk.com###Tinfo
 ||stubhub.com/a/icph
 ||studeersnel.nl/27m703Hm/init.js
 ||studentadvantage.actonservice.com^
+||studio-api.prod.suno.com/api/statsig/
 ||studio.joinsalut.com^
 ||studioibi.ibijus.com^
 ||studiostack.com^$third-party
@@ -192777,6 +192786,7 @@ zzzyk.com###Tinfo
 ||sunios.de^$third-party
 ||sunknudsen.com/static/media/js/fathom
 ||sunlightmetrics.b-cdn.net^
+||suno.com/9i3s/
 ||sunofbeaches.com/ast/assistant/ad-item/
 ||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
@@ -194353,6 +194363,7 @@ zzzyk.com###Tinfo
 ||t4e.sainsburys.co.uk^
 ||t4ft.de^$third-party
 ||t570.wiltonbulletin.com^
+||t57u6anx2.com^
 ||t6.china-xian.com^
 ||t6ec3seyq.com^
 ||t733.wjcl.com^
@@ -204106,6 +204117,7 @@ zzzyk.com###Tinfo
 ||upload.euleriancdn.net^
 ||upload.luckyorange.net^
 ||upload.xchina.biz/ad/
+||upload.xchina.io^
 ||uploadfox.net/events/
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uplog.inews.qq.com^
@@ -210526,6 +210538,7 @@ zzzyk.com###Tinfo
 ||xxsdtb.edreams.com^
 ||xxsmad4.com^
 ||xxsmad5.com^
+||xxsmad7.com^
 ||xxsmcps.com^
 ||xxsmtz1.com^
 ||xxsmtz10.com^
