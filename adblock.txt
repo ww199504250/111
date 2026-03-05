@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-03-05 08:58:01(GMT+8) 
-! Total count: 212989
+! ! Version: 2026-03-05 20:29:50(GMT+8) 
+! Total count: 213024
  
 ###ADtip
 ###Ad_windows
@@ -538,6 +538,7 @@
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 ##.dplayer > .tips
 ##.duilian > .leftd
+##.dx-recommend-icons
 ##.ec-ad
 ##.ec-tutu
 ##.edtj
@@ -697,6 +698,7 @@
 ##.module-tglist > .tg-normal-box
 ##.module-ttlist.tt_w-2
 ##.module-yylist.tg_w
+##.my-2.md\:my-3
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
@@ -906,6 +908,7 @@
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='aducx.com']
+##A[href*='cc:'] > IMG[src]
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
 ##A[href*='ds2f1sd31g.vip']
 ##A[href*='exuvu.com']
@@ -1248,6 +1251,7 @@
 ##a#wrapper_left_bg
 ##a#wrapper_left_bg\ llll
 ##a#wrapper_right_bg
+##a.checkNum[target="_blank"] > img[data-src]
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
@@ -1257,6 +1261,8 @@
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
 ##a[href*=".bright.cn/?utm_"]
+##a[href*=".cc:"] > img[src]
+##a[href*=".cc:"][target="_blank"][class] > span
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
@@ -1271,6 +1277,7 @@
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".sudun.com/"]
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
+##a[href*=".vip:"] > img[src]
 ##a[href*=".xacg.info/"]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
@@ -1282,6 +1289,7 @@
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
+##a[href*="/?cid="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
@@ -1304,6 +1312,8 @@
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".xyz"]
+##a[href*="?channelCode="] > img[src]
+##a[href*="?channelCode="][target="_blank"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
@@ -1323,7 +1333,9 @@
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
+##a[href][data-ad_slot_name]
 ##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
+##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href^="/ad.html?url="]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
@@ -1518,6 +1530,15 @@
 ##img#adv1
 ##img#hth[onclick$="hth.html')"]
 ##img#hth[onclick^="window.open"]
+##img[alt$="抖阴"]
+##img[alt*="PG"][alt*="娱乐"]
+##img[alt*="成人"][alt*="免费直播"]
+##img[alt*="成人"][alt*="抖阴"]
+##img[alt*="色情"][alt*="免费直播"]
+##img[alt="33直播"]
+##img[alt="开元电子"]
+##img[alt="澳门新葡京"]
+##img[alt^="PG"][alt*="爆率"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -16605,13 +16626,13 @@ bing.com#?#.b_algo:has(.b_ads1line)
 bing.com#?#.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com#?#li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com,cn.bing.net###bnp_rich_div
+bing.com,cn.bing.net###uaanswer
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.b_ads1line)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.b_algo:has([tabindex="0"][role="link"])
-bing.com,cn.bing.net##.b_ans
 bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.b_bza_pole
 bing.com,cn.bing.net##.pa_sb
@@ -79701,6 +79722,7 @@ mnews.tw##.ad-container-pc-only
 mnw.cn##.mnw_685
 mnw.cn##.mnw_960
 mnw.cn##.mnw_top_ads
+mnya.tw#@##advertise
 mo.fish##.list-item-content-ad
 mob.iyingdi.com##.down-button
 mob.iyingdi.com##.down-load-app-container
@@ -96112,6 +96134,7 @@ zzzyk.com###Tinfo
 ||ac*.faxingchina.com^
 ||ac*.pingguolv.com^
 ||ac-3.mix.tokyo^
+||ac-baidu.90dao.com/inject.js
 ||ac-ebis-otrk.usen.com^
 ||ac-ebis-stb.usen.com^
 ||ac-ebis-uhome.usen.com^
@@ -105105,6 +105128,7 @@ zzzyk.com###Tinfo
 ||b97.yahoo.co.jp^
 ||b99.yahoo.co.jp^
 ||b9b2oe8720j.xyz^
+||b9jda4zig.com^
 ||ba-bamail.com/handlers/stats.ashx
 ||ba-content.de/cds/log/
 ||ba.babuvaly.com^
@@ -106016,6 +106040,7 @@ zzzyk.com###Tinfo
 ||benelux2.secureforms.mcafee.com^
 ||benent.net/nf/analysis/
 ||benricho.org/AD_Tag/
+||bentengine.com^
 ||bentley.euroshop.com.pe^
 ||bento.agoda.com^
 ||bentonow.com^$third-party
@@ -106576,6 +106601,7 @@ zzzyk.com###Tinfo
 ||bkbck.frugalkitchens.com^
 ||bke.actonservice.com^
 ||bkhblj.xyz^
+||bkhpdrblv.com^
 ||bkhxut1rz.com^
 ||bkifg.actonservice.com^
 ||bkill.com/css/js/*top
@@ -118373,6 +118399,7 @@ zzzyk.com###Tinfo
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbpbyh.americanas.com.br^
+||dbqhingien.com^
 ||dbqst.hercasematters.com^
 ||dbrand.com/cvg/log?
 ||dbrand.com/cvg/static/pixels/
@@ -121121,6 +121148,7 @@ zzzyk.com###Tinfo
 ||e2ma.net/track/
 ||e2server.quithero.com.au^
 ||e2server.tinybot.com^
+||e2us4880k.com^
 ||e3c7.com/dh/
 ||e3c7.com/love/
 ||e3ol.com/inc/
@@ -127040,6 +127068,7 @@ zzzyk.com###Tinfo
 ||g4p.redtram.com^
 ||g4yk4cyyw.com^
 ||g594253006.co^
+||g64njjhyh.com^
 ||g650.delcotimes.com^
 ||g66ryy88z.com^
 ||g792337340.co^
@@ -144220,6 +144249,7 @@ zzzyk.com###Tinfo
 ||llkfq.yellowleafhammocks.com^
 ||llksja.com^
 ||lllsg.whateverworks.com^
+||llmb.cn^
 ||llmyzj.studiosport.fr^
 ||llnfbw.weeklylab.co.kr^
 ||llntrack.messe-duesseldorf.de^
@@ -149369,6 +149399,7 @@ zzzyk.com###Tinfo
 ||lysq.com/data/attachment/portal/
 ||lyszsz.cn^
 ||lytdjv.oculosworld.com.br^
+||lytics.fileditch.com^
 ||lytics.findairpods.com^
 ||lytics.io^$third-party
 ||lytiks.com^$third-party
@@ -152150,6 +152181,7 @@ zzzyk.com###Tinfo
 ||mdt.slimsyoficial.com^
 ||mdtnjvcsdbc02-eth1-0.net.mydays.de^
 ||mdugiz.jdsports.de^
+||mdumaldf.com^
 ||mdves.findyourhealthyplace.com^
 ||mdwhxw.com^
 ||mdws.1stchoicesavings.ca^
@@ -157116,6 +157148,7 @@ zzzyk.com###Tinfo
 ||naesl.theinkeylist.com^
 ||nafahatdt.nafahat.com^
 ||nafmxc.1083.fr^
+||nahg4lhbr.com^
 ||nahid.satyabadipathe.com^
 ||naiadsystems.com/api/v1/xment/
 ||naidileobram.actonservice.com^
@@ -161924,6 +161957,7 @@ zzzyk.com###Tinfo
 ||pebrihmethwa.com^
 ||pecukirom.com^$third-party
 ||peculiar93.top^
+||pedestrian94.top^
 ||pedropanther.com^
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||peepcloud.joinpeep.io^
@@ -196858,7 +196892,6 @@ zzzyk.com###Tinfo
 ||time-and-attendance.insperity.com^
 ||time.aktion-mensch.de^
 ||time.is/img/nod.png
-||time.is^$cookie=c
 ||time4shopping.com.ua/api/api.php/stat
 ||timeclock.mytoolr.com^
 ||timecn.cn/image/alipay.jpg
@@ -197607,6 +197640,7 @@ zzzyk.com###Tinfo
 ||tonghuacun.com/js/uc.js
 ||tongj.xilu.com^
 ||tongji-res.meizu.com^
+||tongji.90dao.com^$ping
 ||tongji.mafengwo.cn^
 ||tongji.techweb.com.cn^
 ||tongji.trafficmanager.net/?
@@ -209926,6 +209960,7 @@ zzzyk.com###Tinfo
 ||xdyn03010jy.com^
 ||xdyn03011jy.com^
 ||xdyn03021jy.com^
+||xdyn03051jy.com^
 ||xebetp.icu^
 ||xeccotftw.com^
 ||xecner.top^
