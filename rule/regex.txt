@@ -1,4 +1,4 @@
-# Update time: 2026-03-22 20:44:28
+# Update time: 2026-03-23 10:01:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -54,14 +54,14 @@
 ||pagead*.googlesyndication-cn.com^
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||pagead*.googleadservices-cn.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 @@||ulog*.*.com^$important
 @@||register*mi.com^
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||pangolin-sdk^
 ||xiaoqiang^
 ||dybz^
@@ -90,7 +90,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||report.*.qq.com^
 ||jq-ww.com  ^
 ||mm03.cc  ^
 ||ggzuhao.com  ^
@@ -108,6 +107,7 @@
 ||yzgdc.cc  ^
 ||k999.cc  ^
 ||49789c.com  ^
+||report.*.qq.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -266,6 +266,7 @@ advertisers.js|
 ||stats.*.ronghub.com^
 ||w*statistics.info^
 ||v*-ad.video.yximgs.com^
+||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
 ||prebid-*.rubiconproject.com^
 ||rum*.cdnvideo.ru^
@@ -276,9 +277,11 @@ advertisers.js|
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||telemetry*.transcend.io^
 ||www.fuze-sea*.xyz^
+||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
 ||ulog*.gifshow.com^
 ||clk.rtpdn*.com^
+||staging-*.ispot.tv^
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||wa.gmx.
 ||s*.skencituer.com^
@@ -297,14 +300,15 @@ advertisers.js|
 ||talpa-analytics.
 ||wslog-global-dual.cool*cloud.com^
 ||tnc16-*.hypic.com^
+||block.s*block.com^
 ||web-visor.
 ||under-click.
 ||tnc*.tiktokv.us^
-||zhizhizhizhi.oss-*.aliyuncs.com^
 ||tnc*.zijieapi.com^
 ||tracker.twenga.
 ||srmdata-*.com^
 ||use-trk*.bluevoox.com^
+||stat*.1internet.tv^
 ||st-n.ads*-adnow.com^
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
@@ -342,13 +346,13 @@ advertisers.js|
 |a.klaviyo.com^
 ||util-*.simply-hentai.com^
 ||snowplow-collector-*.amazonaws.com^
-||ya*.dwstatic.com^
 ||thegreatesthits.
 ||track-*.hungrypanda.co^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||www.fuze-hill*.xyz^
 ||videoclick.
+||stats-*.p2pnow.ru^
 ||tnc16-*.byteoversea.com^
 ||tracking.geo.*.amazonaws.com^
 ||stat.tiara.
@@ -358,9 +362,11 @@ advertisers.js|
 ||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
-||vns86.oss-*.aliyuncs.com^
 ||v*.sitecounter.site^
 ||touch.yesim.
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||ya*.dwstatic.com^
+||vns86.oss-*.aliyuncs.com^
 ||fra-*.braze.eu^
 ||pangolin-sdk-toutiao*.com^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -439,7 +445,6 @@ analytics-*.aasaam.com
 ||advert*.ultraweb.hu^
 ||collector-*.perimeterx.net^
 ||log*-misc-lf.amemv.com^
-||stats2.*.fdnames.com^
 ||ax.*.ifeng.com^
 ||flipflapflo.
 ||gonews*.net^
@@ -477,7 +482,6 @@ analytics-*.aasaam.com
 ||goodadvert.
 @@||api-v*.trbo.com^
 ||logservice-*.platform.dbankcloud.cn^
-||stat*.1internet.tv^
 ||107.167.16.*.gif
 ||log*.byteoversea.com^
 ||mon*-misc.fqnovel.com^
@@ -524,7 +528,6 @@ analytics-*.aasaam.com
 ||mediacontext.
 ||admicro*.vcmedia.vn^
 ||admulti.
-||stats-*.p2pnow.ru^
 @@||brm-core-*.brsrvr.com^
 @@||p*-ecom-fe.byteimg.com^
 ||ads*-normal.zijieapi.com^
@@ -550,7 +553,6 @@ analytics-*.aasaam.com
 ||metrics*.fitanalytics.com^
 ||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
-||staging-*.ispot.tv^
 ||onetrust.
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
@@ -666,7 +668,6 @@ analytics-*.aasaam.com
 ||events-api*.outfit7.com^
 ||linkexchange.
 ||pangolin*.sgsnssdk.com^
-||block.s*block.com^
 ||analytics.streamfab.
 @@||p*-im.byteimg.com^
 @@||saveu*-normal-lf.zijieapi.com^
@@ -749,7 +750,6 @@ analytics-*.aasaam.com
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
 ||bondzgi*.
-||st-*.dynamicyield.com^
 ||ads*-normal-lq.amemv.com^
 ||etargetnet.*.hu^
 ||host*.ncoi.nl^
@@ -855,7 +855,7 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-d4?appid*type*
+||invenio_tracking_*.sgnapps.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||stw.extreme-down.
 ||log-api.pangolin-sdk-toutiao-*.com^
@@ -866,7 +866,6 @@ digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||fls-*.amazon.com^
 ||ub.galaxus.
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||XiaoQiang^
 %2Fopen.aspx%3F
 notifications.google.com%2Fg%2Fimg%2F*.gif
@@ -902,4 +901,5 @@ deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 ||hbbtv.*.de^
 %2Fevent.gif%3F
 ||df.infra.shopee.
-||invenio_tracking_*.sgnapps.com^
+d4?appid*type*
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
