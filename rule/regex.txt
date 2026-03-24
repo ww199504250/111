@@ -1,4 +1,4 @@
-# Update time: 2026-03-24 09:52:59
+# Update time: 2026-03-24 21:06:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -90,6 +90,7 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||report.*.qq.com^
 ||jq-ww.com  ^
 ||mm03.cc  ^
 ||ggzuhao.com  ^
@@ -107,7 +108,6 @@
 ||yzgdc.cc  ^
 ||k999.cc  ^
 ||49789c.com  ^
-||report.*.qq.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -855,7 +855,13 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
+notifications.google.com%2Fg%2Fimg%2F*.gif
+||invenio_tracking_*.sgnapps.com^
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+click.official.infomaniak.com%2Fo%2F
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||stw.extreme-down.
 ||log-api.pangolin-sdk-toutiao-*.com^
@@ -863,12 +869,10 @@ r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
 ||v*-be-pack.pglstatp-toutiao.com^
 ||s*a.pstatp.com^
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||fls-*.amazon.com^
 ||ub.galaxus.
 ||XiaoQiang^
 %2Fopen.aspx%3F
-notifications.google.com%2Fg%2Fimg%2F*.gif
 ||s*-fe-scm.pglstatp-toutiao.com^
 |samsungcloudsolution.net^
 %2Frw%2Fbeacon_
@@ -876,8 +880,6 @@ notifications.google.com%2Fg%2Fimg%2F*.gif
 ||sta.zone-telechargement.
 healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
 ||analytics.ticketmaster.
-click.official.infomaniak.com%2Fo%2F
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 google-analytics.com%2Fcollect
 ||api.*.hismarttv.com^
 directtrack.*.js
@@ -885,6 +887,7 @@ directtrack.*.js
 ||sst.carwow.
 |lgtvsdp.com^
 it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
+d4?appid*type*
 %2Famsweb.php%3F
 %2Fvia%2Fo%3Fh%3D
 |samsungcloudsolution.com^
@@ -893,7 +896,6 @@ it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
 ||df.infra.sz.shopee.
 ||fkp.samsungcloudsolution.
 ||mr.allegro.
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 |samsungqbe.com^
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 ||sta.wawacity.
@@ -902,5 +904,3 @@ deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 newegg.com%2Fmr%2F*.gif%3Fr%3D
 %2Fevent.gif%3F
 ||df.infra.shopee.
-d4?appid*type*
-||invenio_tracking_*.sgnapps.com^
