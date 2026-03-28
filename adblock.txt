@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-03-27 20:32:42(GMT+8) 
-! Total count: 224029
+! ! Version: 2026-03-28 08:59:15(GMT+8) 
+! Total count: 224035
  
 ###ADtip
 ###Ad_windows
@@ -5528,6 +5528,7 @@ $websocket,domain=wap.yushuwu.cloud
 /nb-collector|
 /ncj-pixel.js
 /neilson.js
+/nelio-ab-testing/assets/dist/js/visitor-type.js
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
@@ -11325,6 +11326,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||cdn.tagcommander.com/1491/tc_LaboutiqueLaPoste_6.js$domain=laposte.fr
 @@||cdn.tagcommander.com/cmp-api/cmp.js$domain=tf1.fr
+@@||cdn.tagcommander.com^$domain=monespaceemprunteur.cnp.fr
 @@||cdn.tagcommander.com^$domain=secure.galerieslafayette.com
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
 @@||cdn.treasuredata.com/sdk/$script,domain=kfc.com.my
@@ -87516,7 +87518,7 @@ mxb.b12.io$image
 mxb.eu.email.mirakl.net$image
 mxb.sedlv.net$image
 mxdm.xyz#%#//scriptlet('abort-current-inline-script', 'Function', 'new Function(document[')
-mxdm.xyz$$script[tag-content="new Function(document["]
+mxdm.xyz$$script:contains(new Function(document[)
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 mxslobalid3.click.s11.sfmc-osl.com$image
 my.mail.mailgun.com$image
@@ -93504,7 +93506,7 @@ uniongang.org#?#td[align="center"][height="27"]:contains(Счётчики)
 unisender.solar-staff.com%2F*%2Fgo1_read_tracker%2F$image
 unisender.solar-staff.com/*/go1_read_tracker/$image
 unito.life#%#//scriptlet('abort-current-inline-script', 'KeenTracking')
-unito.life$$script[tag-content="KeenTracking"]
+unito.life$$script:contains(KeenTracking)
 unn.com.ua##.b-footer-counters
 unpkg.com/aladug/*.js
 unwire.hk###post-sidebar-ad
@@ -112652,6 +112654,9 @@ zzzyk.com###Tinfo
 ||avh3nuhxm.com^
 ||avhmf.toms.com^
 ||aviasales.$cookie=/^_sp_id/
+||aviasales.*-analytics.
+||aviasales.*/analytics_pv.
+||aviasales.*/sentry-replay.
 ||avid.actonservice.com^
 ||avidlender.com^
 ||aviite.freaksstore.com^
@@ -218017,6 +218022,7 @@ zzzyk.com###Tinfo
 ||weather.go.kr/w/resources/js/logger
 ||weatherbytes.net^
 ||weathercn.com/m_mobile/ad_image/
+||weatherpush.net^
 ||weatherzone.*/*/scripts/gtmHead.js
 ||weatherzone.*/*/scripts/hotjar.js
 ||web-analytics.lastpass.com^
