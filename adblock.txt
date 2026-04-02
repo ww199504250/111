@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-04-01 20:45:23(GMT+8) 
-! Total count: 230501
+! ! Version: 2026-04-02 09:03:30(GMT+8) 
+! Total count: 230523
  
 ###ADtip
 ###Ad_windows
@@ -15733,6 +15733,8 @@ apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics', 'emptyObj')
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
+apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
+apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
 apowersoft.cn##.activity-poster
 app-dev.view.s11.sfmc-osl.com$image
@@ -102399,6 +102401,7 @@ zzzyk.com###Tinfo
 ||257298.a.siteapps.com/257298.js$script,domain=listamais.com.br
 ||258zw.com^$third-party
 ||25ix8gm8ien.sandbox.panprices.com^
+||25rpllbbg.com^
 ||268de.com/js/
 ||26gg.bnq86.com^$third-party
 ||26sgmin39.de^
@@ -102491,6 +102494,7 @@ zzzyk.com###Tinfo
 ||2tty.overstappen.nl^
 ||2u1h56851n.top^
 ||2u3v4w5x6y.com^
+||2vcb9onxjm.com^
 ||2vqgtxw.cn^
 ||2wgolxk.com^
 ||2wq9u06jq.com^
@@ -103349,6 +103353,7 @@ zzzyk.com###Tinfo
 ||72xh073u9.com^
 ||732quilulv.com^
 ||73336zubo25326.com^
+||73vzmvg2bi.com^
 ||74.55.82.102^$third-party
 ||75.125.41.29:8080/
 ||757d.pandasuite.io^
@@ -103866,6 +103871,7 @@ zzzyk.com###Tinfo
 ||a.amw.com^
 ||a.anoncity.cc/api/track
 ||a.apkeditor.io^
+||a.apkpures.xyz^
 ||a.appbaqend.com^
 ||a.arbona.hr^
 ||a.armystar.com^
@@ -108642,6 +108648,7 @@ zzzyk.com###Tinfo
 ||accounts.ad.nl/gscounters.sendReport
 ||accounts.google.com/gsi/log
 ||accounts.haymarket.media/tracking/drip-event
+||accounts.snapchat.com/accounts/sso?client_id=snapchat-com-metrics
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
 ||accountsdoor.com^
 ||accscdn.m.taobao.com^
@@ -109637,7 +109644,7 @@ zzzyk.com###Tinfo
 ||adorableanger.com^
 ||adorableattention.com^
 ||adoric-om.com^$third-party
-||adoric.com^$third-party
+||adoric.com^
 ||adotone.com^$third-party
 ||adp.cnki.net^
 ||adp.cnool.net^
@@ -114864,6 +114871,8 @@ zzzyk.com###Tinfo
 ||apk.tw/static/js/showpic.js
 ||apkonline.ru^$third-party
 ||apkpure.com/api/v1/get-withdraw-count
+||apkpure.com/static/script/device-*-min.js
+||apkpure.com^$cookie=_qimei
 ||apl.roskomsvoboda.org/js/script.js
 ||apllogistics.actonservice.com^
 ||aplobv.xexymix.com^
@@ -117279,6 +117288,8 @@ zzzyk.com###Tinfo
 ||aws-br-cdn.kwai.net.iberostar.com^
 ||aws-br-pic.kwai.net.iberostar.com^
 ||aws.amazon.com/csds/collector/
+||aws.api.snapchat.com/snapchat.ab.exposure_service.ExposureService/BatchUpdateAbExposure^
+||aws.api.snapchat.com/snapchat.cdp.cof.CircumstancesService/targetingQuery^
 ||aws.userlogsanalytics.com^
 ||awsapprunner.com/api/frontend/client/metrics
 ||awsexam.quantresear.ch^
@@ -118454,6 +118465,7 @@ zzzyk.com###Tinfo
 ||beacon.carfax.com^
 ||beacon.cdn.qq.com^
 ||beacon.cdnma.com^
+||beacon.cdnpure.com^
 ||beacon.coofis.com^
 ||beacon.digima.com^
 ||beacon.dropbox.com^
@@ -133259,6 +133271,7 @@ zzzyk.com###Tinfo
 ||dnkeyt.svetsochtillbehor.se^
 ||dnlkg.rotita.com^
 ||dnltkp.lampeetlumiere.fr^
+||dnminullwq.com^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnnapi.com/analytics/
 ||dnnxq2b16.com^
@@ -137207,6 +137220,7 @@ zzzyk.com###Tinfo
 ||event.dengage.com^
 ||event.dfinery.io^
 ||event.dnv.com^
+||event.dxmdp.com^
 ||event.evtm.53.com^
 ||event.flareflow.tv^
 ||event.geniee-search.net^
@@ -140913,6 +140927,7 @@ zzzyk.com###Tinfo
 ||gcobf.hillcountrychocolate.com^
 ||gcoiys.cutsclothing.com^
 ||gcowhi.thesalarycalculator.co.uk^
+||gcp.api.snapchat.com/web-blizzard/web/send^
 ||gcp.fasthorse.workers.dev^
 ||gcpgjk.tiendamabe.com.co^
 ||gcprivacy.com^
@@ -143074,7 +143089,7 @@ zzzyk.com###Tinfo
 ||googletagmanager.com/ns.html?$third-party
 ||googletagmanager.com/static/service_worker/
 ||googletagmanager.com^
-||googletagmanager.com^$app=app.shinagawa.listentonovels.androidApp|com.edadeal.android|com.mysticsense.androidapp
+||googletagmanager.com^$app=app.shinagawa.listentonovels.androidApp|com.edadeal.android|com.mysticsense.androidapp|com.walla.wallasports
 ||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com,redirect=googletagservices-gpt,important
 ||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=ani.gamer.com.tw
@@ -149431,6 +149446,7 @@ zzzyk.com###Tinfo
 ||hutjfl.pennyblack.com^
 ||hutkse.wecandoo.fr^
 ||huuto.net/js/analytic/
+||huwgjgf.icu^
 ||huya.com*/cache1min.
 ||huya.com/leaf/*=vodadv&$redirect=noopmp3-0.1s,domain=huya.com
 ||huyaimg.msstatic.com/cdnimage/roomad/
@@ -153571,6 +153587,7 @@ zzzyk.com###Tinfo
 ||j8tzoy3xwn.com^
 ||j927.statnews.com^
 ||j93557g.com^
+||ja*.apppure.net^
 ||ja*.gamersky.com^
 ||ja-jp-a8.etudehouse.com^
 ||ja-jp.siemensplmevents.com^
@@ -155672,6 +155689,7 @@ zzzyk.com###Tinfo
 ||kma.go.kr^$cookie=_TRK_UID
 ||kmbopoie.com^
 ||kmcjai.icu^
+||kmdjdu5cc.com^
 ||kmf.com/da/do
 ||kmfzm.oxygenetix.com^
 ||kmgfjc.cn^
@@ -170204,6 +170222,7 @@ zzzyk.com###Tinfo
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||mixnews.lv/wp-content/uploads/perfmatters/gtagv*.js
 ||mixomniture.rbs.com^
+||mixpanel-proxy-ivbdkvonca-uc.a.run.app^
 ||mixpanel-proxy.coingecko.com^
 ||mixpanel-proxy.ted.com^
 ||mixpanel.com/track
@@ -176955,6 +176974,7 @@ zzzyk.com###Tinfo
 ||pdski.voiceranked.com^
 ||pdsssl.gmarket.co.kr^
 ||pdst.fm^$script,third-party
+||pdtffl.icu^
 ||pdtrc.fadedstore.com^
 ||pduiz.juiceplus.com^
 ||pduwvp.chanti.dk^
@@ -180723,6 +180743,7 @@ zzzyk.com###Tinfo
 ||r.blidzdeal.com^
 ||r.browser.miui.com^
 ||r.cdnpure.com/webReport
+||r.cdnpure.com^
 ||r.chip.de/images/pic.gif?
 ||r.cricbet.co^
 ||r.cvglobal.co^
@@ -220774,6 +220795,7 @@ zzzyk.com###Tinfo
 ||ud783c02.com^
 ||uda71a.oliviakate.nl^
 ||udbdf-v2.nimo.tv^
+||udbdf.apkpure.com^
 ||udblog.huya.com^
 ||udc.msn.com^
 ||udc.yahoo.com/v*/public/*&yhlClient=rapid*&yhlClientVer=$domain=yahoo.com
