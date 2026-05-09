@@ -1,4 +1,4 @@
-# Update time: 2026-05-09 10:37:30
+# Update time: 2026-05-09 21:11:34
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -59,9 +59,6 @@
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||xiaoqiang^
 ||tnc3-bjlgy.snssdk.^
 ||allyes.
@@ -84,6 +81,9 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -251,7 +251,6 @@ advertisers.js|
 ||thu15.*.com^
 ||tracking.cds.dmm.
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
-||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
 ||rgfftupf.
 ||rum*.a.trbcdn.net^
@@ -294,7 +293,6 @@ advertisers.js|
 ||talpa-analytics.
 ||wslog-global-dual.cool*cloud.com^
 ||tnc16-*.hypic.com^
-||block.s*block.com^
 ||pixelapi-*.cs.mysamba.tv^
 ||web-visor.
 ||marketplace-*.hyprmx.com^
@@ -312,7 +310,6 @@ advertisers.js|
 ||matomo-demo-*.amazonaws.com^
 ||weblogger-wss.cool*cloud.com^
 ||tnc*.tiktokv.com^
-||track.zalando.
 ||px*.mediahills.ru^
 ||ulog.*.kwai-pro.com^
 ||hostingcloud.*.wasm^
@@ -331,7 +328,6 @@ advertisers.js|
 |load.gtm.
 ||stats*.videonow.ru^
 ||track.tiara.
-||stlog*-local.kakao.com^
 ||reachableads-av.*.amazonaws.com^
 ||uc*.atobo.com^
 |load.sgtm.
@@ -369,6 +365,7 @@ advertisers.js|
 analytics-*.aasaam.com
 ||an.yandex.
 ||gtmdev.jabra.
+||tracking.olx.
 ||orderana*.spankbang.com^
 ||collector-*.pxchk.net^
 ||allsportsflix.
@@ -431,6 +428,7 @@ analytics-*.aasaam.com
 ||ecommerce-events*.adscale.com^
 @@||img*.funshion.com^
 ||a*.smlog.co.kr^
+||track.zalando.
 ||mcs-*.tiktok.com^
 ||subnewss*.net^
 ||medialand.
@@ -440,6 +438,7 @@ analytics-*.aasaam.com
 ||aff*.kolektiva.net^
 ||cdn-adn-*.rayjump.com^
 ||黑名单仅用于测试.com^
+||stlog*-local.kakao.com^
 ||ad*.gyaloglo.hu^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||stats.*.rongnav.com^
@@ -606,6 +605,7 @@ analytics-*.aasaam.com
 ||events-api*.outfit7.com^
 ||linkexchange.
 ||pangolin*.sgsnssdk.com^
+||block.s*block.com^
 ||analytics.streamfab.
 ||log*.boomplaymusic.com^
 @@||p*-im.byteimg.com^
@@ -780,6 +780,15 @@ analytics-*.aasaam.com
 ||fpb1.chinacar.
 ||rotator.
 ||collector*.ex.co^
+Banner-Adv
+||xxsmtz*.com^
+admonclick_union_
+||app2.*dfs.com^
+Banner-Ad
+||142.91.159.
+||cas.*.criteo.com^
+||acookie.*.gif?
+|167.206.10.148^
 ||fra-*.braze.eu^
 ||pangolin-sdk-toutiao*.com^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -838,15 +847,6 @@ analytics-*.aasaam.com
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
-Banner-Adv
-||xxsmtz*.com^
-admonclick_union_
-||app2.*dfs.com^
-Banner-Ad
-||142.91.159.
-||cas.*.criteo.com^
-||acookie.*.gif?
-|167.206.10.148^
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
@@ -857,7 +857,6 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-||invenio_tracking_*.sgnapps.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||stw.extreme-down.
 ||log-api.pangolin-sdk-toutiao-*.com^
@@ -906,4 +905,5 @@ deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 newegg.com%2Fmr%2F*.gif%3Fr%3D
 %2Fevent.gif%3F
 ||df.infra.shopee.
+||invenio_tracking_*.sgnapps.com^
 ||verify-att.app.^
