@@ -1,4 +1,4 @@
-# Update time: 2026-07-27 22:25:56
+# Update time: 2026-07-28 10:12:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -66,6 +66,9 @@
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||xiaoqiang^
 ||allyes.
 ||icast.
@@ -87,10 +90,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
-||report.*.qq.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -152,6 +151,7 @@ advertisers.js|
 ||advertise.
 ||ap*.pl520.com^
 ||tracker*.qcloud.com^
+||report.*.qq.com^
 ||da.hornbach.*^
 ||adsystem*.*^
 ||analysis*.*^
@@ -202,25 +202,6 @@ advertisers.js|
 ||minero-proxy-*.sh^
 ||qchannel*.cn^
 ||adwords*.*^
-||jq-ww.com  ^
-||mm03.cc  ^
-||ggzuhao.com  ^
-||last30geng20.top  ^
-||proesh.com  ^
-||rangpurart.com  ^
-||tnc3-bjlgy.snssdk.^
-||830sp.com  ^
-||778538.com  ^
-||jygj99128.com  ^
-||diyibanzhu^
-||785008.com  ^
-||taoguaji.com  ^
-||moneyds.cn  ^
-||only4gurus.com  ^
-||yzgdc.cc  ^
-||k999.cc  ^
-||49789c.com  ^
-||zzsqqx.shopjapan.co.^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
@@ -230,15 +211,16 @@ advertisers.js|
 ||trace-*.free-reels.com^
 ||counter*.stat.ovh^
 |load.sst.
+||sdk-*.moengage.com^
 ||stats.*.ronghub.com^
 ||w*statistics.info^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
 ||prebid-*.rubiconproject.com^
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||rum*.cdnvideo.ru^
 ||ysdm*.ys137.com.cn^
+||sgtm.fashionunited.
 ||trace-*.hungrypanda.co^
 ||v.tzbox*.xyz^
 ||u*.takru.com^
@@ -262,6 +244,7 @@ advertisers.js|
 ||ulog.*.ksapisrv.com^
 ||suite*.linximpulse.net^
 ||stw.zone-telechargement.
+||servo-report.dvdfab.
 ||trk*.vidible.tv^
 ||t*.playdigo.live^
 ||sock*-goguardian.pusher.com^
@@ -270,6 +253,7 @@ advertisers.js|
 ||wslog-global-dual.cool*cloud.com^
 ||tnc16-*.hypic.com^
 ||pixelapi-*.cs.mysamba.tv^
+||sgtm.fairmont.
 ||web-visor.
 ||under-click.
 ||tnc*.tiktokv.us^
@@ -286,12 +270,17 @@ advertisers.js|
 ||ulog*.kwai-pro.com^
 ||tracking-v*.a.run.app^
 ||tracking*.euroads.fi^
+||sdk.fra-*.braze.eu^
+||sensorsdata*.read.duokan.com^
 ||weblogger-wss.cool*cloud.com^
 ||tnc*.tiktokv.com^
 ||track.zalando.
+||seller-log-collector.shopee.
 ||px*.mediahills.ru^
 ||subnewss*.net^
 ||ulog.*.kwai-pro.com^
+||static*.365inews.com^
+||t.delfi.
 ||hostingcloud.*.wasm^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||track.*.roku.com^
@@ -327,6 +316,8 @@ advertisers.js|
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||rtb-*.anysex.com^
+||sgtm.wimdu.
+||snowplow-collector.
 ||www.fuze-hill*.xyz^
 ||videoclick.
 ||stats-*.p2pnow.ru^
@@ -342,8 +333,28 @@ advertisers.js|
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
+||servo-report.keepstreams.*^
 ||v*.sitecounter.site^
 ||touch.yesim.
+||jq-ww.com  ^
+||mm03.cc  ^
+||ggzuhao.com  ^
+||last30geng20.top  ^
+||proesh.com  ^
+||rangpurart.com  ^
+||tnc3-bjlgy.snssdk.^
+||830sp.com  ^
+||778538.com  ^
+||jygj99128.com  ^
+||diyibanzhu^
+||785008.com  ^
+||taoguaji.com  ^
+||moneyds.cn  ^
+||only4gurus.com  ^
+||yzgdc.cc  ^
+||k999.cc  ^
+||49789c.com  ^
+||zzsqqx.shopjapan.co.^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -419,7 +430,6 @@ analytics-*.aasaam.com
 ||basvformu*.xyz^
 ||mcs-va-*.tiktokv.com^
 ||fpb*.51edu.com^
-||sgtm.fairmont.
 @@||mc.*.exacttarget.com^
 @@||lf*-infras.bytetos.com^
 ||marketplace-*.hyprmx.com^
@@ -512,7 +522,6 @@ analytics-*.aasaam.com
 ||bc.geocities.
 @@||p*-ppx-sign.byteimg.com^
 ||a*.chajiaotong.com^
-||servo-report.dvdfab.
 ||pop-under.
 ||adserver.*.yahoodns.net^
 ||c*hit.zerkalo.io^
@@ -539,7 +548,6 @@ analytics-*.aasaam.com
 ||mcdp-*.outbrain.com^
 ||me9ddf.moebelix.
 ||lf*-orange.byteorge.com^
-||sensorsdata*.read.duokan.com^
 ||logstash-*.radio-canada.ca^
 ||i-*.ci360.sas.com^
 ||api*.amplitude.com^
@@ -568,7 +576,6 @@ analytics-*.aasaam.com
 ||ads*-normal-lf.zijieapi.com.dhcp^
 ||ms*.applvn.com^
 @@||白名单仅用于测试.com^
-||snowplow-collector.
 ||gbxreport-*.wf.com^
 ||gcw*.2liang.cn^
 ||mobiadvert*.livesportmedia.eu^
@@ -591,7 +598,7 @@ analytics-*.aasaam.com
 ||iphone-caviar.ru*entranceId
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
-||sgtm.fashionunited.
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
 ||mon-*.lemon8-app.us^
@@ -636,10 +643,8 @@ analytics-*.aasaam.com
 ||cs*.mp3bars.com^
 @@||v*.douyinvod.com^
 ||ifengad.*.ifeng.com^
-||seller-log-collector.shopee.
 ||advert*.livesportmedia.eu^
 @@||v*.kwaicdn.com^
-||t.delfi.
 ||device-metrics-*.amazon.com^
 ||as*.prog.hu^
 ||ad-*.appacc.dbankedge.cn^
@@ -683,7 +688,6 @@ analytics-*.aasaam.com
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
 ||flurry.agentportal-*.yahoodns.net^
 ||analytics.*.sky.com^
-||servo-report.keepstreams.*^
 ||local^
 ||collector-*.luigisbox.com^
 ||logreport-global-dual.cool*cloud.com^
@@ -698,7 +702,6 @@ analytics-*.aasaam.com
 @@||p*-piu.byteimg.com^
 ||analytics-*-nfl.yinzcam.com^
 ||analytics-api.dvdfab.
-||sdk-*.moengage.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
 ||bondzgi*.
@@ -750,13 +753,11 @@ analytics-*.aasaam.com
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||matomo-demo-*.amazonaws.com^
-||sdk.fra-*.braze.eu^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||ad*.bilgin.pro^
 ||matomo.*.vn^
 ||log-*.isnssdk.com^
 ||23.109.87.
-||static*.365inews.com^
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
 ||rotaban.
@@ -784,7 +785,6 @@ analytics-*.aasaam.com
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
 ||analytics-v*.eip.telegraph.co.uk^
-||sgtm.wimdu.
 @@||p*-ecop-imagex.byteimg.com^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
 ||popunder.
@@ -870,6 +870,6 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-||invenio_tracking_*.sgnapps.com^
 d4?appid*type*
+||invenio_tracking_*.sgnapps.com^
 ||verify-att.app.^
