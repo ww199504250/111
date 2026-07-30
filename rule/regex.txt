@@ -1,4 +1,4 @@
-# Update time: 2026-07-30 10:04:25
+# Update time: 2026-07-30 21:51:38
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -65,9 +65,6 @@
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||xiaoqiang^
 ||allyes.
 ||icast.
@@ -89,6 +86,9 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -236,11 +236,8 @@ advertisers.js|
 ||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
 ||prebid-*.rubiconproject.com^
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||rum*.cdnvideo.ru^
 ||ysdm*.ys137.com.cn^
-||sgtm.fashionunited.
-||mssdk*.zijieapi.com^
 ||trace-*.hungrypanda.co^
 ||v.tzbox*.xyz^
 ||u*.takru.com^
@@ -264,7 +261,6 @@ advertisers.js|
 ||ulog.*.ksapisrv.com^
 ||suite*.linximpulse.net^
 ||stw.zone-telechargement.
-||servo-report.dvdfab.
 ||trk*.vidible.tv^
 ||t*.playdigo.live^
 ||sock*-goguardian.pusher.com^
@@ -273,7 +269,6 @@ advertisers.js|
 ||wslog-global-dual.cool*cloud.com^
 ||tnc16-*.hypic.com^
 ||pixelapi-*.cs.mysamba.tv^
-||sgtm.fairmont.
 ||web-visor.
 ||under-click.
 ||tnc*.tiktokv.us^
@@ -294,9 +289,7 @@ advertisers.js|
 ||tnc*.tiktokv.com^
 ||track.zalando.
 ||px*.mediahills.ru^
-||subnewss*.net^
 ||ulog.*.kwai-pro.com^
-||t.delfi.
 ||hostingcloud.*.wasm^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||track.*.roku.com^
@@ -305,13 +298,11 @@ advertisers.js|
 ||tnc-va*.capcutapi.com^
 ||v.newsportal*.ru^
 ||get-me-wow.
-||mob*.novanewsapp.com^
 ||ubt.tracking.shopee.
 ||ulog*.kwaipros.com^
 ||vst.videolink.
 ||videoclik.
 |load.gtm.
-||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
 ||track.tiara.
 ||stlog*-local.kakao.com^
@@ -321,28 +312,21 @@ advertisers.js|
 |load.sgtm.
 |piwik.
 ||production-adserver-*.amazonaws.com^
-||sonar*.xy.fbcdn.net^
 ||polaris*-normal-*.zijieapi.com^
 |a.klaviyo.com^
 ||util-*.simply-hentai.com^
 ||snowplow-collector-*.amazonaws.com^
 ||umami.vidfast.
 ||ya*.dwstatic.com^
-||ms*.applvn.com^
 ||thegreatesthits.
 ||track-*.hungrypanda.co^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||rtb-*.anysex.com^
-||sgtm.wimdu.
-||snowplow-collector.
 ||www.fuze-hill*.xyz^
 ||videoclick.
-||stats-*.p2pnow.ru^
-||spa-tracker*.spapi.io^
 ||parkdomainreal*.site^
 ||tnc16-*.byteoversea.com^
-||mobiadvert*.livesportmedia.eu^
 ||tracking.geo.*.amazonaws.com^
 ||stat.tiara.
 ||pixel-*.convertagain.net^
@@ -352,7 +336,6 @@ advertisers.js|
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
-||servo-report.keepstreams.*^
 ||v*.sitecounter.site^
 ||touch.yesim.
 ||zazgiyoh*.world^
@@ -429,6 +412,7 @@ analytics-*.aasaam.com
 ||basvformu*.xyz^
 ||mcs-va-*.tiktokv.com^
 ||fpb*.51edu.com^
+||sgtm.fairmont.
 @@||mc.*.exacttarget.com^
 @@||lf*-infras.bytetos.com^
 ||marketplace-*.hyprmx.com^
@@ -453,10 +437,12 @@ analytics-*.aasaam.com
 @@||img*.funshion.com^
 ||a*.smlog.co.kr^
 ||mcs-*.tiktok.com^
+||subnewss*.net^
 ||medialand.
 ||install*.zonastat.com^
 ||rusrestbest.
 ||adi*.cnool.net^
+||mob*.novanewsapp.com^
 ||aff*.kolektiva.net^
 ||cdn-adn-*.rayjump.com^
 ||黑名单仅用于测试.com^
@@ -486,13 +472,13 @@ analytics-*.aasaam.com
 ||mediacontext.
 ||admicro*.vcmedia.vn^
 ||admulti.
+||stats-*.p2pnow.ru^
 @@||brm-core-*.brsrvr.com^
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
 ||1080.x.90.
 ||button.blogs.yandex.
 ||attr-logs.*.amazonaws.com^
-||p*-ad.bytecdn.cn
 ||host*.rigbyandpeller.com^
 ||clickhouse-collector.*.prod.plat.agency^
 ||fanpingbi*.gaokao.com^
@@ -505,6 +491,7 @@ analytics-*.aasaam.com
 ||38.33.15.*.gif
 ||ad-*file.myqcloud.com^
 @@||data-*.herz-fuer-tiere.de^
+||mssdk*.zijieapi.com^
 ||log-v*-boot.capcutapi.com^
 @@||live*.static.yximgs.com^
 ||browser-intake-*-datadoghq.com^
@@ -519,6 +506,7 @@ analytics-*.aasaam.com
 ||bc.geocities.
 @@||p*-ppx-sign.byteimg.com^
 ||a*.chajiaotong.com^
+||servo-report.dvdfab.
 ||pop-under.
 ||adserver.*.yahoodns.net^
 ||c*hit.zerkalo.io^
@@ -559,16 +547,22 @@ analytics-*.aasaam.com
 ||banner.*.tccapis.com^
 ||data-track*.yingxiong.com^
 ||geoloc*.geostats.ovh^
+||ssp*.rtb.beeline.ru^
 ||pixel.archive.
 ||log-*.zadn.vn^
 ||api*.moengage.com^
+||sf*-fe-tos.pglstatp-toutiao.com^
 ||ad*.thisisgame.com^
 ||minitds-*.info^
 @@||clk*.tradedoubler.com^
 ||aan.amazon.*^
+||ms*.applvn.com^
 @@||白名单仅用于测试.com^
+||snowplow-collector.
 ||gbxreport-*.wf.com^
+||spa-tracker*.spapi.io^
 ||gcw*.2liang.cn^
+||mobiadvert*.livesportmedia.eu^
 ||livetracker.*.pangea-cms.com^
 ||p*-webcast-sign.douyinpic.com^
 ||quangcao-*.epicdn.me^
@@ -588,6 +582,8 @@ analytics-*.aasaam.com
 ||iphone-caviar.ru*entranceId
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
+||sgtm.fashionunited.
 ||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
 ||mon-*.lemon8-app.us^
@@ -635,6 +631,7 @@ analytics-*.aasaam.com
 ||seller-log-collector.shopee.
 ||advert*.livesportmedia.eu^
 @@||v*.kwaicdn.com^
+||t.delfi.
 ||device-metrics-*.amazon.com^
 ||as*.prog.hu^
 ||ad-*.appacc.dbankedge.cn^
@@ -655,6 +652,7 @@ analytics-*.aasaam.com
 ||piwik.*.vn^
 ||letssex.
 ||ad-host-backup-*.aliyuncs.com^
+||sonar*.xy.fbcdn.net^
 @@||p*.toutiaoimg.com^
 ||ad*.nexage.com^
 ||analytics.ahrefs.
@@ -675,6 +673,7 @@ analytics-*.aasaam.com
 ||buzzer.xhamster*
 ||flurry.agentportal-*.yahoodns.net^
 ||analytics.*.sky.com^
+||servo-report.keepstreams.*^
 ||local^
 ||collector-*.luigisbox.com^
 ||logreport-global-dual.cool*cloud.com^
@@ -748,6 +747,7 @@ analytics-*.aasaam.com
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
 ||rotaban.
+||p*-ad.bytecdn.cn^
 ||analytics.vgtimes.
 ||cnt.proporn.
 ||popuptraf.
@@ -771,12 +771,14 @@ analytics-*.aasaam.com
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
 ||analytics-v*.eip.telegraph.co.uk^
+||sgtm.wimdu.
 @@||p*-ecop-imagex.byteimg.com^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
 ||popunder.
 ||fpb1.chinacar.
 ||rotator.
 ||collector*.ex.co^
+||lf*-ad-union-sdk.pglstatp-toutiao.com^
 ||fra-*.braze.eu^
 ||pangolin-sdk-toutiao*.com^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -856,6 +858,6 @@ rgmechanicsgames.com*VPN.exe
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-||invenio_tracking_*.sgnapps.com^
 d4?appid*type*
+||invenio_tracking_*.sgnapps.com^
 ||verify-att.app.^
