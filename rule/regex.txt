@@ -1,4 +1,4 @@
-# Update time: 2026-08-10 20:59:34
+# Update time: 2026-08-11 09:23:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -60,14 +60,14 @@
 ||pagead*.googlesyndication.com^
 ||ad-*.alimama.com^
 ||pagead*.googleadservices-cn.com^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 @@||ulog*.*.com^$important
 @@||register*mi.com^
 ||mishop.pandora.xiaomi.com.^
 @@||resolver*mi.com^
 @@||p*-ppx.byteimg.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||allyes.
 ||icast.
 ||gg.
@@ -218,6 +218,7 @@ advertisers.js|
 ||st-*.dynamicyield.com^
 ||ulog-*.ksapisrv.com^
 ||prebid-*.rubiconproject.com^
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||rum*.cdnvideo.ru^
 ||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
@@ -254,7 +255,6 @@ advertisers.js|
 ||tnc16-*.hypic.com^
 ||pixelapi-*.cs.mysamba.tv^
 ||sgtm.fairmont.
-||sher.*.hu^
 ||web-visor.
 ||under-click.
 ||tnc*.tiktokv.us^
@@ -337,6 +337,35 @@ advertisers.js|
 ||servo-report.keepstreams.*^
 ||v*.sitecounter.site^
 ||touch.yesim.
+||jq-ww.com  ^
+||mm03.cc  ^
+||ggzuhao.com  ^
+||last30geng20.top  ^
+||proesh.com  ^
+||rangpurart.com  ^
+||tnc3-bjlgy.snssdk.^
+||830sp.com  ^
+||778538.com  ^
+||jygj99128.com  ^
+||diyibanzhu^
+||785008.com  ^
+||taoguaji.com  ^
+||moneyds.cn  ^
+||only4gurus.com  ^
+||yzgdc.cc  ^
+||k999.cc  ^
+||49789c.com  ^
+||zzsqqx.shopjapan.co.^
+||fbia.*.cn^
+||sat29.so*koaq.com^
+||bbcbbi.*.com^
+||dcivlv.*.top^
+||www.mt*.vip^
+||www.ht*.vip^
+||xa1jgfbdlwf2ncxq.*.com^
+||dciclc.*.top^
+||0c4d3f6.*.com^
+||thu15.*.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
 ||zabdybod*.club^
@@ -361,35 +390,6 @@ advertisers.js|
 ||zbc6hy*.live^
 ||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
-||fbia.*.cn^
-||sat29.so*koaq.com^
-||bbcbbi.*.com^
-||dcivlv.*.top^
-||www.mt*.vip^
-||www.ht*.vip^
-||xa1jgfbdlwf2ncxq.*.com^
-||dciclc.*.top^
-||0c4d3f6.*.com^
-||thu15.*.com^
-||jq-ww.com  ^
-||mm03.cc  ^
-||ggzuhao.com  ^
-||last30geng20.top  ^
-||proesh.com  ^
-||rangpurart.com  ^
-||tnc3-bjlgy.snssdk.^
-||830sp.com  ^
-||778538.com  ^
-||jygj99128.com  ^
-||diyibanzhu^
-||785008.com  ^
-||taoguaji.com  ^
-||moneyds.cn  ^
-||only4gurus.com  ^
-||yzgdc.cc  ^
-||k999.cc  ^
-||49789c.com  ^
-||zzsqqx.shopjapan.co.^
 ||fra-*.braze.eu^
 ||pangolin-sdk-toutiao*.com^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -402,15 +402,12 @@ advertisers.js|
 ||ulog*.*^
 ||prod.*.analytics.console.aws.a2z.com^
 ||w*.*skwai.com^
-||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||adservice.google.*^
 ||ad.kisstvshow.*^
 ||qn-*pcdn.cdn.huya.com^
 ||widgets.*.webengage.com^
 ||collector-*.us.tvsquared.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
@@ -424,7 +421,6 @@ advertisers.js|
 ||n*adserv.com^
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||n*adserv.xyz^
 ||adsfilebssdlbig.*.kugou.com^
@@ -589,6 +585,7 @@ analytics-*.aasaam.com
 ||adserver.*.yahoodns.net^
 ||c*hit.zerkalo.io^
 ||ads-*.v.ssp.yahoo.com^
+||sher.*.hu^
 ||at*.doubanio.com^
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
@@ -655,7 +652,6 @@ analytics-*.aasaam.com
 ||iphone-caviar.ru*entranceId
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
 ||mon-*.lemon8-app.us^
@@ -854,6 +850,9 @@ Banner-Ad
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
