@@ -1,4 +1,4 @@
-# Update time: 2026-10-09 02:23:18
+# Update time: 2026-10-09 12:27:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -68,6 +68,7 @@
 ||m7k4.com*.php?
 ||minero-proxy-*now.sh
 ||ad*.aginomoto.com
+||xiaoqiang^
 ||allyes.
 ||icast.
 ||gg.
@@ -88,7 +89,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||xiaoqiang^
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -226,7 +226,6 @@ advertisers.js|
 ||lt*.tritondigital.com^
 ||log*-normal-*.tiktokv.com
 ||eflbundles.*.com.tr^
-||datacollect*.abtasty.com^
 ||mon-*.lemon8-app.us^
 ||v.tzbox*.xyz^
 ||mon-*.lemon8-app.com^
@@ -293,7 +292,6 @@ advertisers.js|
 ||hostingcloud.*.wasm^
 ||medialand.
 ||track.*.roku.com^
-||device-metrics-*.amazon.com^
 ||rusrestbest.
 ||install*.zonastat.com^
 ||v.newsportal*.ru^
@@ -315,13 +313,11 @@ advertisers.js|
 |load.sgtm.
 ||dw-informer-*.newsru.com^
 |piwik.
-||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
 ||letssex.
 ||production-adserver-*.amazonaws.com^
 ||sonar*.xy.fbcdn.net^
 ||mcs-*.lemon8-app.us^
-||discovery-ios-*.ertelecom.ru^
 ||util-*.simply-hentai.com^
 ||rtb-*.anysex.com^
 ||mcs.*.tiktok.com^
@@ -370,7 +366,6 @@ advertisers.js|
 ||edgetrksvc.ebay.
 ||ulog*.gifshow.com^
 ||host*.polaroid.com^
-||eclog*-*.cafe24.com^
 ||staging-*.ispot.tv^
 ||mon*.tiktokv.us^
 ||mtag-*.wedevs.com^
@@ -439,7 +434,6 @@ advertisers.js|
 ||events-*.op.hicloud.com^
 ||vst.videolink.
 ||logs-*.rebxgame.com^
-||data-track*.yingxiong.com^
 ||geoloc*.geostats.ovh^
 |load.gtm.
 ||ssp*.rtb.beeline.ru^
@@ -544,6 +538,7 @@ analytics-*.aasaam.com
 ||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
 ||admob-app-id-*.firebaseio.com^
+||datacollect*.abtasty.com^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||cnt.vivatube.
 ||advert*.ultraweb.hu^
@@ -592,6 +587,7 @@ analytics-*.aasaam.com
 ||counter*.freecounter.ovh^
 ||a*.smlog.co.kr^
 ||advert*.livesportmedia.eu^
+||device-metrics-*.amazon.com^
 ||adi*.cnool.net^
 ||get-me-wow.
 ||as*.prog.hu^
@@ -607,12 +603,14 @@ analytics-*.aasaam.com
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||adverticum.*.hu^
 ||ad*.zonaplus.tv^
+||datacollector-*.dt.hicloud.com^
 ||piwik.*.vn^
 ||ad-host-backup-*.aliyuncs.com^
 ||cl*.k5a.io^
 ||mautic.*.vn^
 ||ad*.nexage.com^
 ||analytics.ahrefs.
+||discovery-ios-*.ertelecom.ru^
 ||s*.adduplex.com^
 ||collect-elb-*.amazonaws.com^
 ||adserver1.
@@ -661,6 +659,7 @@ analytics-*.aasaam.com
 ||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
 ||adapi*.boomplaymusic.com^
+||eclog*-*.cafe24.com^
 ||datacollector-*.dt.dbankcloud.cn^
 ||advertising.civitai.
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
@@ -713,6 +712,7 @@ analytics-*.aasaam.com
 ||cnt.proporn.
 ||localhost^
 ||banner.*.tccapis.com^
+||data-track*.yingxiong.com^
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||bdcpro*.techweb.com.cn^
@@ -735,7 +735,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||fra-*.braze.eu^
 ||pangolin-sdk-toutiao*.com^
-||us.*.qwadro.com^
 ||aj2*.online^
 ||ping*.qq.com^
 ||player-feedback*.glomex.*^
@@ -746,15 +745,12 @@ analytics-*.aasaam.com
 ||prod.*.analytics.console.aws.a2z.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
-||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||adservice.google.*^
 ||ad.kisstvshow.*^
 ||qn-*pcdn.cdn.huya.com^
 ||widgets.*.webengage.com^
 ||collector-*.us.tvsquared.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
@@ -768,7 +764,6 @@ analytics-*.aasaam.com
 ||n*adserv.com^
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||n*adserv.xyz^
 ||adsfilebssdlbig.*.kugou.com^
@@ -816,16 +811,20 @@ Banner-Ad
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
-||hitcrypt.
-||data.anisearch.
-||invenio_tracking_*.sgnapps.com^
-CV-4923
-directtrack.*.js
 d4?appid*type*
+||invenio_tracking_*.sgnapps.com^
 ||onetrust.
 ||aviasales.*-analytics.
+||hitcrypt.
+||us.*.qwadro.com^
+||data.anisearch.
+CV-4923
+directtrack.*.js
 ||verify-att.app.^
