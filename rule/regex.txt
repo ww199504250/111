@@ -1,4 +1,4 @@
-# Update time: 2026-10-27 11:36:51
+# Update time: 2026-10-28 01:25:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -68,6 +68,7 @@
 ||m7k4.com*.php?
 ||minero-proxy-*now.sh
 ||ad*.aginomoto.com
+||xiaoqiang^
 ||allyes.
 ||icast.
 ||gg.
@@ -88,8 +89,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||xiaoqiang^
-||report.*.qq.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -152,6 +151,7 @@ advertisers.js|
 ||advertise.
 ||ap*.pl520.com^
 ||tracker*.qcloud.com^
+||report.*.qq.com^
 ||da.hornbach.*^
 ||adsystem*.*^
 ||analysis*.*^
@@ -235,7 +235,6 @@ advertisers.js|
 ||log*-misc-lf.amemv.com^
 ||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
-||clk.rtpdn*.com^
 ||flipflapflo.
 ||gonews*.net^
 ||real*traf.ru^
@@ -246,11 +245,11 @@ advertisers.js|
 ||mon*-*.tiktokv.us^
 ||kbox-analytics-prod.s*.amazonaws.com^
 ||iptracker-lb-*.amazonaws.com^
+||sax*.sina.
 ||putrr*.com^
 ||pijama.*.elasticbeanstalk.com^
 ||pixel*.adswizz.com
 ||tccd.douglas.
-||device-metrics-us*.amazon.com^
 ||suite*.linximpulse.net^
 ||t*.playdigo.live^
 ||sock*-goguardian.pusher.com^
@@ -266,7 +265,6 @@ advertisers.js|
 ||log*.boomplaymusic.com^
 ||log-collector.shopee.
 ||report*.appmetrica.webvisor.com^
-||stats.dulo.
 ||goodadvert.
 ||flurry.agentportal.*.yahoodns.net^
 ||rtlog*.tiktokv.com^
@@ -279,7 +277,6 @@ advertisers.js|
 ||mon*-misc-lf.fqnovel.com^
 ||mon*-misc.fqnovel.com^
 ||logs*.smithsonian.museum^
-||ecommerce-events*.adscale.com^
 ||tracking-v*.a.run.app^
 ||tracking*.euroads.fi^
 ||weblogger-wss.cool*cloud.com^
@@ -331,6 +328,7 @@ advertisers.js|
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||tnc16-*.byteoversea.com^
+||analytics.dulo.
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||fxhpaoxqyajvmdg.
@@ -366,7 +364,6 @@ advertisers.js|
 ||edgetrksvc.ebay.
 ||ulog*.gifshow.com^
 ||host*.polaroid.com^
-||eclog*-*.cafe24.com^
 ||staging-*.ispot.tv^
 ||mon*.tiktokv.us^
 ||mtag-*.wedevs.com^
@@ -401,6 +398,7 @@ advertisers.js|
 ||log*.aliyuncs.com^
 ||icqwindow.
 ||geoloc*.geovisite.ovh^
+||sam*.baby-kingdom.com^
 ||st-n.ads*-adnow.com^
 ||logws*.ati-host.net^
 ||mssdk*.capcutapi.com^
@@ -544,19 +542,21 @@ analytics-*.aasaam.com
 ||cnt.vivatube.
 ||advert*.ultraweb.hu^
 ||collector-*.perimeterx.net^
+||clk.rtpdn*.com^
 ||ax.*.ifeng.com^
 ||analytics*.clickdimensions.com^
 ||bi-eventtracker-*.amazonaws.com^
 ||ads*.production-public.tubi.io^
 ||ads-*-nfl.yinzcam.com^
 ||cnt.yeptube.
-||sax*.sina.
+||cnt.iceporn.
 ||alishop*.ru^
 ||ad*.wisenut.co.kr^
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||banner*.kinogo.by^
+||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||cnt.nuvid.
 ||ads*-normal-*.zijieapi.com^
@@ -570,6 +570,7 @@ analytics-*.aasaam.com
 ||ad*.ettoday.net^
 ||ad*.tmgrup.com.tr^
 @@||email.*.skyeng.ru^
+||stats.dulo.
 ||bapi-*.moengage.com^
 ||impservice*.yodao.com^
 ||beacons*.gvt3.com^
@@ -581,6 +582,7 @@ analytics-*.aasaam.com
 ||bar*.shinobi.jp^
 ||cs*.mp3bars.com^
 ||counter*.freecounter.ovh^
+||ecommerce-events*.adscale.com^
 ||a*.smlog.co.kr^
 ||advert*.livesportmedia.eu^
 ||device-metrics-*.amazon.com^
@@ -652,6 +654,7 @@ analytics-*.aasaam.com
 ||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
 ||adapi*.boomplaymusic.com^
+||eclog*-*.cafe24.com^
 ||datacollector-*.dt.dbankcloud.cn^
 ||advertising.civitai.
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
@@ -683,7 +686,6 @@ analytics-*.aasaam.com
 ||rehs.*.hu^
 ||cdn*.swaxis.com^
 ||adimg*.search.naver.net^
-||sam*.baby-kingdom.com^
 ||adcs-*.myappsget.com^
 ||cnt.winporn.
 ||res*.pinpai8.cn^
@@ -767,6 +769,7 @@ analytics-*.aasaam.com
 ||collector-*.px-cloud.net^
 ||fads*z.com^
 ||prod.*.publishers.advertising.a2z.com^
+||bjsvp*.space^
 ||display-ad-*.kgslb.com^
 ||mads*z.com^
 ||ej1*.online^
@@ -803,21 +806,18 @@ Banner-Ad
 ||ads*.opensubtitles.org^
 ||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
-||ads*.dfiles.eu^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 Banner468x60
 ||hitcrypt.
 d4?appid*type*
+||invenio_tracking_*.sgnapps.com^
 ||us.*.qwadro.com^
 ||data.anisearch.
 CV-4923
-||aviasales.*-analytics.
-||invenio_tracking_*.sgnapps.com^
 directtrack.*.js
+||aviasales.*-analytics.
 |cookie-bar.salessquad.co.uk^
 |udiab1.jianshu.com^
 |ntfsformac.cc^
@@ -826,6 +826,7 @@ directtrack.*.js
 |51.la^
 |www.zhzzx.com^
 |imasdk.googleapis.com^
+||ads*.dfiles.ru^
 |taboola.com^
 |beyondcompare.cc^
 |wan.douyu.com^
@@ -878,6 +879,7 @@ directtrack.*.js
 |choices.consentframework.com^
 |swc.weather.com.cn^
 |consent.comply-app.com^
+||ads*.depositfiles.com^
 |jads.co^
 |cmp.optad360.io^
 |determinator.service-cmp.com^
@@ -940,6 +942,7 @@ directtrack.*.js
 |dd.yiche.com^
 |miaozhen.com^
 |privacy.claytonhomes.com^
+||ads*.dfiles.eu^
 |erebor.douban.com^
 |consent.23g.io^
 |37cs.com^
@@ -978,6 +981,7 @@ directtrack.*.js
 |webcache.datareporter.eu^
 |webcache-eu.datareporter.eu^
 |bs-cookie.staging.springbok.agency^
+||ads*.depositfiles.org^
 |mindmanager.cc^
 |cache.consentframework.com^
 |u8.hujiang.com^
@@ -995,7 +999,6 @@ directtrack.*.js
 |5hte21mz.com^
 |tanx.com^
 |go.sohu.com^
-||bjsvp*.space^
 |api.cookielaw.eu^
 |cookies.algo.at^
 |pfp.sina.net^
