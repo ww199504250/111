@@ -1,4 +1,4 @@
-# Update time: 2026-11-16 12:38:57
+# Update time: 2026-11-17 05:37:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -68,6 +68,7 @@
 ||m7k4.com*.php?
 ||minero-proxy-*now.sh
 ||ad*.aginomoto.com
+||xiaoqiang^
 ||allyes.
 ||icast.
 ||gg.
@@ -88,7 +89,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||xiaoqiang^
 ||report.*.qq.com^
 ||adx.
 ||adx-
@@ -247,14 +247,12 @@ advertisers.js|
 ||pxl-*.ozone.ru^
 ||mon*-*.tiktokv.us^
 ||kbox-analytics-prod.s*.amazonaws.com^
-||cnt.iceporn.
 ||iptracker-lb-*.amazonaws.com^
 ||sax*.sina.
 ||putrr*.com^
 ||pijama.*.elasticbeanstalk.com^
 ||pixel*.adswizz.com
 ||tccd.douglas.
-||customerevents.us-east-*.internal.dradis.netflix.com^
 ||device-metrics-us*.amazon.com^
 ||suite*.linximpulse.net^
 ||t*.playdigo.live^
@@ -265,8 +263,6 @@ advertisers.js|
 ||mcs-va-*.tiktokv.com^
 ||events-api*.outfit7.com^
 ||linkexchange.
-||pangolin*.sgsnssdk.com^
-||block.s*block.com^
 ||sgtm.fairmont.
 ||marketplace-*.hyprmx.com^
 ||tnc*.tiktokv.us^
@@ -285,7 +281,6 @@ advertisers.js|
 ||mon*-misc-lf.fqnovel.com^
 ||mon*-misc.fqnovel.com^
 ||logs*.smithsonian.museum^
-||cs*.mp3bars.com^
 ||ecommerce-events*.adscale.com^
 ||tracking-v*.a.run.app^
 ||tracking*.euroads.fi^
@@ -299,7 +294,6 @@ advertisers.js|
 ||hostingcloud.*.wasm^
 ||medialand.
 ||track.*.roku.com^
-||device-metrics-*.amazon.com^
 ||rusrestbest.
 ||install*.zonastat.com^
 ||v.newsportal*.ru^
@@ -321,9 +315,7 @@ advertisers.js|
 |load.sgtm.
 ||dw-informer-*.newsru.com^
 |piwik.
-||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
-||piwik.*.vn^
 ||letssex.
 ||production-adserver-*.amazonaws.com^
 ||sonar*.xy.fbcdn.net^
@@ -334,7 +326,6 @@ advertisers.js|
 ||rtb-*.anysex.com^
 ||mcs.*.tiktok.com^
 ||countly-
-||counter*-yadro*-ru.unblocked.lol^
 ||countly.
 ||event.*.shoplive.cloud^
 ||pop-parad.
@@ -342,12 +333,12 @@ advertisers.js|
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||mediacontext.
 ||videoclick.
+||stats-*.p2pnow.ru^
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||tnc16-*.byteoversea.com^
 ||mf*.advantage.as^
 ||query*.petametrics.com^
-||buzzer.xhamster*
 ||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||flurry.agentportal-*.yahoodns.net^
@@ -380,14 +371,12 @@ advertisers.js|
 ||www.fuze-sea*.xyz^
 ||metrics*.fitanalytics.com^
 ||edgetrksvc.ebay.
-||collector-*.px-cdn.net^
 ||ulog*.gifshow.com^
 ||host*.polaroid.com^
 ||eclog*-*.cafe24.com^
 ||staging-*.ispot.tv^
 ||mon*.tiktokv.us^
 ||mtag-*.wedevs.com^
-||datacollector-*.dt.dbankcloud.cn^
 ||s*.skencituer.com^
 ||underclick.
 ||imp-*.jampp.com^
@@ -407,13 +396,11 @@ advertisers.js|
 ||web-visor.
 ||under-click.
 ||mon*-*.tiktokv.com^
-||collector-*.px-client.net^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||stats.mapple.*^
 ||tnc*.zijieapi.com^
 ||tracker.twenga.
 ||rehs.*.hu^
-||cdn*.swaxis.com^
 ||srmdata-*.com^
 ||use-trk*.bluevoox.com^
 ||log*.zijieapi.com^
@@ -450,7 +437,6 @@ advertisers.js|
 ||maas-*.phunware.com^
 ||prebid-cache*.ifunny.co^
 ||hstats*.hepsiburada.com^
-||cza*.crazygames.com^
 ||tnc-va*.capcutapi.com^
 ||geoloc*.geo20120530.com^
 ||mcs.*.tiktokv.com^
@@ -586,8 +572,10 @@ analytics-*.aasaam.com
 ||advert*.ultraweb.hu^
 ||collector-*.perimeterx.net^
 ||get*bannerads-6egeg2u34q-du.a.run.app^
+||collector-*.px-cdn.net^
 ||adapi*.boomplaymusic.com^
 ||ax.*.ifeng.com^
+||datacollector-*.dt.dbankcloud.cn^
 ||analytics*.clickdimensions.com^
 ||bi-eventtracker-*.amazonaws.com^
 ||advertising.civitai.
@@ -598,6 +586,7 @@ analytics-*.aasaam.com
 ||ads-*-nfl.yinzcam.com^
 ||bc.geocities.
 ||cnt.yeptube.
+||cnt.iceporn.
 ||mobileanalytics.*.amazonaws.com^
 ||alishop*.ru^
 @@||cdn.us*.exponea.com^
@@ -607,6 +596,7 @@ analytics-*.aasaam.com
 ||ali-bj-pcdn-*.biliapi.net^
 ||banner468x60^
 ||ce-global-track-*.amazonaws.com^
+||customerevents.us-east-*.internal.dradis.netflix.com^
 ||banner*.kinogo.by^
 ||ana*.inews24.com^
 ||cnt.nuvid.
@@ -617,6 +607,8 @@ analytics-*.aasaam.com
 ||basvformu*.xyz^
 ||adserver.*.yahoodns.net^
 ||c*hit.zerkalo.io^
+||pangolin*.sgsnssdk.com^
+||block.s*block.com^
 ||ads-*.v.ssp.yahoo.com^
 ||client.rum.*.amazonaws.com^
 @@||mc.*.exacttarget.com^
@@ -625,6 +617,7 @@ analytics-*.aasaam.com
 ||acr-*-prd.samsungcloud.tv^
 ||api*.batmobil.net^
 ||analytics.streamfab.
+||collector-*.px-client.net^
 ||log-*.epicdn.me^
 ||adcounter*.uptolike.ru^
 ||metric*.rediff.com^
@@ -639,6 +632,7 @@ analytics-*.aasaam.com
 ||beacons*.gvt3.com^
 ||ads*.bojijulebu.com^
 ||ac*.faxingchina.com^
+||cdn*.swaxis.com^
 @@||api-v*.trbo.com^
 ||adimg*.search.naver.net^
 ||clickstream-*.homedepot.com^
@@ -647,6 +641,7 @@ analytics-*.aasaam.com
 ||cnt.winporn.
 ||ads*.textra.me^
 ||bar*.shinobi.jp^
+||cs*.mp3bars.com^
 ||counter*.freecounter.ovh^
 ||collector.hamsterix.
 ||cdn-*.gravityfield.ai^
@@ -659,9 +654,11 @@ analytics-*.aasaam.com
 ||advert*.livesportmedia.eu^
 ||matomo.*.vn^
 ||appanalysis*.banggood.com^
+||device-metrics-*.amazon.com^
 ||api*.batmobi.net^
 ||applog*.matrix.easebar.com^
 ||adi*.cnool.net^
+||cza*.crazygames.com^
 ||get-me-wow.
 ||analytics.vgtimes.
 ||cnt.proporn.
@@ -684,6 +681,8 @@ analytics-*.aasaam.com
 ||adverticum.*.hu^
 ||ad*.zonaplus.tv^
 ||collect-v*.51.la^
+||datacollector-*.dt.hicloud.com^
+||piwik.*.vn^
 ||logger-*.dailymotion.com^
 ||ad-host-backup-*.aliyuncs.com^
 ||cl*.k5a.io^
@@ -703,6 +702,7 @@ analytics-*.aasaam.com
 ||analytics-v*.eip.telegraph.co.uk^
 @@||白名单仅用于测试.com^
 ||log-*.previewnetworks.com^
+||counter*-yadro*-ru.unblocked.lol^
 ||backstory.ebay.
 ||adx-*.dbankcloud.
 ||auth-*.hismarttv.com^
@@ -719,6 +719,7 @@ analytics-*.aasaam.com
 ||analytics*.prezly.com^
 ||1080.x.90.
 ||button.blogs.yandex.
+||buzzer.xhamster*
 ||collector.xhamster*.
 ||attr-logs.*.amazonaws.com^
 ||collector*.ex.co^
@@ -753,7 +754,6 @@ analytics-*.aasaam.com
 ||promo-*.vercel.app^
 ||tblog-*.kgslb.com^
 ||ajx*.online^
-||cas.*.criteo.com^
 ||n*adserv.com^
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
@@ -791,14 +791,15 @@ analytics-*.aasaam.com
 ||gads*z.com^
 ||ad.*.xiaomi.com^
 ||adv*.clickadu.*
-Banner-Adv
-||158.247.208.
 ||xxsmtz*.com^
 admonclick_union_
 ||23.109.82.
 ||app2.*dfs.com^
+Banner-Adv
+||158.247.208.
 Banner-Ad
 ||142.91.159.
+||cas.*.criteo.com^
 ||acookie.*.gif?
 |167.206.10.148^
 ||23.109.87.
